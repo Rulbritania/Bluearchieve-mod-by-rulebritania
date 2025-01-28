@@ -1,0 +1,1118 @@
+[
+//기본
+{
+        "name": "Palace",
+        "isNationalWonder": true,
+        "production": 3,
+        "science": 3,
+        "gold": 3,
+        "culture": 1,
+        "cityStrength": 2,
+        "cost": 0,
+        "uniques": [
+            "Indicates the capital city",
+        ]
+    },
+{
+        "name": "Monument",
+        "culture": 2,
+        "cost": 40,
+        "hurryCostModifier": 40,
+        "maintenance": 1,
+        "uniques": ["Destroyed when the city is captured"]
+    },
+{
+        "name": "Granary",
+        "food": 2,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Food] from [Deer] tiles [in this city]",
+            "[+1 Food] from [Bison] tiles [in this city]",
+            "[+1 Food] from [Bananas] tiles [in this city]",
+            "[+1 Food] from [Wheat] tiles [in this city]",
+            "[+1 Food] from [Maize] tiles [in this city]"
+        ],
+        "requiredTech": "내정"
+    },
+{
+        "name": "Library",
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "uniques": [
+            "[+1 Science] per [2] population [in this city]"
+        ],
+        "requiredTech": "고대 문자"
+    },
+{
+        "name": "Market",
+        "gold": 1,
+        "greatPersonPoints": {"Great Merchant": 1},
+        //"specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"gold": 25},
+        "uniques": [
+            "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+        ],
+        "requiredTech": "화폐 도입"
+    },
+    {
+        "name": "Workshop",
+        "maintenance": 2,
+        "production": 4,
+        //"specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"production": 10},
+        "requiredTech": "기계화 산업"
+    },	
+{
+        "name": "Temple",
+        "faith": 2,
+        "requiredBuilding": "Shrine",
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "requiredTech": "고대 종교"
+    },
+{
+        "name": "Shrine",
+        "faith": 1,
+        "cost": 40,
+        "maintenance": 1,
+        "requiredTech": "고대 종교",
+        "uniques": ["Only available <when religion is enabled>"]
+    },
+{
+        "name": "발전소",
+        "maintenance": 3,
+        "production": 5,
+        "percentStatBonus": {"production": 10},
+        "cost": 140,
+        "maintenance": 1,
+        "requiredTech": "발전소",
+        "uniques":["Provides [2] [Aluminum]"]
+    },
+{
+        "name": "훈련실",
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "New [Military] units start with [15] Experience [in this city]",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "학교"
+    },
+    {
+        "name": "Courthouse",
+        "maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+            "Remove extra unhappiness from annexed cities",
+            "Can only be built <in [Annexed] cities>"
+        ],
+        "requiredTech": "문화 발전"
+    },
+{
+        "name": "종합연구소",
+        "cost": 125,
+        "science": 3,
+        "culture": 1,
+        "isNationalWonder": true,
+        "percentStatBonus": {"science": 50},
+        "maintenance": 3,
+        "uniques": [
+            "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city"
+        ],
+        "requiredTech": "학교"
+    },
+    {
+        "name": "Courthouse",
+        "maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+            "Remove extra unhappiness from annexed cities",
+            "Can only be built <in [Annexed] cities>"
+        ],
+        "requiredTech": "문화 발전"
+    },
+    {
+        "name": "연구소",
+        "maintenance": 4,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"science": 33},
+        //"specialistSlots": {"Scientist": 2},
+        "requiredBuilding": "Library",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+        "requiredTech": "학교"
+    },
+    {
+        "name": "Bank",
+        "greatPersonPoints": {"Great Merchant": 2},
+        "gold": 2,
+        //"specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"gold": 25},
+        "requiredBuilding": "Market",
+        "requiredTech": "상업 발전"
+    },
+    {
+        "name": "Factory",
+        "cost": 360,
+        "production": 4,
+        "percentStatBonus": {"production": 10},
+        //"specialistSlots": {"Engineer": 2},
+        "requiredBuilding": "Workshop",
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredResource": "Coal",
+        "uniques": [
+            //"Provides [1] [Factories]",
+            //"Adopt [Ideology] <when above [2] [Factories]>",
+            "[+2 Gold] from [Rubber] tiles [in this city]"
+        ],
+        "requiredTech": "기초 군수공장"
+    },
+    {
+        "name": "민수 공장",
+        "cost": 360,
+        "production": 6,
+        "percentStatBonus": {"production": 10},
+        //"specialistSlots": {"Engineer": 2},
+        "requiredBuilding": "Factory",
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredResource": "Coal",
+        "uniques": [
+            //"Provides [1] [Factories]",
+            //"Adopt [Ideology] <when above [2] [Factories]>",
+            "[+2 Gold] from [Iron] tiles [in this city]"
+        ],
+        "requiredTech": "민수산업"
+    },
+    {
+        "name": "전차 공장",
+        "cost": 360,
+        "production": 4,
+        "percentStatBonus": {"production": 10},
+        //"specialistSlots": {"Engineer": 2},
+        "requiredBuilding": "Factory",
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredResource": "Coal",
+        "uniques": [
+            //"Provides [1] [Factories]",
+            //"Adopt [Ideology] <when above [2] [Factories]>",
+            "[+2 Gold] from [Coal] tiles [in this city]"
+            "[+30]% Production when constructing [전차] units [in this city]",
+        ],
+        "requiredTech": "공병"
+    },
+    {
+        "name": "Stock Exchange",
+        "greatPersonPoints": {"Great Merchant": 3},
+        "gold": 3,
+        "percentStatBonus": {"gold": 25},
+        //"specialistSlots": {"Merchant": 2},
+        "hurryCostModifier": 15,
+        "requiredBuilding": "Bank",
+        "requiredTech": "주식 시장"
+    },
+    {
+        "name": "Ironworks",
+        "cost": 125,
+        "production": 8,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city"
+        ],
+        "requiredTech": "기업"
+    },
+{
+        "name": "물리학 연구소",
+        "science": 4,
+        //"specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "연구소",
+        "maintenance": 4,
+        "hurryCostModifier": 0,
+        "uniques": [
+            "[+1 Science] per [2] population [in this city]",
+            "[+1 Science] from [Forest] tiles [in this city]"
+        ],
+        "requiredTech": "물리학"
+    },
+    {
+        "name": "Textile Mill",
+        "cost": 100,
+        "production": 1,
+        "maintenance": 2,
+        "requiredNearbyImprovedResources": ["Cotton","Silk","Dyes","Furs"],
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+2 Production] from [Dyes] tiles [in this city]",
+            "[+2 Production] from [Furs] tiles [in this city]",
+            "[+2 Production] from [Cotton] tiles [in this city]",
+            "[+2 Production] from [Silk] tiles [in this city]"
+        ],
+        "requiredTech": "경제학"
+    },
+    {
+        "name": "Colosseum",
+        "maintenance": 1,
+        "happiness": 2,
+        "hurryCostModifier": 25,
+         "requiredTech": "문화 발전"
+    },
+    {
+        "name": "Zoo",
+        "cost": 180,
+        "happiness": 2,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+        "requiredBuilding": "Colosseum",
+        "requiredTech": "인쇄 기술"
+    },
+    {
+        "name": "Arsenal",
+        "cost": 300,
+        "cityStrength": 9,
+        "cityHealth": 25,
+        "hurryCostModifier": 25,
+        "requiredTech": "도시 보호",
+        "uniques": ["Destroyed when the city is captured"]
+    },
+    {
+        "name": "Museum",
+        "culture": 2,
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredTech": "문화 발전",
+        "uniques": [
+            "Destroyed when the city is captured",
+            //"Comment [Has [2] Great Work of Art Slots]"
+        ]
+    },
+    {
+        "name": "Harbor",
+        "cost": 120,
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Connects trade routes over water",
+            "Must be next to [Coast]",
+        ],
+        "requiredTech": "항만"
+    },
+    {
+        "name": "Lighthouse",
+        "cost": 75,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "Must be next to [Coast]",
+            "[+1 Food] from [Ocean] tiles [in this city]",
+            "[+1 Food] from [Coast] tiles [in this city]",
+            "[+1 Food] from [Fish] tiles [in this city]",
+            "[+1 Production] from [Water resource] tiles [in this city]"
+        ],
+        "requiredTech": "해산업 발전"
+    },
+    {
+        "name": "Amphitheater",
+        "culture": 2,
+        "requiredBuilding": "Monument",
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Destroyed when the city is captured",
+            //"Comment [Has 1 Great Work of Writing Slot]"
+        ],
+        "requiredTech": "문화 발전"
+    },
+    {
+        "name": "Garden",
+        "uniques": [
+            "[+20]% Great Person generation [in this city]",
+            "Must be next to [Fresh water]"
+        ],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "건설학"
+    },
+    {
+        "name": "Mint",
+        "gold": 2,
+        "requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper"],
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+2 Gold] from [Gold Ore] tiles [in this city]",
+            "[+2 Gold] from [Silver] tiles [in this city]",
+            "[+2 Gold] from [Copper] tiles [in this city]"
+        ],
+        "requiredTech": "경제학"
+    },
+    {
+        "name": "Aqueduct",
+        "maintenance": 1,
+        "hurryCostModifier": 0,
+        "uniques": ["[20]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "건설학"
+    },
+    {
+        "name": "Observatory",
+        "maintenance": 1,
+        "science": 4,
+        "hurryCostModifier": 15,
+        "requiredBuilding": "Library",
+        "uniques": [
+            "[+5 Science] from [Mountain] tiles [in this city]",
+            "[+1 Science] from [Tundra] tiles [in this city]"
+        ],
+        "requiredTech": "물리학"
+    },
+    {
+        "name": "Hospital",
+        "food": 5,
+        "requiredBuilding": "Aqueduct",
+        "maintenance": 2,
+        "hurryCostModifier": 0,
+        "requiredTech": "공병"
+    },
+    {
+        "name": "Hydro Plant",
+        "requiredResource": "Aluminum",
+        "hurryCostModifier": 0,
+        "maintenance": 3,
+        "uniques": [
+            "Must be on [River]",
+            "[+1 Production] from [River] tiles [in this city]"
+        ],
+        "requiredTech": "제2차 산업혁명"
+    },
+    {
+        "name": "Oil Refinery",
+        "greatPersonPoints": {"Great Merchant": 1},
+        "requiredNearbyImprovedResources": ["Oil"],
+        "cost": 200,
+        "hurryCostModifier": 25,
+        "uniques": ["[+3 Production, +3 Gold] from [Oil] tiles [in this city]"],
+        "requiredTech": "제2차 산업혁명"
+    },
+    {
+        "name": "Broadcast Tower",
+        "culture": 2,
+        "percentStatBonus": {"culture": 33},
+        "requiredBuilding": "Opera House",
+        "maintenance": 3,
+        "requiredTech": "라디오",
+        "uniques": [
+            "Destroyed when the city is captured",
+            //"Comment [Has 1 Great Work of Music Slot]"
+        ]
+    },
+    {
+        "name": "Opera House",
+        "culture": 2,
+        "hurryCostModifier": 10,
+        "requiredBuilding": "Amphitheater",
+        "maintenance": 2,
+        "requiredTech": "인쇄 기술",
+        "uniques": [
+            "Destroyed when the city is captured",
+            //"Comment [Has 1 Great Work of Music Slot]"
+        ]
+    },
+        {
+        "name": "Military Base",
+        "cityStrength": 12,
+        "cityHealth": 25,
+        "hurryCostModifier": 25,
+        "requiredBuilding": "Arsenal",
+        "requiredTech": "레이더",
+        "uniques": ["Destroyed when the city is captured"]
+    },
+    {
+        "name": "영화관",
+        "happiness": 3,
+        "requiredBuilding": "Zoo",
+        "maintenance": 3,
+        "requiredTech": "영화관"
+    },
+    {
+        "name": "전자제품 연구소",
+        "science": 4,
+        "percentStatBonus": {"science": 10},
+        //"specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "물리학 연구소",
+        "maintenance": 3,
+        "requiredTech": "진공관"
+    },
+    {
+        "name": "사이클로트론",
+        "culture": 1,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "isWonder": true,
+        "uniques": [
+            "Can build [all] improvements at a [+25]% rate",
+            "[2] free [Settler] units appear",
+        ],
+        "requiredTech": "진공관",
+        "quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+    },
+    // Column 14
+    {
+        "name": "Solar Plant",
+        "production": 5,
+        "percentStatBonus": {"production": 15},
+        "requiredBuilding": "Factory",
+        "maintenance": 3,
+        "requiredTech": "제 3차 산업혁명",
+        "uniques": [
+            "Must be next to [Desert]",
+            "Only available <in cities without a [Nuclear Plant]>"
+        ]
+    },
+    {
+        "name": "석유 정제",
+        "maintenance": 3,
+        "requiredTech": "연료 정제",
+        "uniques": [
+            "Provides [2] [Oil]",
+            "Limited to [5] per Civilization"
+        ]
+    },
+    {
+        "name": "Nuclear Plant",
+        "production": 5,
+        "percentStatBonus": {"production": 15},
+        "requiredBuilding": "Factory",
+        "maintenance": 3,
+        "requiredResource": "Uranium",
+        "requiredTech": "원자력 발전소",
+        "uniques": ["Only available <in cities without a [Solar Plant]>"]
+    },
+    {
+        "name": "Research Lab",
+        "science": 4,
+        "percentStatBonus": {"science": 50},
+        "greatPersonPoints": {"Great Scientist": 1},
+        //"specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "전자제품 연구소",
+        "maintenance": 3,
+        "requiredTech": "인터넷"
+    },
+        {
+        "name": "에어컨",
+        "culture": 1,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            "[+1 Food] from [Desert] tiles without [Flood plains] [in this city]",
+        ],
+        "requiredTech": "에어컨",
+        "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+    },
+    //불가사의
+        {
+        "name": "일반 상대성 이론",
+        "greatPersonPoints": {"Great Scientist": 1},
+        "cost": 750,
+        "isNationalWonder": true,
+        "uniques": [
+            "Triggers a global alert upon completion",
+            "Cannot be hurried"
+        ],
+        "requiredTech": "현대 물리학"
+    },
+    {
+        "name": "Manhattan Project",
+        "greatPersonPoints": {"Great Scientist": 3},
+        "cost": 1500,
+        "requiredBuilding": "일반 상대성 이론",
+        "isNationalWonder": true,
+        "uniques": [
+            "Enables nuclear weapon",
+            "Triggers a global alert upon completion",
+            "Cannot be hurried"
+        ],
+        "requiredTech": "핵 폭탄"
+    },
+    {
+        "name": "프로젝트 콜로서스",
+        "culture": 3,
+        "greatPersonPoints": {"Great Scientist": 2},
+        "isWonder": true,
+        "uniques": [
+            //"Free [Great General] appears",
+            "New [Military] units start with [15] Experience [in this city]"
+        ],
+        "requiredTech": "콜로서스",
+        "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+    },
+    {
+        "name": "황륜대제",
+        "happiness": 2,
+        "culture": 4,
+        "gold": 6,
+        "greatPersonPoints": {"Great Merchant": 1},
+        "isWonder": true,
+        "uniques": [
+            "[+5 Happiness, +2 Culture, +3 Gold] from every [Colosseum]",
+        ],
+        "requiredTech": "스포츠",
+        "quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
+    },
+    {
+        "name": "트라이 스퀘어",
+        "culture": 1,
+        "happiness": 5,
+        "greatPersonPoints": {"Great Merchant": 2},
+        "isWonder": true,
+        "uniques": [
+            "Gain a free [Broadcast Tower] [in this city]"
+        ],
+        "requiredTech": "라디오",
+        "quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+    },
+    {
+        "name": "혁명광장",
+        "cost": 475,
+        "isWonder": true,
+        "culture": 3,
+        "faith": 5,
+        "faith": 2,
+        "hurryCostModifier": 25,
+        "requiredTech": "건설학",
+        "uniques": [
+            "[+1 Production] from [Tundra] tiles [in this city]",
+            "[+1 Production] from [Snow] tiles [in this city]"
+        ]
+    },
+    {
+        "name": "아비도스 모래축제",
+        "culture": 1,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            "Must be next to [Desert]",
+            "[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]",
+            "[+6 Culture] [in this city] <after discovering [민수산업]>",
+        ],
+        "requiredTech": "건설학",
+        "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+    },
+    {
+        "name": "Heroic Epic",
+        "cost": 125,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [훈련실] is constructed in all [non-[Puppeted]] cities>",
+            //"All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+            "Cost increases by [30] per owned city",
+            //"Comment [Has 1 Great Work of Writing Slot]"
+        ],
+        "requiredTech": "도시 보호"
+    },
+    {
+        "name": "Colossus",
+        "cost": 185,
+        "culture": 1,
+        "gold": 5,
+        //"greatPersonPoints": {"Great Merchant": 1},
+        "isWonder": true,
+        "uniques": [
+            "Must be next to [Coast]",
+            //"[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            //"[+2 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
+            "Free [순양 전함] appears",
+            "[+2 Gold] from [Water resource] tiles [in this city]",
+            "[+15]% Production when constructing [Water] units [in this city]"
+            //"Provides [1] [Trade Route]"
+        ],
+        "requiredTech": "건설학",
+        "quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+    },
+    {
+        "name": "밀레니엄 타워",
+        "cost": 125,
+        "science": 5,
+        "culture": 1,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 3},
+        "uniques": [
+            "Free Technology",
+            //"Comment [Has [2] Great Work of Writing Slots]"
+        ],
+        "requiredTech": "물리학"
+    },
+    {
+        "name": "트리니티 대성당",
+        "faith": 3,
+        "isWonder": true,
+        "uniques": [
+            "Gain a free [Temple] [in this city]",
+            "Free [Great Prophet] appears",
+            "Only available <when religion is enabled>"
+        ],
+        "requiredTech": "신학",
+        "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+    },
+    {
+        "name": "고서관",
+        "culture": 3,
+        "science": 3,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 2},
+        "uniques": [
+            "[+10]% [Culture] [in all cities]",
+            "[+10]% [Science] [in all cities]",
+            //"Comment [Has [2] Great Work of Art Slots]"
+        ],
+        "requiredTech": "신학",
+        "quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+    },
+    {
+        "name": "주식회사",
+        "cost": 125,
+        "gold": 8,
+        "percentStatBonus": {"gold": 10},
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city",
+            //"Provides [1] [Trade Route]",
+            //"[+4 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            //"[+4 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+        ],
+        "requiredTech": "주식 시장"
+    },
+    {
+        "name": "Grand Temple",
+        "cost": 125,
+        "culture": 1,
+        "faith": 8,
+        "uniques": [
+            "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city",
+            "[+100]% Natural religion spread [in this city]",
+            "Only available <when religion is enabled>",
+            "Can only be built <in [Holy] cities>"
+        ],
+        "requiredTech": "신학",
+        "isNationalWonder": true
+    },
+    //툭수
+    {
+        "name": "요새도시 에리두",
+        "cost": 125,
+        "science": 10,
+        "culture": 1,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 3},
+        "uniques": [
+            "Free Technology",
+            //"Comment [Has [2] Great Work of Writing Slots]"
+            "Only available <after adopting [요새도시 에리두]>",
+        ],
+        "requiredTech": "물리학"
+    },
+	{
+		"name": "정보부",
+		//"replaces": "Circus Maximus",
+		"uniqueTo": "판데모니움 소사이어티",
+		"cost": 480,
+		"happiness": 12,
+		"culture": 12,
+		"science": 12,
+		"maintenance": 6,
+		"isNationalWonder": true,
+		//"requiredBuildingInAllCities": "Colosseum",
+		"requiredTech": "문화 발전"
+	},
+	{
+		"name": "서기",
+		//"replaces": "Aqueduct",
+		"uniqueTo": "판데모니움 소사이어티",
+		"cost": 80,
+		"hurryCostModifier": 160,
+		"happiness": 2,
+        "maintenance": 1,
+		"uniques": ["20% of food is carried over after a new citizen is born"],
+		"requiredTech": "문화 발전",
+	},
+	{
+		"name": "학생회 청사",
+		"uniqueTo": "붉은겨울 사무국",
+		"cost": 120,
+		"happiness": -5,
+		"science": 12,
+        "gold": 3,
+        "uniques":["[-300]% Unhappiness from [Population] [in all cities]","[400]% Unhappiness from [Population] [in this city]","Limited to [1] per Civilization", 
+        "Only available <in cities with a [Palace]>",
+            "Destroyed when the city is captured"]
+	},
+{
+        "name": "블랙마켓",
+        "uniqueTo": "스케반",
+        "replaces": "Market"
+        "cost": 80,
+        "gold": 3,
+        "greatPersonPoints": {"Great Merchant": 1},
+        "percentStatBonus": {"gold": 25},
+        "production": 2,
+        "percentStatBonus": {"production": 5},
+        "uniques": [
+            "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+        ],
+        "requiredTech": "화폐 도입"
+    },
+    {
+        "name": "블랙마켓 은행",
+        "uniqueTo": "스케반",
+        "cost": 210,
+        "greatPersonPoints": {"Great Merchant": 2},
+        "gold": 5,
+        "production": 3,
+        //"specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"gold": 35},
+        "uniques": [
+            "New [Military] units start with [30] Experience [in this city]",
+            "[+30]% Production when constructing [Infantry] units [in this city]",
+        ],
+        "requiredBuilding": "블랙마켓",
+        "requiredTech": "상업 발전"
+    },
+{
+        "name": "트리니티 해군조병창",
+        "uniqueTo": "티파티",
+        "replaces": "Harbor"
+        "cost": 80,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "production": 3,
+        "percentStatBonus": {"production": 10},
+        "uniques": [
+            "Connects trade routes over water",
+            "Must be next to [Coast]",
+            "New [Water] units start with [30] Experience [in this city]",
+            "[+30]% Production when constructing [전함] units [in this city]",
+        ],
+        "requiredTech": "항만"
+    },
+{
+        "name": "밀레니엄 싱크탱크",
+        "uniqueTo": "세미나",
+        "replaces": "연구소",
+        "cost": 80,
+        "science": 5,
+        "culture": 3,
+        "maintenance": 3,
+        "percentStatBonus": {"science": 40},
+        "greatPersonPoints": {"Great Scientist": 1},
+        "uniques": [
+            "Destroyed when the city is captured"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+	{
+		"name": "붉은겨울 군수공장",
+		//"replaces": "Factory",
+		"uniqueTo": "붉은겨울 사무국",
+		"cost": 350,
+		"hurryCostModifier": 0,
+		"production": 3,
+        "percentStatBonus": {"production": 20},
+        //"specialistSlots": {"Engineer": 2},
+        "greatPersonPoints": {"Great Engineer": 1},
+        "maintenance": 3,
+        "isNationalWonder": true,
+        //"requiredBuilding": "Workshop",
+		"uniques": [
+        "[+30]% Production when constructing [붉은연방 모브] units [in this city]",
+        "[+30]% Production when constructing [붉은연방 전차] units [in this city]"],
+		"requiredTech": "기초 군수공장",
+	},
+{
+		"name": "트리움비레이트 공인",
+		//"replaces": "Factory",
+		"uniqueTo": "티파티",
+		"cost": 350,
+		"hurryCostModifier": 0,
+		"production": 3,
+        "culture": 1,
+        "faith": 8,
+        "percentStatBonus": {"production": 20},
+        //"specialistSlots": {"Engineer": 2},
+        //"greatPersonPoints": {"Great Engineer": 1},
+        "maintenance": 3,
+        "isNationalWonder": true,
+        //"requiredBuilding": "Workshop",
+		"uniques": [ 
+        "[+3 Happiness, +2 Culture, +3 Gold] from every [Market]",]
+		"requiredTech": "신학",
+	},
+{
+        "name": "만마전 전차공장",
+        "replaces": "훈련실",
+        "uniqueTo": "판데모니움 소사이어티",
+        "cost" : 320,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "New [Military] units start with [30] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "[+30]% Production when constructing [전차] units [in this city]",
+            
+        ],
+       "requiredTech": "학교"
+    },
+{
+        "name": "밀레니엄 기계공장",
+        "replaces": "전차 공장",
+        "uniqueTo": "세미나",
+        "cost" : 220,
+        "science": 2,
+        "production": 6,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "percentStatBonus": {"production": 10},
+        "uniques": [
+            "New [Military] units start with [30] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "[+30]% Production when constructing [전차] units [in this city]",
+            "[+10]% Production when constructing [Infantry] units [in this city]",
+            "[+2 Gold] from [Coal] tiles [in this city]",
+            "Only available <after adopting [군수공장 개발]>"
+        ],
+       "requiredTech": "공병"
+    },
+{
+        "name": "치안수호대",
+        "replaces": "Monument",
+        "uniqueTo": "선도부",
+        "cost" : 40,
+        "production": 3,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "percentStatBonus": {"production": 10},
+        "uniques": [
+            "Destroyed when the city is captured",
+            "[+30]% Production when constructing [Infantry] units [in this city]",
+            "[+2 Gold] from [Coal] tiles [in this city]",
+        ],
+    },
+{
+        "name": "선도부 훈련실",
+        "replaces": "훈련실",
+        "uniqueTo": "선도부",
+        "cost" : 200,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "New [Military] units start with [30] Experience [in this city]",
+            "Destroyed when the city is captured"
+        ],
+       "requiredTech": "학교"
+    },
+{
+        "name": "응급의학부 청사",
+        "cost": 80,
+        "gold": 3,
+        "production": 6,
+        "maintenance": 2,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [응급의학부에 연락 제시]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+{
+        "name": "급양부 동원",
+        "cost": 80,
+        "gold": 3,
+        "production": 4,
+        "maintenance": 3,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [급양부 대규모 지원]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+{
+        "name": "지식해방전선 청사",
+        "cost": 80,
+        "culture": 3,
+        "science": 5,
+        "production": 1,
+        "maintenance": 3,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            "Only available <after adopting [지식해방전선과의 협조]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+{
+        "name": "구교사",
+        "cost": 80,
+        "culture": 3,
+        "science": 5,
+        "production": 2,
+        "maintenance": 3,
+        "isWonder": true,
+        //"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [죄수 사면]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+{
+        "name": "흥신소 68 고용",
+        "cost": 80,
+        "gold": 3,
+        "production": 6,
+        "maintenance": 4,
+        "isWonder": true,
+        //"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [흥신소 고용]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "C&C 고용",
+        "cost": 80,
+        "gold": 3,
+        "production": 1,
+        "maintenance": 4,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 1},
+        //"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [C&C 고용]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "컴퓨터실",
+        "cost": 80,
+        "science": 5,
+        "maintenance": 2,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 1},
+        //"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [엔지니어부 고용]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "게임개발부실",
+        "cost": 80,
+        "production": 1,
+        "maintenance": 3,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 1},
+        "uniques": [
+            
+            "Only available <after adopting [게임개발부 소집]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "구호기사단 본관병동",
+        "cost": 80,
+        "gold": 3,
+        "production": 1,
+        "maintenance": 4,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 1},
+        //"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [구호기사단 소집]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "정의 실현부실",
+        "cost": 80,
+        "production": 2,
+        "maintenance": 2,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            "New [Military] units start with [15] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "Only available <after adopting [정의실현부 소집]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "중앙 도서관",
+        "cost": 80,
+        "science": 3,
+        "culture": 3,
+        "maintenance": 3,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 1},
+        "uniques": [
+            
+            "Only available <after adopting [도서부 협조 요청]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "미식 연구부",
+        "cost": 80,
+        "production": 3,
+        "maintenance": 4,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 1},
+        //"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            
+            "Only available <after adopting [미식연구회 징용]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "대온천",
+        "cost": 80,
+        "production": 2,
+        "happiness": 5,
+        "gold": 4,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Only available <after adopting [온천개발부 징용]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+    {
+        "name": "반짝반짝부실",
+        "cost": 80,
+        "culture": 3,
+        "maintenance": 1,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Scientist": 1},
+        "uniques": [
+            
+            "Only available <after adopting [반짝반짝부와 협력]>"
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+]  
