@@ -1,0 +1,2384 @@
+[
+ {
+        "name": "Settler",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 40,
+        "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
+    },
+    {
+		"name": "Rifleman",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 5,
+        "range": 2,
+		"rangedStrength": 7,
+		"cost": 40,
+		"attackSound": "shot"
+	},
+{
+		"name": "오토마타 보병",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 35,
+		"cost": 110,
+        "requiredTech": "오토마타 보병",
+		"attackSound": "shot"
+	},
+    {
+        "name": "Infantry",
+        "unitType": "Infantry",
+        "movement": 2,
+        "strength": 45,
+        "cost": 310,
+        "requiredTech": "보병 화기",
+        "upgradesTo": "Mechanized Infantry",
+        "uniques": ["Never appears as a Barbarian unit"]
+        "attackSound": "shot"
+    },
+{
+        "name": "Mechanized Infantry",
+        "unitType": "Infantry",
+        "movement": 3,
+        "strength": 70,
+        "cost": 450,
+        "requiredTech": "합성 자제",
+        "uniques": ["Never appears as a Barbarian unit","Never appears as a Barbarian unit",],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Marine",
+        "unitType": "Infantry",
+        "movement": 3,
+        "strength": 60,
+        "cost": 480,
+        "requiredTech": "특수부대",
+        //"promotions": ["Amphibious"],
+        "uniques": [
+            "[+1] Sight <when [Embarked]>",
+            "[+100]% Strength <when defending> <when [Embarked]>",
+            "Never appears as a Barbarian unit",
+        ],
+        "attackSound": "shot"
+    },
+    {
+        "name": "Paratrooper",
+        "unitType": "Infantry",
+        "movement": 2,
+        "strength": 55,
+        "cost": 450,
+        "requiredTech": "특수부대",
+        "uniques": [
+            "May Paradrop up to [9] tiles from inside friendly territory",
+            "No movement cost to pillage",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shot"
+    },
+{
+        "name": "Scout",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 5,
+        "cost": 25,
+        "uniques": [
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "nonmetalhit"
+    },
+{
+        "name": "건설자",
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniques": [
+            "Can build [All] improvements on tiles",
+            "Can build [Land] improvements on tiles",
+            "Automation is a primary action"
+        ],
+        "cost": 80
+    },
+{
+        "name": "레서판다",
+        "unitType": "Civilian Water",
+        "movement": 4,
+        "cost": 80,
+        "requiredTech": "해산업 발전",
+        "uniques": [
+            "Can instantly construct a [Kampong Ayer] improvement <by consuming this unit>",
+            "May create improvements on water resources",
+            "Uncapturable",
+            "Automation is a primary action"
+        ]
+    },
+    {
+        "name": "열차포 셰마타",
+        "unitType": "열차포",
+        "movement": 1,
+        "strength": 300,
+        "cost": 1020,
+        "rangedStrength": 300,
+        "range": 3,
+        "requiredTech": "뇌제의 무기",
+        "requiredResource": "뇌제의 유산",
+        "uniques": [
+            "Can move after attacking",
+            "[+50]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit",
+        ],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "모니터함",
+        "unitType": "구축함",
+        "movement": 3,
+        "strength": 15,
+        "cost": 120,
+        "requiredTech": "해산업 발전",
+        "requiredResource": "Coal",
+        "uniques": [
+            "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Double movement in [Coast]",
+            "Never appears as a Barbarian unit",
+            "Only available <if [Harbor] is constructed>", 
+        ],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "Destroyer",
+        "unitType": "구축함",
+        "movement": 7,
+        "strength": 30,
+        "interceptRange": 2,
+        "cost": 220,
+        "requiredTech": "함포 연구",
+        "uniques": [
+            "Can see invisible [Submarine] units",
+            "[100]% chance to intercept air attacks",
+            "Can move after attacking",
+            "Withdraws before melee combat <with [80]% chance>",
+            "[+100]% Strength <vs [잠수함] units>",
+            "[+100]% Strength <vs [비행] units>",
+            "[-50]% Damage when intercepting"
+        ],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "다목적 구축함",
+        "unitType": "구축함",
+        "movement": 7,
+        "strength": 50,
+        "interceptRange": 2,
+        "cost": 300,
+        "requiredTech": "음파탐지기",
+        "uniques": [
+            "Can see invisible [Submarine] units",
+            "[100]% chance to intercept air attacks",
+            "Can move after attacking",
+            "Withdraws before melee combat <with [80]% chance>",
+            "[+150]% Strength <vs [잠수함] units>",
+            "[+150]% Strength <vs [비행] units>",
+            "[-50]% Damage when intercepting"
+        ],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "이지스함",
+        "unitType": "구축함",
+        "movement": 7,
+        "strength": 70,
+        "interceptRange": 2,
+        "cost": 420,
+        "requiredTech": "이지스함",
+        "uniques": [
+            "Can see invisible [Submarine] units",
+            "[100]% chance to intercept air attacks",
+            "Can move after attacking",
+            "Withdraws before melee combat <with [80]% chance>",
+            "[+200]% Strength <vs [잠수함] units>",
+            "[+200]% Strength <vs [비행] units>",
+            "[-50]% Damage when intercepting"
+        ],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "전드레드노트급 전함",
+        "unitType": "전함",
+        "movement": 4,
+        "strength": 25,
+        "rangedStrength": 35,
+        "range": 2,
+        "cost": 200,
+        "requiredTech": "운수부",
+        "requiredResource": "Oil",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "드레드노트급 전함",
+        "unitType": "전함",
+        "movement": 5,
+        "strength": 55,
+        "rangedStrength": 55,
+        "range": 3,
+        "cost": 410,
+        "requiredTech": "함포 연구",
+        "requiredResource": "Oil",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "순양 전함",
+        "unitType": "전함",
+        "movement": 7,
+        "strength": 60,
+        "rangedStrength": 60,
+        "range": 3,
+        "cost": 480,
+        "requiredTech": "전간기 해군",
+        "requiredResource": "Oil",
+        "upgradesTo": "협동화력함",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Double movement in [Coast]",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "초중 전함",
+        "unitType": "전함",
+        "movement": 5,
+        "strength": 75,
+        "rangedStrength": 80,
+        "range": 4,
+        "cost": 710,
+        "requiredTech": "전간기 해군",
+        "requiredResource": "Oil",
+        "upgradesTo": "협동화력함",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+            "[+50]% Strength <vs cities> <when attacking>",
+            "[+50]% Strength <vs [전함]> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "마코토급 전함",
+        "unitType": "전함",
+        "replaces":"초중 전함",
+        "uniqueTo":"판데모니움 소사이어티",
+        "movement": 5,
+        "strength": 80,
+        "rangedStrength": 90,
+        "range": 4,
+        "cost": 950,
+        "requiredTech": "전간기 해군",
+        "upgradesTo": "협동화력함",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "Can move after attacking",
+            "[+50]% Strength <vs cities> <when attacking>",
+            "[+60]% Strength <vs [전함]> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",
+        ],
+        "attackSound": "machinegun"
+    },
+{
+        "name": "고속 전함",
+        "unitType": "전함",
+        "movement": 8,
+        "strength": 75,
+        "rangedStrength": 75,
+        "range": 4,
+        "cost": 620,
+        "requiredTech": "음파탐지기",
+        "requiredResource": "Oil",
+        "upgradesTo": "협동화력함",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Double movement in [Coast]",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "협동화력함",
+        "unitType": "전함",
+        "movement": 5,
+        "strength": 95,
+        "rangedStrength": 90,
+        "range": 8,
+        "cost": 710,
+        "requiredTech": "탄도 미사일",
+        "requiredResource": "Oil",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "레일건 전함",
+        "unitType": "전함",
+        "movement": 5,
+        "strength": 105,
+        "rangedStrength": 125,
+        "range": 12,
+        "cost": 1010,
+        "requiredTech": "레일건",
+        "requiredResource": "Oil",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+    {
+        "name": "1차 세계대전 잠수함",
+        "unitType": "잠수함",
+        "movement": 4,
+        "strength": 20,
+        "rangedStrength": 30,
+        "cost": 120,
+        "requiredTech": "운수부",
+        "upgradesTo": "Submarine",
+        "uniques": [
+            "[+75]% Strength <when attacking>",
+            "Can only attack [Water] tiles",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "torpedo"
+    },
+    {
+        "name": "Submarine",
+        "unitType": "잠수함",
+        "movement": 5,
+        "strength": 35,
+        "rangedStrength": 50,
+        "cost": 220,
+        "requiredTech": "레이더",
+        "upgradesTo": "Nuclear Submarine",
+        "uniques": [
+            "[+75]% Strength <when attacking>",
+            "Can only attack [Water] tiles",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "torpedo"
+    },
+{
+        "name": "Nuclear Submarine",
+        "unitType": "잠수함",
+        "movement": 6,
+        "strength": 50,
+        "range": 3,
+        "rangedStrength": 75,
+        "cost": 310,
+        "requiredTech": "핵융합 동력",
+        "uniques": [
+            "[+75]% Strength <when attacking>",
+            "Can only attack [Water] tiles",
+            "[+1] Sight",
+            "Can carry [2] [Missile] units",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "torpedo"
+    },
+{
+        "name": "항공 전함",
+        "unitType": "항공모함",
+        "movement": 5,
+        "strength": 30,
+        "cost": 310,
+        "requiredTech": "함포 연구",
+        "uniques": [
+            "Can carry [1] [Aircraft] units",
+            "[+2] Sight"
+        ]
+    },
+    {
+        "name": "Carrier",
+        "unitType": "항공모함",
+        "movement": 5,
+        "strength": 50,
+        "cost": 410,
+        "requiredTech": "음파탐지기",
+        "uniques": [
+            "Cannot attack",
+            "Can carry [3] [Aircraft] units",
+            "[+2] Sight"
+        ]
+    },
+{
+        "name": "슈퍼 캐리어",
+        "unitType": "항공모함",
+        "movement": 5,
+        "strength": 80,
+        "cost": 710,
+        "requiredTech": "슈퍼캐리어",
+        "uniques": [
+            "Cannot attack",
+            "Can carry [7] [Aircraft] units",
+            "[+3] Sight"
+        ]
+    },
+{
+        "name": "Triplane",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 25,
+        "rangedStrength": 35,
+        "range": 5,
+        "interceptRange": 5,
+        "cost": 120,
+        "requiredTech": "복엽기",
+        "requiredResource": "Oil",
+        "upgradesTo": "전간기 전투기",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "Great War Bomber",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 35,
+        "rangedStrength": 40,
+        "range": 6,
+        "cost": 180,
+        "requiredTech": "복엽기",
+        "requiredResource": "Oil",
+        "upgradesTo": "전간기 폭격기",
+        "attackSound": "bombing"
+    },
+    {
+        "name": "전간기 전투기",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 45,
+        "rangedStrength": 55,
+        "range": 5,
+        "interceptRange": 5,
+        "cost": 240,
+        "requiredTech": "전간기 항공기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Fighter",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "전간기 폭격기",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 45,
+        "rangedStrength": 50,
+        "range": 6,
+        "cost": 240,
+        "requiredTech": "전간기 항공기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Bomber",
+        "attackSound": "bombing"
+    },
+{
+        "name": "Fighter",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 50,
+        "rangedStrength": 55,
+        "range": 10,
+        "interceptRange": 8,
+        "cost": 350,
+        "requiredTech": "프롭기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Jet Fighter",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "machinegun"
+    },
+{
+        "name": "슈퍼마린 스핏파이어",
+        "unitType": "비행",
+        "replaces":"Fighter",
+        "uniqueTo":"티파티",
+        "movement": 1,
+        "strength": 55,
+        "rangedStrength": 65,
+        "range": 9,
+        "interceptRange": 8,
+        "cost": 350,
+        "requiredTech": "프롭기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Jet Fighter",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+200]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "[+20]% Strength <vs [전차] units>",	
+        ],
+        "attackSound": "machinegun"
+    },
+{
+        "name": "폴리카르포프 I-16",
+        "unitType": "비행",
+        "replaces":"Fighter",
+        "uniqueTo":"붉은겨울 사무국",
+        "movement": 1,
+        "strength": 55,
+        "rangedStrength": 50,
+        "range": 9,
+        "interceptRange": 8,
+        "cost": 180,
+        "requiredTech": "프롭기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Jet Fighter",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+200]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "[+20]% Strength <vs [전차] units>",	
+        ],
+        "attackSound": "machinegun"
+    },	
+{
+        "name": "BF-109",
+        "unitType": "비행",
+        "replaces":"Fighter",
+        "uniqueTo":"판데모니움 소사이어티",
+        "movement": 1,
+        "strength": 55,
+        "rangedStrength": 60,
+        "range": 15,
+        "interceptRange": 15,
+        "cost": 450,
+        "requiredTech": "프롭기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Me 262",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+100]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles",
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "Bomber",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 40,
+        "rangedStrength": 60,
+        "range": 13,
+        "cost": 350,
+        "requiredTech": "프롭기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Stealth Bomber",
+        "attackSound": "bombing"
+    },
+{
+        "name": "Stealth Bomber",
+        "unitType": "비행",
+        "movement": 2,
+        "strength": 85,
+        "rangedStrength": 85,
+        "range": 20,
+        "cost": 540,
+        "requiredTech": "스텔스 기술",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Damage taken from interception reduced by [100]%",
+            //"Cannot be carried by [Carrier] units",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "bombing"
+    },
+    {
+        "name": "Jet Fighter",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 75,
+        "rangedStrength": 75,
+        "range": 10,
+        "interceptRange": 10,
+        "cost": 540,
+        "requiredTech": "제트기",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+200]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "jetgun"
+    },
+{
+        "name": "Me 262",
+        "unitType": "비행",
+        "replaces":"Jet Fighter",
+        "uniqueTo":"판데모니움 소사이어티",
+        "movement": 1,
+        "strength": 70,
+        "rangedStrength": 75,
+        "range": 10,
+        "interceptRange": 10,
+        "cost": 600,
+        "requiredTech": "미사일",
+        "requiredResource": "Oil",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+200]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "[+20]% Strength <vs [전차] units>",	
+        ],
+        "attackSound": "machinegun"
+    },
+{
+        "name": "Helicopter Gunship",
+        "unitType": "헬리콥터",
+        "movement": 8,
+        "strength": 70,
+        "cost": 410,
+        "requiredTech": "합성 자제",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "[+200]% Strength <vs [전차] units>",
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Unable to capture cities",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
+{
+        "name": "Guided Missile",
+        "unitType": "미사일",
+        "movement": 1,
+        "strength": 105,
+        "rangedStrength": 125,
+        "range": 8,
+        "cost": 180,
+        "requiredTech": "미사일",
+        "uniques": ["[-100]% maintenance costs"],
+        "attackSound": "missile"
+    },
+    {
+        "name": "Nuclear Missile",
+        "unitType": "미사일",
+        "movement": 1,
+        "strength": 300,
+        "rangedStrength": 300,
+        "range": 12,
+        "cost": 1500,
+        "requiredTech": "탄도 미사일",
+        "uniques": [
+            "Nuclear weapon of Strength [2]",
+            //"Only available <if [Manhattan Project] is constructed>",
+            "Blast radius [2]",
+            "Consumes [2] [Uranium]",
+            "Cannot be purchased"
+        ],
+        "attackSound": "nuke"
+    },
+{
+        "name": "극초음속 미사일",
+        "unitType": "미사일",
+        "movement": 1,
+        "strength": 105,
+        "rangedStrength": 155,
+        "range": 15,
+        "cost": 320,
+        "requiredTech": "극초음속 미사일",
+        "uniques": ["[-100]% maintenance costs"],
+        "attackSound": "missile"
+    },
+{
+        "name": "드론",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 70,
+        "rangedStrength": 95,
+        "range": 15,
+        "cost": 220,
+        "requiredTech": "드론 기술",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "missile"
+    },
+{
+        "name": "Missionary",
+        "unitType": "Civilian",
+        "cost": 100,
+        "uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
+            "[-1] Sight",
+            "Unbuildable",
+            "Religious Unit",
+            "Only available <when religion is enabled>"
+        ],
+        "movement": 4,
+        "religiousStrength": 1000
+    },
+    {
+        "name": "Inquisitor",
+        "unitType": "Civilian",
+        "cost": 100,
+        "uniques": [
+            "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "[+1] Sight",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit"
+        ],
+        "movement": 3
+    },
+    {
+        "name": "Great Prophet",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [8] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "May enter foreign tiles without open borders",
+            "Great Person - [Faith]",
+            "Unbuildable",
+            "Uncapturable",
+            "Religious Unit",
+            "Only available <when religion is enabled>",
+            "[-1] Sight",
+            "Takes your religion over the one in their birth city"
+        ],
+        "movement": 4,
+        "religiousStrength": 1000
+    },
+{
+        "name": "장갑차",
+        "unitType": "전차",
+        "movement": 4,
+        "strength": 25,
+        "cost": 385,
+        "requiredTech": "내연 기관",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "전간기 전차",
+        "unitType": "전차",
+        "movement": 5,
+        "strength": 55,
+        "cost": 440,
+        "requiredTech": "전간기 전차",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "중형 전차",
+        "unitType": "전차",
+        "movement": 5,
+        "strength": 65,
+        "cost": 450,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "경전차",
+        "unitType": "전차",
+        "movement": 7,
+        "strength": 55,
+        "cost": 450,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+30]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "경전차 레오파르드",
+        "replaces":"경전차",
+        "uniqueTo":"판데모니움 소사이어티",
+        "unitType": "전차",
+        "movement": 8,
+        "strength": 60,
+        "cost": 505,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+35]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "M3 경전차",
+        "replaces":"경전차",
+        "uniqueTo":"세미나",
+        "unitType": "전차",
+        "movement": 8,
+        "strength": 55,
+        "cost": 380,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+30]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "빅커스 경전차",
+        "replaces":"경전차",
+        "uniqueTo":"티파티",
+        "unitType": "전차",
+        "movement": 7,
+        "strength": 50,
+        "cost": 405,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+35]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+        ],
+        "promotions": ["장갑 I"],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "T-80 경전차",
+        "replaces":"경전차",
+        "uniqueTo":"붉은겨울 사무국",
+        "unitType": "전차",
+        "movement": 7,
+        "strength": 45,
+        "cost": 180,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+25]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "[-1] Sight",
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "초중전차",
+        "unitType": "전차",
+        "movement": 3,
+        "strength": 80,
+        "cost": 850,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+60]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "8호전차 마우스",
+        "replaces":"초중전차",
+        "uniqueTo":"판데모니움 소사이어티",
+        "unitType": "전차",
+        "movement": 3,
+        "strength": 85,
+        "cost": 1050,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+70]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": ["장갑 I","직사장갑","공간장갑"],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "Modern Armor",
+        "unitType": "전차",
+        "movement": 5,
+        "strength": 75,
+        "cost": 540,
+        "requiredTech": "현대 전차",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "포병대",
+        "unitType": "포병",
+        "movement": 2,
+        "strength": 10,
+        "rangedStrength": 33,
+        "range": 3,
+        "cost": 385,
+        "requiredTech": "포병 연구",
+        "requiredResource": "Oil",
+        "uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"]
+        "attackSound": "artillery"
+    },
+{
+        "name": "2차대전 포병대",
+        "unitType": "포병",
+        "movement": 2,
+        "strength": 30,
+        "rangedStrength": 60,
+        "range": 3,
+        "cost": 485,
+        "requiredTech": "전간기 전차",
+        "requiredResource": "Oil",
+        "uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit",
+            "[+50]% Strength <vs [전차] units>",
+            ]
+        "attackSound": "artillery"
+    },
+{
+        "name": "Great War Infantry",
+        "unitType": "Infantry",
+        "movement": 2,
+        "strength": 30,
+        "cost": 120,
+        "requiredTech": "총기 개발",
+        "attackSound": "shot"
+    },
+    {
+        "name": "비행선",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 35,
+        "rangedStrength": 55,
+        "range": 6,
+        "cost": 360,
+        "requiredTech": "비행선 연구",
+        "requiredResource": "Oil",
+        "attackSound": "bombing"
+    },//고유유닛
+    {
+        "name": "토라마루",
+        "uniqueTo": "판데모니움 소사이어티",
+        "unitType": "전차",
+        "replaces": "중형 전차",
+        "movement": 4,
+        "strength": 75,
+        "cost": 505,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "[+30]% Strength <when attacking>"
+        ],
+        "attackSound": "tankshot"
+    },
+        {
+        "name": "숙청 0호",
+        "uniqueTo": "붉은겨울 사무국",
+        "unitType": "전차",
+        "replaces": "중형 전차",
+        "movement": 5,
+        "strength": 65,
+        "cost": 280,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "[+30]% Strength <when defending>"
+        ],
+        "attackSound": "tankshot"
+    },
+        {
+        "name": "M4 리오",
+        "uniqueTo": "세미나",
+        "unitType": "전차",
+        "replaces": "중형 전차",
+        "movement": 4,
+        "strength": 70,
+        "cost": 250,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "[+50]% Strength <vs [Infantry] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+        {
+        "name": "크루세이더짱",
+        "uniqueTo": "티파티",
+        "unitType": "전차",
+        "replaces": "중형 전차",
+        "movement": 4,
+        "strength": 70,
+        "cost": 260,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+50]% Strength <vs [Land] units>",
+            "[+30]% Strength <vs [전차] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "7AV",
+        "uniqueTo": "판데모니움 소사이어티",
+        "unitType": "전차",
+        "replaces": "장갑차",
+        "movement": 3,
+        "strength": 40,
+        "cost": 385,
+        "requiredTech": "내연 기관",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "MK1",
+        "uniqueTo": "티파티",
+        "unitType": "전차",
+        "replaces": "장갑차",
+        "movement": 2,
+        "strength": 40,
+        "cost": 285,
+        "requiredTech": "내연 기관",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "트리니티 포병대",
+        "unitType": "트리니티 포병",
+        "replaces": "포병대",
+        "uniqueTo": "티파티",
+        "movement": 2,
+        "strength": 30,
+        "cost": 205,
+        "rangedStrength": 50
+        "range": 4,
+        "requiredTech": "포병 연구",
+        "uniques": [
+            "Can move after attacking",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit",
+        ],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "세미나 FT",
+        "uniqueTo": "세미나",
+        "unitType": "전차",
+        "replaces": "장갑차",
+        "movement": 5,
+        "strength": 35,
+        "cost": 385,
+        "requiredTech": "내연 기관",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+	{
+		"name": "나츠메 이로하",
+		"uniqueTo": "판데모니움 소사이어티",
+        "unitType":"이로하",
+		"movement": 4,
+		"strength": 90,
+		"cost": 50,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+30]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "Uncapturable"
+        ],
+		"attackSound": "phasers"
+        "civilopediaText": [
+			{"text": "귀찮지만...하아,어쩔 수 없죠."}
+		]
+	},
+{
+		"name": "쿄고쿠 사츠키",
+		"uniqueTo": "판데모니움 소사이어티",
+        "unitType": "사츠키",
+		"movement": 2,
+		"strength": 60,
+        "rangedStrength": 75,
+		"range": 1,
+		"cost": 50,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "May enter foreign tiles without open borders",
+            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
+            "Earn [200]% of killed [Military] unit's [Strength] as [Faith]",
+            "Never appears as a Barbarian unit",
+            "Only available <if [정보부] is constructed>",
+            "Uncapturable"
+        ],
+		"attackSound": "phasers"
+        "civilopediaText": [
+			{"text": "자아~자아~당신은 만마전에 충성하고 싶어진다~"}
+		]
+	},
+{
+		"name": "모토미야 치아키",
+		"uniqueTo": "판데모니움 소사이어티",
+        "unitType": "치아키",
+		"movement": 2,
+		"strength": 80,
+		"cost": 50,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "[+15]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "Only available <if [서기] is constructed>", 
+            "[50]% Strength <vs cities> <when attacking>",
+            "Uncapturable"
+            
+        ],
+		"attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"호외요, 호외!만마전의 서기, 모토미야 치아키가 샬레에 찾아왔습니다~"}
+		]
+	},
+{
+		"name": "탄가 이부키",
+		"uniqueTo": "판데모니움 소사이어티",
+        "unitType": "이부키",
+		"movement": 2,
+		"strength": 30,
+		"cost": 50,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Uncapturable",
+            "[+20]% Strength bonus for [Military] units within [2] tiles"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"사업비 집행 정산 재역서.....라니, 무슨의미...?"}
+		]
+	},
+{
+		"name": "사시로 토모에",
+		"uniqueTo": "붉은겨울 사무국",
+        "unitType": "토모에",
+		"movement": 2,
+		"strength": 50,
+		"cost": 130,
+        "maintenance": 1,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "이케구라 마리나",
+		"uniqueTo": "붉은겨울 사무국",
+        "unitType": "마리나",
+		"movement": 2,
+		"strength": 50,
+		"cost": 130,
+        "maintenance": 1,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	}
+    {
+		"name": "친위대",
+		"uniqueTo": "붉은겨울 사무국",
+        "unitType": "붉은연방 모브",
+		"movement": 2,
+		"strength": 35,
+		"cost": 50,
+        "uniques": [
+            "[+10]% Strength<when defending>"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"사람은 싸고 포탄은 비쌉니다."}
+		]
+	},
+{
+		"name": "붉은겨울 기갑부대",
+		"uniqueTo": "붉은겨울 사무국",
+        "unitType": "붉은연방 전차",
+		"movement": 4,
+		"strength": 50,
+		"cost": 130,
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+10]% Strength<when defending>"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+{
+		"name": "미소노 미카",
+		"uniqueTo": "티파티",
+        "unitType": "미카",
+		"movement": 2,
+		"strength": 110,
+		"cost": 230,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+20]% Strength<when attacking>"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+{
+		"name": "유리조노 세이아",
+		"uniqueTo": "티파티",
+        "unitType": "세이아",
+		"movement": 2,
+		"strength": 50,
+		"cost": 130,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+10]% Strength<when defending>"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+{
+		"name": "소라사키 히나",
+		"uniqueTo": "선도부",
+        "unitType": "히나",
+		"movement": 4,
+		"strength": 100,
+		"cost": 230,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+{
+		"name": "아마우 아코",
+		"uniqueTo": "선도부",
+        "unitType": "아코",
+		"movement": 4,
+		"strength": 50,
+		"cost": 130,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+10]% Strength<when defending>"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+{
+		"name": "시로미 이오리",
+		"uniqueTo": "선도부",
+        "unitType": "이오리",
+		"movement": 4,
+		"strength": 70,
+		"cost": 230,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+20]% Strength<when attacking>",
+            "[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+{
+		"name": "히노미야 치나츠",
+		"uniqueTo": "선도부",
+        "unitType": "치나츠",
+		"movement": 4,
+		"strength": 50,
+		"cost": 130,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+10]% Strength<when defending>"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+{
+		"name": "아리우스 모브",
+		"uniqueTo": "아리우스 스쿼드",
+        "unitType": "아리우스 모브",
+		"movement": 4,
+		"strength": 40,
+		"cost": 100,
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "May enter foreign tiles without open borders",
+            "No movement cost to pillage <for [All] units>",
+            "Self-destructs when attacking",
+            "Invisible to non-adjacent units",
+            "Can only heal by pillaging",
+            "[-200]% Strength <vs cities> <when attacking>",
+        ],
+        "promotions": ["죽음 숭배"],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"최후의 최후까지"}
+		]
+	},
+    {
+        "name": "밀레니엄 연구자",
+        "unitType": "Civilian",
+        "uniqueTo": "세미나",
+        "replaces": "Great Scientist",
+        "uniques": [
+        "Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Is part of Great Person group [Scientist]",
+            "Great Person - [Science]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 6
+    },
+    {
+        "name": "Great Scientist",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Is part of Great Person group [Scientist]",
+            "Great Person - [Science]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Great Merchant",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Is part of Great Person group [Merchant]",
+            "Great Person - [Gold]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Great Engineer",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Is part of Great Person group [Engineer]",
+            "Great Person - [Production]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+		"name": "쿠리하마 아케미",
+		"uniqueTo": "스케반",
+        "unitType":"아케미",
+		"movement": 3,
+		"strength": 120,
+		"cost": 120,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "Uncapturable"
+        ],
+		"attackSound": "phasers"
+        "civilopediaText": [
+			{"text": "귀찮지만...하아,어쩔 수 없죠."}
+		]
+	},
+//건설 후 사용
+    {
+		"name": "히무로 세나",
+        "unitType": "세나",
+		"movement": 5,
+		"strength": 50,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Only available <if [응급의학부 청사] is constructed>", 
+            "Uncapturable",
+            "[+10]% Strength bonus for [Military] units within [2] tiles",
+            "All adjacent units heal [+20] HP when healing",
+            "[+20] HP when healing"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "아이키요 후우카",
+        "unitType": "후우카",
+		"movement": 5,
+		"strength": 50,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Only available <if [급양부 동원] is constructed>", 
+            "Uncapturable",
+            "[+10]% Strength bonus for [Military] units within [2] tiles",
+            "All adjacent units heal [+20] HP when healing",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "우시자키 주리",
+        "unitType": "주리",
+		"movement": 5,
+		"strength": 50,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Only available <if [급양부 동원] is constructed>", 
+            "Uncapturable"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "아케이즈미 모미지",
+        "unitType": "모미지",
+		"movement": 5,
+		"strength": 50,
+        "rangedStrength": 55,
+		"range": 2,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [지식해방전선 청사] is constructed>", 
+            "Uncapturable",
+            "[+10]% Strength bonus for [Military] units within [2] tiles",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "히메키 메루",
+        "unitType": "메루",
+		"movement": 5,
+		"strength": 50,
+        "rangedStrength": 60,
+		"range": 2,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Only available <if [지식해방전선 청사] is constructed>", 
+            "Uncapturable",
+            "[+20] HP when healing"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "아마미 노도카",
+        "unitType": "노도카",
+		"movement": 2,
+		"strength": 60,
+        "rangedStrength": 65,
+		"range": 2,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [구교사] is constructed>", 
+            "Uncapturable",
+            "[+10]% Strength bonus for [Military] units within [2] tiles",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "마요이 시구레",
+        "unitType": "시구레",
+		"movement": 2,
+		"strength": 60,
+        "rangedStrength": 60,
+		"range": 2,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [구교사] is constructed>", 
+            "Uncapturable",
+            "[+20] HP when healing"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "야스모리 미노리",
+        "unitType": "미노리",
+		"movement": 4,
+        "strength": 50,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "May enter foreign tiles without open borders",
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+20] HP when healing",
+            "Only available <after adopting [미노리와의 협력]>",
+            "Invisible to non-adjacent units",
+            "May capture killed [Military] units",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "리쿠하치마 아루",
+        "unitType": "아루",
+		"movement": 2,
+		"strength": 80,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [흥신소 68 고용] is constructed>", 
+            "Uncapturable",
+            "[+10]% Strength bonus for [Military] units within [2] tiles"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "아사기 무츠키",
+        "unitType": "무츠키",
+		"movement": 2,
+		"strength": 65,
+        "rangedStrength": 70,
+		"range": 1,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [흥신소 68 고용] is constructed>", 
+            "Uncapturable"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "오니카타 카요코",
+        "unitType": "카요코",
+		"movement": 2,
+		"strength": 70,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [흥신소 68 고용] is constructed>", 
+            "Uncapturable",
+            "[-20]% Strength for enemy [All] units in adjacent [All] tiles"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "이구사 하루카",
+        "unitType": "하루카",
+		"movement": 2,
+        "rangedStrength": 75,
+		"range": 1,
+		"strength": 70,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [흥신소 68 고용] is constructed>", 
+            "Uncapturable",
+            "[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+		"name": "하나오카 유즈",
+        "unitType": "유즈",
+		"movement": 2,
+        //"rangedStrength": 75,
+		//"range": 1,
+		"strength": 55,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [게임개발부실] is constructed>", 
+            "Uncapturable",
+            //"[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "사이바 모모이",
+        "unitType": "모모이",
+		"movement": 2,
+        //"rangedStrength": 75,
+		//"range": 1,
+		"strength": 40,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [게임개발부실] is constructed>", 
+            "Uncapturable",
+            "[+100]% Strength bonus for [미도리] units within [2] tiles"
+            //"[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "사이바 미도리",
+        "unitType": "미도리",
+		"movement": 2,
+        //"rangedStrength": 75,
+		//"range": 1,
+		"strength": 40,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [게임개발부실] is constructed>", 
+            "Uncapturable",
+            "[+100]% Strength bonus for [모모이] units within [2] tiles"
+            //"[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "텐도 아리스",
+        "unitType": "아리스",
+		"movement": 2,
+        //"rangedStrength": 75,
+		//"range": 1,
+		"strength": 70,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Only available <if [게임개발부실] is constructed>", 
+            "Uncapturable",
+            //"[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+        "name": "미카모 네루",
+        "unitType": "네루",
+        "movement": 3,
+        "strength": 90,
+        "cost": 295,
+        "requiredResource": "청휘석",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "[+50]% Strength <vs [Land] units>",
+            "No movement cost to pillage",
+            "Can be purchased with [Gold] [in all cities]",
+            "Only available <if [C&C 고용] is constructed>",
+            "Mercenary", // temp fix for now
+            "Unbuildable"
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "이치노세 아스나",
+        "unitType": "아스나",
+        "movement": 3,
+        "strength": 70,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "No movement cost to pillage",
+            "Can be purchased with [Gold] [in all cities]",
+            "Only available <if [C&C 고용] is constructed>",
+            "Mercenary", // temp fix for now
+            "Unbuildable"
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "카쿠다테 카린",
+        "unitType": "카린",
+        "movement": 3,
+        "strength": 70,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "No movement cost to pillage",
+            "Can be purchased with [Gold] [in all cities]",
+            "Only available <if [C&C 고용] is constructed>",
+            "Mercenary", // temp fix for now
+            "Unbuildable"
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "무로카사 아카네",
+        "unitType": "아카네",
+        "movement": 3,
+        "strength": 70,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "No movement cost to pillage",
+            "Can be purchased with [Gold] [in all cities]",
+            "Only available <if [C&C 고용] is constructed>",
+            "Mercenary", // temp fix for now
+            "Unbuildable"
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "아스마 토키",
+        "unitType": "토키",
+        "movement": 3,
+        "strength": 75,
+        "cost": 145,
+        "upgradesTo": "아스마 토키 타입 아비에슈흐",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "No movement cost to pillage",
+            "Can be purchased with [Gold] [in all cities]",
+            "Only available <if [C&C 고용] is constructed>",
+            "Mercenary", // temp fix for now
+            "Unbuildable"
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "아스마 토키 타입 아비에슈흐",
+        "unitType": "토키",
+        "movement": 4,
+        "strength": 150,
+        "cost": 825,
+        "requiredTech": "서스펜션",
+        "upgradesTo": "아스마 토키",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "No movement cost to pillage",
+            "Only available <if [C&C 고용] is constructed>",
+            "Only available <after adopting [요새도시 에리두]>",
+            "Only available <if [요새도시 에리두] is constructed>",
+            "Unbuildable"
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "하야세 유우카",
+        "uniqueTo": "세미나",
+        "unitType": "유우카",
+        "movement": 2,
+        "strength": 60,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "No movement cost to pillage",
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "우시노 노아",
+        "uniqueTo": "세미나",
+        "unitType": "노아",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+        "Limited to [1] per Civilization", 
+            "No movement cost to pillage",
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "시라이시 우타하",
+        "unitType": "우타하",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn",
+            "Only available <if [C&C 고용] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "네코즈마 하비키",
+        "unitType": "하비키",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [컴퓨터실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "시라이시 우타하",
+        "unitType": "우타하",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [컴퓨터실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "토요미 코토리",
+        "unitType": "코토리",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn",
+            "Only available <if [컴퓨터실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "켄자키 츠루기",
+        "unitType": "츠루기",
+        "movement": 3,
+        "strength": 93,
+        "cost": 655,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [정의 실현부실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "하네카와 하스미",
+        "unitType": "하스미",
+        "movement": 2,
+        "strength": 75,
+        "cost": 305,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [정의 실현부실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "나카마사 이치카",
+        "unitType": "이치카",
+        "movement": 2,
+        "strength": 70,
+        "cost": 335,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [정의 실현부실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "시즈야마 마시로",
+        "unitType": "마시로",
+        "movement": 2,
+        "strength": 65,
+        "cost": 285,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [정의 실현부실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "아오모리 미네",
+        "unitType": "미네",
+        "movement": 2,
+        "strength": 75,
+        "cost": 355,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [구호기사단 본관병동] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "스미 세리나",
+        "unitType": "세리나",
+        "movement": 2,
+        "strength": 50,
+        "cost": 225,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [구호기사단 본관병동] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "아사가오 하나에",
+        "unitType": "하나에",
+        "movement": 2,
+        "strength": 55,
+        "cost": 305,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [구호기사단 본관병동] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "코제키 우이",
+        "unitType": "우이",
+        "movement": 2,
+        "strength": 50,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [중앙 도서관] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "엔도우 시미코",
+        "unitType": "시미코",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [중앙 도서관] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "쿠로다테 하루나",
+        "unitType": "하루나",
+        "movement": 3,
+        "strength": 75,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [미식 연구부] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "와니부치 아카리",
+        "unitType": "아카리",
+        "movement": 3,
+        "strength": 65,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [미식 연구부] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "시시도우 이즈미",
+        "unitType": "이즈미",
+        "movement": 2,
+        "strength": 60,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [미식 연구부] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "아카시 준코",
+        "unitType": "준코",
+        "movement": 4,
+        "strength": 60,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [미식 연구부] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "키누가와 카스미",
+        "unitType": "카스미",
+        "movement": 4,
+        "strength": 70,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [대온천] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "시모쿠라 메구",
+        "unitType": "메구",
+        "movement": 4,
+        "strength": 65,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [대온천] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "요자쿠라 키라라",
+        "unitType": "키라라",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [반짝반짝부실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+        "name": "하타미 에리카",
+        "unitType": "에리카",
+        "movement": 2,
+        "strength": 55,
+        "cost": 145,
+        "requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <if [반짝반짝부실] is constructed>",
+        ],
+        "attackSound": "metalhit"
+    },
+{
+		"name": "시치도 유키노",
+		"uniqueTo": "FOX 소대",
+        "unitType": "유키노",
+		"movement": 5,
+		"strength": 70,
+		"cost": 130,
+        "maintenance": 1,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+    {
+        "name": "헬멧단 졸개",
+        "unitType": "헬멧단",
+        "uniqueTo": "Barbarians",
+        "replaces": "Rifleman",
+        "movement": 2,
+        "strength": 4,
+        "cost": 20,
+        "attackSound": "nonmetalhit"
+    },
+{
+        "name": "헬멧단 간부",
+        "unitType": "헬멧단",
+        "uniqueTo": "Barbarians",
+        "replaces": "Mechanized Infantry",
+        "movement": 2,
+        "strength": 4,
+        "cost": 20,
+        "attackSound": "nonmetalhit"
+    },
+] 

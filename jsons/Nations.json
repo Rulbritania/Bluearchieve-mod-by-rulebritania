@@ -1,0 +1,680 @@
+[
+{ 
+		"name": "Spectator",
+		"outerColor": [255, 255, 255]
+		//"innerColor": [255,255,255]
+	},
+//게헨나
+	{
+		"name": "판데모니움 소사이어티",
+		"leaderName": "하누마 마코토",
+		"adjective": ["게헨나"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "드디어 강림하였도다! 키기긱, 판데모니엄 소사이어티의 하누마 마코토 님이 직접 찾아와 주신 것이다. 극친히 대접하도록.",
+		"startIntroPart2": "드디어 왔나. 선생. 만마전의 리더를 너무 기다리게 하지 말도록.키키킥. 뭐, 좋아. 그럼 마코토 님의 위업 이야기를 시작하지.",
+		
+		"declaringWar": "키키킷! 전탄발사! ...어? 바, 반대!?",
+		"attacked": "그게 갖고 싶었나. 선생. 킥킥, 별난 사람이로군.",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "늦었지 않나. 선생. 마침 키보토스 정복을 위한 획기적인 구상이 떠오른 참이다.지금부터 설명하지. 얼른 자리에 앉도록.",
+		"neutralHello": "늦었지 않나. 선생",
+		"neutralLetsHearIt": ["만마전의 리더를 너무 기다리게 하지 말도록.","늦었지 않나.","선생이 그렇게 말한다면 계속해 보실까!"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 선생.","다음엔 더욱 규모를 확장해서, 성대하고 호화롭게 돌아올 테니까, 키키킥!","키키킥, 오늘의 이 몸은 기분이 좋군.덤을 주도록 하지! 만마전의 협력제안서다!…뭐? 필요 없다고?"],
+
+		"hateHello": "키기긱...",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안되라."],
+		"hateYes": ["키키킥, 뭐 좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "위업은 하룻밤 사이에 이루어지지 않는 법. 마코토 님은 절대로 포기하지 않을 테니 말이다.",
+		"tradeRequest": "그 능력을 높이 평가하여…… 거절할 수 없는 중대한 제안을 하도록 하지.",
+
+		"outerColor": [255,51,51],
+		"innerColor": [255,255,255],
+		"uniqueName": "게헨나의 총의장",
+		"uniques": ["Starts with [만마전] adopted","[+5 Production] [in all cities]","[+25]% [Production] [in all cities]","[-50]% Unhappiness from [Population] [in all cities]", "[-25]% maintenance costs <for [Land] units>"],
+		"cities": ["판데모니엄 소사이어티","힌놈부르트","마코토부르그","이로하도르프","사츠키부르크","치아키베르그","세계수도 이부키부르크","제 1교사","중앙교정",
+			"학생광장","제 2교사","하누마부르트 암 마인","톨레슈덴트","리제그슈텐트","쿄고쿠가르트","헨센","나츠메바덴","모토미아키르헨","탄가바르흐",
+			"킬","헬나츠","스타슈바스델트","카이저바르흐","힌놈펠트","힌놈하우젠","디피니시온부르트","하인츠","마코토프리트","이로하겔트",
+			"이부키뤼겐","게르네","치아키히스하펜","사츠키니뷔뤼크","토라마렐베르크","마더보른"]
+	},
+	{
+		"name": "선도부", 
+		"leaderName": "소라사키 히나",
+		"adjective": ["게헨나"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "선도부장, 히나다.",
+		"startIntroPart2": "내 이름은 알고 았겠지만...잘 부탁해.",
+		
+		"declaringWar": "하아...별 수 없겠지.",
+		"attacked": "준비는 되어 있어.",
+		"defeated": "어떤 이야기라도 끝은 있어. 내가 그 마지막까지 지켜봐줄게.",
+		"introduction": "그렇게 빤히 쳐다보면.... 아무리 나라도 부끄러워.",
+		"neutralHello": "아아, 기다리고 있었어, 선생님.",
+		"neutralLetsHearIt": ["아아, 귀찮아.","아아, 기3ㅏ리고 있었어.","말만 해."],
+		"neutralNo": ["필요 없어.","좋지 않은데...","거절하도록 할게."],
+		"neutralYes": ["이번에도잘 부탁해, 선생님.","큰 문제는 없는것 같네, 다행히.","좋아."],
+
+		"hateHello": "정말⋯ 해도해도 끝나지 않아.",
+		"hateLetsHearIt": ["뭐, 해야만 하는 일이니.","뭐라고?","어."],
+		"hateNo": ["필요 없어.","동의할수 없어.","안되."],
+		"hateYes": ["큰 문제는 없는 것 같네. 다행히","충분해.","그럼 사양하지 않을게."],
+		
+		"afterPeace": "하아⋯ 별 수 없겠지.",
+		"tradeRequest": "이럴 땐 어쩌면 좋을지 몰라서⋯ 미안..",
+
+		"outerColor": [255,51,51],
+		"innerColor": [255,255,255],
+		"uniqueName": "풍기위원회",
+		"uniques": ["Starts with [풍기위원] adopted",
+        "[+5 Production] [in all cities]",
+        "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+        "[-100]% maintenance costs <for [Land] units>",
+        "[+10 Happiness, +5 Culture, +10 Production] [in annexed cities]",
+            "[+10 Happiness, +5 Culture, +10 Production] [in puppeted cities]"],
+		"cities": ["선도부","힌놈부르트","히나부르그","이로하도르프","사츠키부르크","치아키베르그","세계수도 이부키부르크","제 1교사","중앙교정",
+			"학생광장","제 2교사","하누마부르트 암 마인","톨레슈덴트","리제그슈텐트","쿄고쿠가르트","헨센","나츠메바덴","모토미아키르헨","탄가바르흐",
+			"킬","헬나츠","스타슈바스델트","카이저바르흐","힌놈펠트","힌놈하우젠","디피니시온부르트","하인츠","마코토프리트","이로하겔트",
+			"이부키뤼겐","게르네","치아키히스하펜","사츠키니뷔뤼크","토라마렐베르크","마더보른"]
+	},
+//붉은겨울
+    	{
+		"name": "붉은겨울 사무국",
+		"leaderName": "렌카와 체리노",
+		"adjective": ["레드윈터"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+		"outerColor": [120,10,10],
+		"innerColor": [255,255,255],
+		"uniqueName": "위대한 서기장",
+		"uniques": ["Starts with [붉은겨울] adopted","[+5 Food] [in all cities]","[+25]% [Food] [in all cities]","[-100]% Unhappiness from [Population] [in all cities]"
+        , "Double quantity of [Oil] produced",
+        "[+1 Food] from every [Tundra]"],
+		"cities": ["붉은겨울 사무국","체리노그라드","상트토모에부르그","마리나야르스크","렌카와그라드","사시로스크","세계수도 체리노쿠츠크","제 1교사","중앙교정",
+			"대인민광장","제 2교사","체리노치칼라","볼쇼그라드","트람바니그라드","나로드니그라드","렌스크","치리노로보","마리나슬라블","이케쿠라젭스크",
+			"토멘","붉은겨울 혁명광장","휜돌고래 시장","제1 공용 기숙사","제3 공용 급식소","로디나르쳅스크","체리카르올라","구교사","렌카와시스크","크라스나지마보츠크",
+			"세크릿타리아고르드","프라비틸리오스크","프라비틸바스토카","블레시엣세베레츠크","프라비엣자파도치","마더로츠카고르드"]
+	},
+//밀레니엄
+{
+		"name": "세미나",
+		"leaderName": "츠키츠키 리오",
+		"adjective": ["밀레니엄"],
+		"startBias": ["Mountain"],
+		//"preferredVictoryType": "Scientific",
+        "preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "나는 내가 옳다고 믿는 걸 행할 뿐이야.",
+		"startIntroPart2": "이미 모든 대비는 끝마쳤어. 남은건 실행할 것뿐.",
+		
+		"declaringWar": "이해 받지 못해도 괜찮아. 이 세상이 나를 악으로 규정해도 상관없어 나는 내가 옳다고 믿는 걸 행할 뿐이야.",
+		"attacked": "모든 변수를 계산하고 감안을 하더라도 내가 목표를 이룰 확률은 99% 이상.",
+		"defeated": "아냐, 그럴리가…… 내 계산이…… 하지만……!",
+		"introduction": "왔어,선생? 밀레니엄 사이언스 스쿨에 온걸 환영해.",
+		
+		"neutralHello": "반가워",
+		"neutralLetsHearIt": ["음?","알았어.",".나를 불렀어?"],
+		"neutralNo": ["필요 없어.","괜찮아. 사양할게.","거절할게."],
+		"neutralYes": ["좋은 제안이였어.","앞으로도 잘 부탁해.","훌륭해. "],
+
+		"hateHello": "뭘 더 원해?",
+		"hateLetsHearIt": ["뭐?","다시 말해줘.","어. 계속 듣고있어."],
+		"hateNo": ["필요 없어.","거절할게.","비합리적이야."],
+		"hateYes": ["음.","그래.","제안을 수용하도록 할게."],
+		
+		"afterPeace": "합리적인 선택이야.전쟁에는 준우승자를 위한 이등상은 없거든.",
+		"tradeRequest": "양쪽에게 합리적으로 이득이 되는 거래였어.",
+
+		"outerColor": [45,137,229],
+		"innerColor": [255,255,255],
+		"uniqueName": "합리와 기술의 가치",
+		"uniques": ["Starts with [밀레니엄] adopted","[+5 Science] [in all cities]","[+25]% [Science] [in all cities]", "[+2 Science, +3 Production] from all [Science] buildings", 
+        "[Great Scientist] is earned [50]% faster"
+        ],
+		"cities": ["세미나","모노레일 스테이션","밀레니엄 학습관","에슈눈나","메투란","옐키","투투브","델나카르","시파르-암나눔",
+			"바빌림","텔 우헤이미르","비르스 님루드","말기움","마슈칸샤피르","딜바트","마라드","샤투품","하라둠","제노비아",
+			"아수르","에칼라툼","알 파카르","아수르","아라파","알마눔","님루드","발라와트","칼라트 자르모","에르빌",
+			"사비움","삼수일루나","임미디타나","임미사두콰","신무발리트","아필신"]
+	},
+//아비도스
+    	{
+		"name": "대책위원회",
+		"leaderName": "오쿠소라 아야네",
+		"adjective": ["아비도스"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "기다리고 있었습니다, 선생님.",
+		"startIntroPart2": "오쿠소라 아야네입니다.",
+		
+		"declaringWar": "상황을 파악했습니다.",
+		"attacked": "지금입니다!",
+		"defeated": "아하하, 아뇨...아무것도 아니에요.",
+		"introduction": "기다리고 있었습니다, 선생님.",
+		"neutralHello": "기다리고 있었습니다!",
+		"neutralLetsHearIt": ["늦지 않은 것 같네요...!","아하하..신경써주셔서 감사합니다, 산생님.","선생님의 기대에 보답하겠습니다."],
+		"neutralNo": ["필요 없습니다!.","아하하...","거절하겠습니다.."],
+		"neutralYes": ["앞으로도 잘 부탁드릴께요!","기대에 보답하겠습니다!","잘 부탁드립니다."],
+
+		"hateHello": "이건 괜찮은 건가...?",
+		"hateLetsHearIt": ["계속하세요.","네?","다시 말하세요."],
+		"hateNo": ["필요 없어요.","동의 못해요.","안되요."],
+		"hateYes": ["좋아요.","충분해요.","그럼 사양하지 않을게요."],
+		
+		"afterPeace": "늦지 않은 것 같네요…!",
+		"tradeRequest": "부탁드립니다!",
+
+		"outerColor": [0,204,204],
+		"innerColor": [255,255,255],
+		"uniqueName": "수영복 복면단",
+        "uniques": ["[+100]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>", "[-50]% Culture cost of natural border growth [in all cities]", "[+5 Gold, +2 Production] from every [Desert]"],
+		"cities": ["대책위원회","멘네퍼","켐","야무","라코태","키토","프트케카","자우","페르 와젯",
+			"카수트","티미노르","피엠로","토니스","메누티스","피쿠아트","페르 아툼","제두","후트헤리이브","타레무",
+			"셰테누","세브누트제르","파크나무니스","이우누","차루","페르아문","웨프레위","타미아트","제데트","세마베뎃",
+			"페르바스트","자넷","허트와렛","페르라메수","페르소프두","너브트"]
+	},
+//트리니티
+    	{
+		"name": "티파티",
+		"leaderName": "키리후지 나기사",
+		"adjective": ["트리니티"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+        "outerColor": [171,131,137],
+		"innerColor": [255,255,255],
+		"uniqueName": "삼두정치",
+		"uniques": ["[+10 Gold, +5 Faith] from every [Luxury resource]",
+        "[+10 Faith] [in all cities]","[+25]% [Faith] [in all cities]",
+        "May buy [{Military} {non-air}] units with [Faith] for [1] times their normal Production cost",
+        //"Free [Great Prophet] appears <for [Trinity General School]>"
+        "Starts with [트리니티] adopted",
+        ],
+		"cities": ["파테르","필리우스","상투스","요한","유스티나","니케아","에페소","칼케돈","퀴니섹스툼",
+			"리옹","빈","콘스탄츠","피렌체","트리엔트","이이시","바티칸","미카엘라","가브리엘라","라파엘라",
+			"라테란","베드로","야교보","안드레아","필립보","바르톨로메오","토마스","마태오","타대오","시몬",
+			"바티아","바오로","나누토","니노","도미니코","디스마스"]
+	},
+{
+		"name": "시스터 후드",
+		"leaderName": "우타즈미 사쿠라코",
+		"adjective": ["트리니티"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+"outerColor": [250,179,89],
+		"innerColor": [255,255,219],
+		"uniqueName": "성도회의 유산",
+		"uniques": [
+        "Earn [200]% of killed [Military] unit's [Strength] as [Faith]",
+        "[+50]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+        "May buy [{Military} {non-air}] units with [Faith] for [1] times their normal Production cost",
+        "[All] units gain the [Deus Vult] promotion",
+        "[+4 Faith] per [2] population [in all cities]"
+        ],
+		"cities": ["유스티나","필리우스","상투스","요한","파테르","니케아","에페소","칼케돈","퀴니섹스툼",
+			"리옹","빈","콘스탄츠","피렌체","트리엔트","이이시","바티칸","미카엘라","가브리엘라","라파엘라",
+			"라테란","베드로","야교보","안드레아","필립보","바르톨로메오","토마스","마태오","타대오","시몬",
+			"바티아","바오로","나누토","니노","도미니코","디스마스"]
+	},
+//테러범
+{
+		"name": "아리우스 스쿼드",
+		"leaderName": "조마에 사오리",
+		"adjective": ["아리우스"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Saori. Arius SQUAD leader.",
+		"startIntroPart2": "Hope we work well together.",
+		
+		"declaringWar": "Vanitas Vanitatum, Et Omnia Vanitas.",
+		"attacked": "You'll regret this.",
+		"defeated": "We can never restore Arius...",
+		"introduction": "...",
+		
+		"neutralHello": "Hm?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","Speak."],
+		"neutralNo": ["We refuse.","No.","I decline."],
+		"neutralYes": ["Good.","Yes.","Alright."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["...","What did you say?","Go on."],
+		"hateNo": ["No.","Tsk. We'll never agree to that.","..."],
+		"hateYes": ["Fine by me.","Don't ever think that is good enough.","Very well..."],
+		
+		"afterPeace": "Guess we are back to hiding in the shadows..",
+		"tradeRequest": "I supposed we would require assistance from you.",
+
+		"outerColor": [13,13,63],
+		"innerColor": [255,255,255],
+
+		"uniqueName": "헛되고 헛되도다 모든것이 헛되도다",
+		"uniques": [
+        "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+        ],
+		"cities": ["Arius Main Building","Arius Autonomous District 1","Arius Autonomous District 2","Arius Autonomous District 3","Arius Autonomous District 4","Arius Autonomous District 5","Arius Autonomous District 6","Arius Autonomous District 7","Arius Autonomous District 8",
+			"Arius Autonomous District 9","Arius Autonomous District 10","Arius Autonomous District 11","Arius Autonomous District 12","Arius Autonomous District 13","Arius Autonomous District 14","Arius Autonomous District 15","Arius Autonomous District 16","Arius Autonomous District 17","Arius Autonomous District 18",
+			"Arius Autonomous District 19","Arius Autonomous District 20","Arius Autonomous District 21","Arius Autonomous District 22","Arius Autonomous District 23","Arius Autonomous District 24","Arius Autonomous District 25","Arius Autonomous District 26","Arius Autonomous District 27","Arius Autonomous District 28",
+			"Arius Autonomous District 29","Arius Autonomous District 30","Arius Autonomous District 31","Arius Autonomous District 32","Arius Autonomous District 33","Arius Autonomous District 34"]
+	},
+//악역
+{
+		"name": "게마트리아",
+		"leaderName": "검은 양복",
+		"adjective": ["게마트리아"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+"outerColor": [38,38,38],
+		"innerColor": [0,0,0],
+		"uniqueName": "신비, 공포, 숭고",
+		"uniques": [	
+        "[Gold] cost of purchasing [Science] buildings [-50]%",
+        "Receive a tech boost when scientific buildings/wonders are built in capital"
+        ],
+		"cities": ["붉은겨울 사무국","체리노그라드","상트토모에부르그","마리나야르스크","렌카와그라드","사시로스크","세계수도 체리노쿠츠크","제 1교사","중앙교정",
+			"대인민광장","제 2교사","체리노치칼라","볼쇼그라드","트람바니그라드","나로드니그라드","렌스크","치리노로보","마리나슬라블","이케쿠라젭스크",
+			"토멘","붉은겨울 혁명광장","휜돌고래 시장","제1 공용 기숙사","제3 공용 급식소","로디나르쳅스크","체리카르올라","구교사","렌카와시스크","크라스나지마보츠크",
+			"세크릿타리아고르드","프라비틸리오스크","프라비틸바스토카","블레시엣세베레츠크","프라비엣자파도치","마더로츠카고르드"]
+	},
+{
+		"name": "무명사제",
+		"leaderName": "무명사제들",
+		"adjective": ["무명 사제"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+"outerColor": [255,255,255],
+		"innerColor": [200,200,200],
+		"uniqueName": "이름없는 신의 숭배자",
+		"uniques": [
+        "May not annex cities",
+        "[Land] units gain the [이름없는 신의 숭배자] promotion",
+        "Starts with [색채 연구]"
+        ],
+		"cities": ["붉은겨울 사무국","체리노그라드","상트토모에부르그","마리나야르스크","렌카와그라드","사시로스크","세계수도 체리노쿠츠크","제 1교사","중앙교정",
+			"대인민광장","제 2교사","체리노치칼라","볼쇼그라드","트람바니그라드","나로드니그라드","렌스크","치리노로보","마리나슬라블","이케쿠라젭스크",
+			"토멘","붉은겨울 혁명광장","휜돌고래 시장","제1 공용 기숙사","제3 공용 급식소","로디나르쳅스크","체리카르올라","구교사","렌카와시스크","크라스나지마보츠크",
+			"세크릿타리아고르드","프라비틸리오스크","프라비틸바스토카","블레시엣세베레츠크","프라비엣자파도치","마더로츠카고르드"]
+	},
+{
+		"name": "스케반",
+		"leaderName": "쿠리하마 아케미",
+		"adjective": ["스케반들"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+"outerColor": [38,38,38],
+		"innerColor": [255,255,255],
+		"uniqueName": "전설의 스케반",
+		"uniques": [
+        "[+50]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>"
+        "Earn [300]% of killed [Military] unit's [Strength] as [Gold]",
+        "[All] units gain the [스케반] promotion",
+        ],
+		"cities": ["붉은겨울 사무국","체리노그라드","상트토모에부르그","마리나야르스크","렌카와그라드","사시로스크","세계수도 체리노쿠츠크","제 1교사","중앙교정",
+			"대인민광장","제 2교사","체리노치칼라","볼쇼그라드","트람바니그라드","나로드니그라드","렌스크","치리노로보","마리나슬라블","이케쿠라젭스크",
+			"토멘","붉은겨울 혁명광장","휜돌고래 시장","제1 공용 기숙사","제3 공용 급식소","로디나르쳅스크","체리카르올라","구교사","렌카와시스크","크라스나지마보츠크",
+			"세크릿타리아고르드","프라비틸리오스크","프라비틸바스토카","블레시엣세베레츠크","프라비엣자파도치","마더로츠카고르드"]
+	},
+{
+		"name": "FOX 소대",
+		"leaderName": "시치도 유키노",
+		"adjective": ["여우소대"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+        "outerColor": [161,169,255],
+		"innerColor": [255,255,255],
+		"uniqueName": "칠수인의 대적자",
+		"uniques": [
+        "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+        "[+10]% Strength <for [All] units>",
+        "[Land] units gain the [정예병] promotion"
+        ],
+		"cities": ["붉은겨울 사무국","체리노그라드","상트토모에부르그","마리나야르스크","렌카와그라드","사시로스크","세계수도 체리노쿠츠크","제 1교사","중앙교정",
+			"대인민광장","제 2교사","체리노치칼라","볼쇼그라드","트람바니그라드","나로드니그라드","렌스크","치리노로보","마리나슬라블","이케쿠라젭스크",
+			"토멘","붉은겨울 혁명광장","휜돌고래 시장","제1 공용 기숙사","제3 공용 급식소","로디나르쳅스크","체리카르올라","구교사","렌카와시스크","크라스나지마보츠크",
+			"세크릿타리아고르드","프라비틸리오스크","프라비틸바스토카","블레시엣세베레츠크","프라비엣자파도치","마더로츠카고르드"]
+	},
+{
+		"name": "RABBIT 소대",
+		"leaderName": "츠키유키 미야코",
+		"adjective": ["토끼소대"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+"outerColor": [10,75,75],
+		"innerColor": [255,255,255],
+		"uniqueName": "살인 토끼",
+		"uniques": ["New [Military] units start with [250] Experience [in all cities]", 
+        "[+100]% XP gained from combat <for [Military] units>",
+        ],
+		"cities": ["붉은겨울 사무국","체리노그라드","상트토모에부르그","마리나야르스크","렌카와그라드","사시로스크","세계수도 체리노쿠츠크","제 1교사","중앙교정",
+			"대인민광장","제 2교사","체리노치칼라","볼쇼그라드","트람바니그라드","나로드니그라드","렌스크","치리노로보","마리나슬라블","이케쿠라젭스크",
+			"토멘","붉은겨울 혁명광장","휜돌고래 시장","제1 공용 기숙사","제3 공용 급식소","로디나르쳅스크","체리카르올라","구교사","렌카와시스크","크라스나지마보츠크",
+			"세크릿타리아고르드","프라비틸리오스크","프라비틸바스토카","블레시엣세베레츠크","프라비엣자파도치","마더로츠카고르드"]
+	},
+{
+		"name": "하이랜더 철도학원",
+		"leaderName": "아사기리 스오우",
+		"adjective": ["하이랜더"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hikari! Nozomi! At your service!",
+		"startIntroPart2": "Let's do this.",
+		
+		"declaringWar": "It appears to be that you need to pay for our services.",
+		"attacked": "If your plan is to attack us, then you better be prepared for what's about to come.",
+		"defeated": "Didn't expect for such a loss.",
+		"introduction": "If you have any questions, please have them prepared beforehand.",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Let's see.","Is there anything you need?.","What would you like to discuss?."],
+		"neutralNo": ["I would like to object to this.","No.","As this request is far from our service, I would humbly decline such a request.."],
+		"neutralYes": ["Great.","Sure.","Let's work together."],
+
+		"hateHello": "...",
+		"hateLetsHearIt": ["...","What?","Let's see."],
+		"hateNo": ["I would absolutely refuse such an offer.","As the head of the Highlander Railroad Academy, I would like to refuse such an offer.","No!"],
+		"hateYes": ["Fine."," Good enough.","Very well..."],
+		
+		"afterPeace": "We can finally get back to our service.",
+		"tradeRequest": "We would like to arrange a request.",
+
+		"outerColor": [250,250,250],
+		"innerColor": [170,136,1],
+		"uniqueName": "철도자치구",
+		"uniques": ["[-100]% maintenance on road & railroads", "Improves movement speed on roads", "[+8 Production] from each Trade Route"],
+		"cities": ["Highlander Railroad Main Academy", "Highlander District 1","Highlander District 2","Highlander District 3","Highlander District 4","Highlander District 5","Highlander District 6","Highlander District 7","Highlander District 8",
+			"Highlander District 9","Highlander District 10","Highlander District 11","Highlander District 12","Highlander District 13","Highlander District 14","Highlander District 15","Highlander District 16","Highlander District 17","Highlander District 18",
+			"Highlander District 19","Highlander District 20","Highlander District 21","Highlander District 22","Highlander District 23","Highlander District 24","Highlander District 25","Highlander District 26","Highlander District 27","Highlander District 28",
+			"Highlander District 29","Highlander District 30","Highlander District 31","Highlander District 32","Highlander District 33","Highlander District 34"]
+	},
+{
+		"name": "발키리 공안국",
+		"leaderName": "오가타 칸나",
+		"adjective": ["벌키리"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Yo, the name's Officer Kana. The captain of the Valkyrie Police Academy.",
+		"startIntroPart2": "We will do our best to ensure the safety and security of others.",
+		
+		"declaringWar": "You have the right to remain silence!",
+		"attacked": "Assaulting Police Officers is a crime punishable by death.",
+		"defeated": "We've failed to keep the peace and bring order in these lands...",
+		"introduction": "Greetings, I am Officer Kana. Captain of the Valkyrie Police Academy. I hope you won't do anything as wreckless as commiting a crime.",
+		
+		"neutralHello": "How are you doing? Not committing any crime are we?",
+		"neutralLetsHearIt": ["Go on, I'll hear you out.","Need anything to say?","You have the right to speak."],
+		"neutralNo": ["I would like to refuse your offer.","Tsk. No!","I don't think this will be legal."],
+		"neutralYes": ["Good Job helping out an officer.","Of course, I would like to accept your assistance.","Thank you, Law abiding citizen."],
+
+		"hateHello": "What a criminal like you want now?",
+		"hateLetsHearIt": ["Speak!","We must do what we have to do."," Alright, go on."],
+		"hateNo": ["Never speak of impossible request like that you criminal!","We are not abiding to that!","You dare say that again or I'll throw you off to prison right now."],
+		"hateYes": ["Guess I'll have to let you off the hook on that one.","I supposed we must do what we have to do.","Justice will be served..."],
+		
+		"afterPeace": "Peace has finally come.",
+		"tradeRequest": "We would like to exchange resources with you.",
+
+		"outerColor": [153,153,255],
+		"innerColor": [255,255,255],
+		"uniqueName": "Valkyrie Police Service",
+		"uniques": ["[-100]% maintenance costs <for [All] units>", "[50]% Food is carried over after population increases [in all cities]"],
+		"cities": ["Valkyrie Headquarters","Valkyrie Protected District 1","Valkyrie Protected District 2","Valkyrie Protected District 3","Valkyrie Protected District 4","Valkyrie Protected District 5","Valkyrie Protected District 6","Valkyrie Protected District 7","Valkyrie Protected District 8",
+			"Valkyrie Protected District 9","Valkyrie Protected District 10","Valkyrie Protected District 11","Valkyrie Protected District 12","Valkyrie Protected District 13","Valkyrie Protected District 14","Valkyrie Protected District 15","Valkyrie Protected District 16","Valkyrie Protected District 17","Valkyrie Protected District 18",
+			"Valkyrie Protected District 19","Valkyrie Protected District 20","Valkyrie ProtectedDistrict 21","Valkyrie Protected District 22","Valkyrie Protected District 23","Valkyrie Protected District 24","Valkyrie Protected District 25","Valkyrie Protected District 26","Valkyrie Protected District 27","Valkyrie Protected District 28",
+			"Valkyrie Protected District 29","Valkyrie Protected District 30","Valkyrie Protected District 31","Valkyrie Protected District 32","Valkyrie Protected District 33","Valkyrie Protected District 34"]
+	},
+	{
+		"name": "음양부",
+		"leaderName": "아마치 니야",
+		"adjective": ["백귀야행"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hyoho~ You can call me Niya. I'm the president of the Ying-Yang Club which is the de-facto Student Council of the Hyakkiyako Alliance.",
+		"startIntroPart2": "Today, we shall show the world the beauty of our civilization!",
+		
+		"declaringWar": "Time for you to show us what you are capable of!",
+		"attacked": "Hoya?~ You are attacking us? Instead of joining us in our festivals. You are attacking us?? Well then... come at us~",
+		"defeated": "Ah it's our loss. But even with that, you still made quite a wonderful show for us to witness.",
+		"introduction": "Hyoho~ You can call me Niya. The de-facto student council president of the Hyakkiyako Alliance. It's a pleasure to meet you~",
+		
+		"neutralHello": "How ya doing~",
+		"neutralLetsHearIt": ["Oho~ Go on~","What ya say?","Alright. You may begin~"],
+		"neutralNo": ["We kindly refuse.","Hm? Uninterested~","Nyah~."],
+		"neutralYes": ["Hyohoho~ Very good~","Oho~ Of course!,","That is very good indeed."],
+
+		"hateHello": "Oya?~ What is it that do you want now?~",
+		"hateLetsHearIt": ["Hmmm~ I supposed I'll hear you out.","Oya? What ya say?","Alright~ I'll hear ya out~"],
+		"hateNo": ["DAGA KOTOWARU!","I'll humbly refuse your offer~","Oya?"],
+		"hateYes": ["Alright Alright. That's fine by me~","That is good enough for me.","Oya? Looks like we can finally agree on something~"],
+		
+		"afterPeace": "Seems like the show is over for now. Alright~ Time to go back doing our usual business.",
+		"tradeRequest": "Hyoho~ We would like to have a trade offer eith you.",
+
+		"outerColor": [83,17,47],
+		"innerColor": [255,255,255],
+		"uniqueName": "음양의 조화",
+		"uniques": ["[+10 Culture] [in all cities]","[+25]% [Culture] [in all cities]", "[+2 Culture, +2 Production] from all [Culture] buildings", "[-75]% Unhappiness from [Population] [in all cities]", //"[Great Artist] is earned [100]% faster"9
+        ],
+		"cities": ["Hyakkiyako Campus","Hyakkiyako District 1","Hyakkiyako District 2","Hyakkiyako District 3","Hyakkiyako District 4","Hyakkiyako District 5","Hyakkiyako District 6","Hyakkiyako District 7","Hyakkiyako District 8",
+			"Hyakkiyako District 9","Hyakkiyako District 10","Hyakkiyako District 11","Hyakkiyako District 12","Hyakkiyako District 13","Hyakkiyako District 14","Hyakkiyako District 15","Hyakkiyako District 16","Hyakkiyako District 17","Hyakkiyako District 18",
+			"Hyakkiyako District 19","Hyakkiyako District 20","Hyakkiyako District 21","Hyakkiyako District 22","Hyakkiyako District 23","Hyakkiyako District 24","Hyakkiyako District 25","Hyakkiyako District 26","Hyakkiyako District 27","Hyakkiyako District 28",
+			"Hyakkiyako District 29","Hyakkiyako District 30","Hyakkiyako District 31","Hyakkiyako District 32","Hyakkiyako District 33","Hyakkiyako District 34"]
+	},
+	{
+		"name": "현룡문",
+		"leaderName": "류우게 키사키",
+		"adjective": ["산해경"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Thine shall be named as Ryuuge Kisaki. Head of the Xuanlong Office from Shanhaijing Senior Secondary Academy.",
+		"startIntroPart2": "Thou shall handle these for now.",
+		
+		"declaringWar": "Thou hath been deem unnecessary. One shall now suffer our wrath.",
+		"attacked": "Thee think 'tis was a great plan? Thou shall realize how wrong you are.",
+		"defeated": "Thine shall not bow down to thee...",
+		"introduction": "Greetings, Thou shall be named as Kisaki. How bout thee?",
+		
+		"neutralHello": "Greetings. Thou shall be needing anything?",
+		"neutralLetsHearIt": ["Go on.","What hath you say?","You may begin."],
+		"neutralNo": ["Thou shall refuse.","Insolent.","Thou shall refuse thine offer.."],
+		"neutralYes": ["Yea."," 'tis but a good offer.","Thou shall agree."],
+
+		"hateHello": "What thou wants from us?",
+		"hateLetsHearIt": ["Speak!","What 'tis you say?","Thou shall go on."],
+		"hateNo": ["Insolent!","We shall never struck a deal!","Thine beg your pardon?"],
+		"hateYes": ["Thou shall consider.","I supposed that is good enough.","Very well... We've made our decision."],
+		
+		"afterPeace": "Thine has received peace upon the lands.",
+		"tradeRequest": "Would you like to strike a deal?.",
+
+		"outerColor": [0,102,0],
+		"innerColor": [255,255,255],
+		"uniqueName": "마피아",
+		"uniques": ["[+25 Gold] [in all cities]","[+50]% [Gold] [in all cities]", "[+50]% growth [in all cities]", "[+6 Gold, +4 Production] from each Trade Route"],
+		"cities": ["Shanhaijing Campus","Shanhaijing District 1","Shanhaijing District 2","Shanhaijing District 3","Shanhaijing District 4","Shanhaijing District 5","Shanhaijing District 6","Shanhaijing District 7","Shanhaijing District 8",
+			"Shanhaijing District 9","Shanhaijing District 10","Shanhaijing District 11","Shanhaijing District 12","Shanhaijing District 13","Shanhaijing District 14","Shanhaijing District 15","Shanhaijing District 16","Shanhaijing District 17","Shanhaijing District 18",
+			"Shanhaijing District 19","Shanhaijing District 20","Shanhaijing District 21","Shanhaijing District 22","Shanhaijing District 23","Shanhaijing District 24","Shanhaijing District 25","Shanhaijing District 26","Shanhaijing District 27","Shanhaijing District 28",
+			"Shanhaijing District 29","Shanhaijing District 30","Shanhaijing District 31","Shanhaijing District 32","Shanhaijing District 33","Shanhaijing District 34"]
+	},
+    {
+        "name": "Barbarians",
+        "outerColor": [184,0,0],
+        "innerColor": [255,255,255],
+        "uniques": ["Can only heal by pillaging"]
+    }
+]

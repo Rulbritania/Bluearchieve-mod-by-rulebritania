@@ -1,0 +1,368 @@
+[
+
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+{
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "전함",
+        "movementType": "Water"
+    },
+    {
+        "name": "구축함",
+        "movementType": "Water"
+    },
+    {
+        "name": "항공모함",
+        "movementType": "Water"
+    },
+        {
+        "name": "비행",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+{
+        "name": "전차",
+        "movementType": "Land",
+    },
+{
+        "name": "포병",
+        "movementType": "Land",
+    },
+ {
+        "name": "잠수함",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles","Invisible to non-adjacent units","Can see invisible [Submarine] units"]
+    },
+    {
+        "name": "미사일",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking","Cannot be intercepted"]
+    },
+    {
+        "name": "헬리콥터",
+        "movementType": "Land",
+        "uniques": [
+            "May travel on Water tiles without embarking",
+            "All tiles cost 1 movement",
+            "Can pass through impassable tiles"
+        ]
+    },
+{
+        "name": "열차포",
+        "movementType": "Land",
+    },
+//고유유닛
+    {
+        "name": "이로하",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "치아키",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    }
+    {
+        "name": "사츠키",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "이부키",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "붉은연방 모브",
+        "movementType": "Land",
+         "uniques": ["[-100]% maintenance costs"]
+},
+{
+        "name": "트리니티 포병",
+        "movementType": "Land",
+},
+    {
+        "name": "붉은연방 전차",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "세나",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "아루",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "무츠키",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "카요코",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "하루카",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "토모에",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "마리나",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "메루",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "모미지",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "후우카",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "주리",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "유키노",
+        "movementType": "Land",
+    },
+{
+        "name": "아코",
+        "movementType": "Land",
+    },
+{
+        "name": "히나",
+        "movementType": "Land",
+    },
+{
+        "name": "이오리",
+        "movementType": "Land",
+    },
+{
+        "name": "치나츠",
+        "movementType": "Land",
+    },
+{
+        "name": "아리우스 모브",
+        "movementType": "Land",
+    },
+{
+        "name": "미노리",
+        "movementType": "Land",
+    },
+{
+        "name": "시구레",
+        "movementType": "Land",
+    },
+{
+        "name": "노도카",
+        "movementType": "Land",
+    },
+    {
+        "name": "모모이",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "미도리",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "유즈",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "아리스",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "네루",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "아카네",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "아스나",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "카린",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "토키",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "유우카",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "노아",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+    {
+        "name": "우타하",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "코토리",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "하비키",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "아케미",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "미카",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "세이아",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "츠루기",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "하스미",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "이치카",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "마시로",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "미네",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "세리나",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "하나에",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "우이",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "시미코",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "하루나",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "아카리",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "이즈미",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "준코",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "카스미",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "메구",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "키라라",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "에리카",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "헬멧단",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+]

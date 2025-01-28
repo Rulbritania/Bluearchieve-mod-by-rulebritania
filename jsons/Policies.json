@@ -1,0 +1,793 @@
+[
+	{
+		"name": "만마전",
+		"era": "이름없는 신들의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			//"Diplomatic": 20,
+			"Domination": 0,
+			//"Scientific": 0
+		},
+		"uniques": [
+        "[-25]% Culture cost of natural border growth [in all cities]"
+        "Unavailable <for [{non-[판데모니움 소사이어티]}] Civilizations>",
+        "Only available <for [판데모니움 소사이어티] Civilizations>"
+		],
+		"policies": [
+			{
+				"name": "게헨나 군사교리",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "게헨나 동아리 소집",
+				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"]
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "기동전",
+				"uniques": ["[+1] Movement"]
+				"requires": ["게헨나 군사교리"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "기갑 선봉대",
+				"uniques": ["[+1] Movement","[+25]% Strength <vs [Wounded] units>"]
+				"requires": ["기동전"],
+				"row": 3,
+				"column": 1
+			},
+            {
+				"name": "종심돌파 이론",
+				"uniques": ["Heals [25] damage if it kills a unit"]
+				"requires": ["기갑 선봉대"],
+				"row": 4,
+				"column": 1
+			},
+			{
+				"name": "화력우세",
+				"uniques": ["[+10]% Strength <when attacking>",
+							"[+2 Food] [in capital]"],
+				"requires": ["게헨나 군사교리"],
+				"row": 2,
+				"column": 3
+			},
+            {
+				"name": "압도적인 화력",
+				"uniques": ["[+10]% Strength <when attacking>",
+                "[포병] units gain the [화력 우세] promotion",]
+				"requires": ["화력우세"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "응급의학부에 연락 제시",
+				"uniques": ["Comment [히무로 세나를 영입 가능합니다,]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["게헨나 동아리 소집"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "급양부 대규모 지원",
+				"uniques": ["Comment [급양부를 영입 가능합니다.]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["응급의학부에 연락 제시"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "흥신소 고용",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]",
+                            "Comment [흥신소 68을 고용 가능합니다.]"],
+				"requires": ["게헨나 동아리 소집"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "마코토의 두 얼굴",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"row": 1,
+				"column": 10
+			},
+			{
+				"name": "뇌제의 유산 파괴",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]",
+                            "Can build [all] improvements at a [+25]% rate",
+                            "Only available <before adopting [뇌제의 유산 활용]>"],
+				"requires": ["마코토의 두 얼굴"],
+				"row": 2,
+				"column": 10
+			},
+			{
+				"name": "뇌제의 유산 활용",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]",
+                            "Only available <before adopting [뇌제의 유산 파괴]>",],
+				"requires": ["마코토의 두 얼굴"],
+				"row": 2,
+				"column": 12
+			},
+			{
+				"name": "키보토스의 유일한 민주주의",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]"
+                            "[+25]% [Science] <in cities with a [만마전 전차공장]>",
+                            "[+100]% Production when constructing [만마전 전차공장] buildings [in all cities]",
+                            "[+2 Food, +2 Gold, +1 Production, +1 Science]",
+                            "Only available <before adopting [제2의 뇌제]>"],
+				"requires": ["뇌제의 유산 파괴"],
+				"row": 3,
+				"column": 10
+			},
+			{
+				"name": "제2의 뇌제",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]",
+                            "[+2 Happiness] from every [Courthouse]",
+                        "[+2 Happiness] from every [Police Station]",
+                        "[+2 Happiness] from every [Constabulary]",
+                        "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
+                        "[+50]% Production when constructing [Police Station] buildings [in all cities]",
+                        "Double quantity of [Coal] produced",
+                        "Double quantity of [Oil] produced",
+                        "Only available <before adopting [키보토스의 유일한 민주주의]>",
+                        "[+25]% Production when constructing [Military] units [in all cities]",
+                        "New [Military] units start with [15] Experience [in all cities]"
+                ]
+                    
+				"requires": ["뇌제의 유산 활용"],
+				"row": 3,
+				"column": 12
+			},
+			{
+				"name": "만마전 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+	},
+{
+		"name": "붉은겨울",
+		"era": "이름없는 신들의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"uniques": [
+                "Unavailable <for [{non-[붉은겨울 사무국]}] Civilizations>",
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "Only available <for [붉은겨울 사무국] Civilizations>"
+		],
+		"policies": [
+			{
+				"name": "붉은겨울 군사교리",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "대 서기장 체리노",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "붉은겨울 동아리 소집",
+				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"]
+				"row": 1,
+				"column": 15
+			},
+			{
+				"name": "종심방어 교리",
+				"uniques": ["[+30]% Strength<when defending>",
+                "[붉은연방 모브] units gain the [최후의 최후까지] promotion",]
+				"requires": ["붉은겨울 군사교리"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "프롤레타리아 독재",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "Only available <before adopting [체리노주의]>"],
+                "requires": ["대 서기장 체리노"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "체리노주의",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "Only available <before adopting [프롤레타리아 독재]>"],
+                "requires": ["대 서기장 체리노"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "인민들의 아버이",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [3] population [in all cities]",
+                            "[+25]% [Science] <in cities with a [민수 공장]>",
+                            "[+100]% Production when constructing [민수 공장] buildings [in all cities]",
+                            "[+2 Production] [in all cities]",
+                            "[+1 Production] from every [Mine]",
+                            "[Gold] cost of purchasing [All] buildings [-50]%",
+                            "Only available <before adopting [붉은백정]>"],
+                "requires": ["프롤레타리아 독재"],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "붉은백정",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "[+100]% Production when constructing [훈련실] buildings [in all cities]",
+                            "[+100]% Production when constructing [전차 공장] buildings [in all cities]",
+                            "[+2 Science, +2 Culture] from every [훈련실]",
+                            "[+50]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                            "Only available <before adopting [인민들의 아버이]>"],
+                "requires": ["체리노주의"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "종심돌파 교리",
+				"uniques": ["[+10]% Strength<when attacking>"]
+				"requires": ["종심방어 교리"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "대규모 돌격",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",
+                            "Heals [25] damage if it kills a unit"],
+				"requires": ["붉은겨울 군사교리"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "제파 공격",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]"
+                            "[+30]% Production when constructing [붉은연방 모브] units [in this city]"],
+				"requires": ["대규모 돌격"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "명령 227호",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",                            
+                    "[붉은연방 모브] units gain the [명령 227] promotion",
+                    "All newly-trained [붉은연방 모브] units [in all cities] receive the [명령 227] promotion"],
+				"requires": ["종심방어 교리"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "죄수 사면",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["붉은겨울 동아리 소집"],
+				"row": 2,
+				"column": 13
+			},
+			{
+				"name": "미노리와의 협력",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["붉은겨울 동아리 소집"],
+				"row": 2,
+				"column": 15
+			},
+			{
+				"name": "지식해방전선과의 협조",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["죄수 사면"],
+				"row": 3,
+				"column": 12
+			},
+			{
+				"name": "붉은겨울 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+	},
+{
+		"name": "밀레니엄",
+		"era": "이름없는 신들의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"uniques": [
+                "Unavailable <for [{non-[세미나]}] Civilizations>",
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "Only available <for [세미나] Civilizations>"
+		],
+		"policies": [
+			{
+				"name": "밀레니엄 군사교리",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "학생회장 리오",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "밀레니엄 동아리 소집",
+				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"]
+				"row": 1,
+				"column": 15
+			},
+			{
+				"name": "과학의 우월성",
+				"uniques": [
+                "[+30]% Production when constructing [Infantry] units [in this city]",
+                "[+30]% Production when constructing [전차] units [in this city]",
+                "[+30]% Production when constructing [비행] units [in this city]"]
+				"requires": ["밀레니엄 군사교리"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "능력주의의 우월성",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                             "Only available <before adopting [자유로운 밀레니엄]>"],
+                "requires": ["학생회장 리오"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "민주주의적 밀레니엄",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [3] population [in all cities]",
+                            "[+25]% [Science] <in cities with a [민수 공장]>",
+                            "[+100]% Production when constructing [민수 공장] buildings [in all cities]",
+                            "[+2 Production] [in all cities]",
+                            "[+1 Production] from every [Mine]",
+                            "[Gold] cost of purchasing [All] buildings [-50]%",
+                            "Only available <before adopting [위대한 독재자]>"],
+                "requires": ["자유로운 밀레니엄"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "위대한 독재자",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "[+100]% Production when constructing [훈련실] buildings [in all cities]",
+                            "[+100]% Production when constructing [전차 공장] buildings [in all cities]",
+                            "[+2 Science, +2 Culture] from every [훈련실]",
+                            "[+50]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                            "Only available <before adopting [민주주의적 밀레니엄]>"],
+                "requires": ["능력주의의 우월성"],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "자유로운 밀레니엄",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                             "Only available <before adopting [능력주의의 우월성]>"],
+                "requires": ["학생회장 리오"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "군수공장 개발",
+				"uniques": ["[+1 Production] per [3] population [in capital]"]
+				"requires": ["과학의 우월성"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "정신의 우월성",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",
+                                                        "[Land] units gain the [정신력의 우월성] promotion",
+                            "All newly-trained [Land] units [in all cities] receive the [정신력의 우월성] promotion"],
+				"requires": ["밀레니엄 군사교리"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "밀레니엄 비탈",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]"
+                            "[Land] units gain the [밀레니엄 비탈] promotion",
+                            "All newly-trained [Land] units [in all cities] receive the [밀레니엄 비탈] promotion"
+                    ],
+				"requires": ["정신의 우월성"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "요새도시 에리두",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]", 
+                            "Comment [Unlocks [요새도시 에리두]]",
+                            "Comment [에리두를 완공할시 아비에슈흐가 해금됩니다.]"]                    
+				"requires": ["과학의 우월성"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "게임개발부 소집",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["밀레니엄 동아리 소집"],
+				"row": 2,
+				"column": 12
+			},
+			{
+				"name": "엔지니어부 고용",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["밀레니엄 동아리 소집"],
+				"row": 2,
+				"column": 15
+			},
+			{
+				"name": "C&C 고용",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["게임개발부 소집"],
+				"row": 3,
+				"column": 12
+			},
+			{
+				"name": "밀레니엄 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+	},
+{
+		"name": "트리니티",
+		"era": "이름없는 신들의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"uniques": [
+                "Unavailable <for [{non-[티파티]}] Civilizations>",
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "Only available <for [티파티] Civilizations>"
+		],
+		"policies": [
+			{
+				"name": "트리니티 군사교리",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "삼두정치",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "트리니티 총동원령",
+				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"]
+				"row": 1,
+				"column": 15
+			},
+			{
+				"name": "집중포화 교리",
+				"uniques": ["[+5]% Strength<when attacking>",
+                "[트리니티 포병] units gain the [해안 포격] promotion",]
+				"requires": ["트리니티 군사교리"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "파테르",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+                "requires": ["삼두정치"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "필리우스",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                ],
+                "requires": ["삼두정치"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "상투스",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"
+                            ],
+                "requires": ["삼두정치"],
+				"row": 2,
+				"column": 9
+			},
+			{
+				"name": "연합 정치",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [3] population [in all cities]",
+                            "[+25]% [Science] <in cities with a [민수 공장]>",
+                            "[+100]% Production when constructing [민수 공장] buildings [in all cities]",
+                            "[+2 Production] [in all cities]",
+                            "[+1 Production] from every [Mine]",
+                            "[Gold] cost of purchasing [All] buildings [-50]%",
+                            "Only available <before adopting [일파 독재]>"],
+                "requires": ["상투스","필리우스","파테르"],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "일파 독재",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "[+100]% Production when constructing [훈련실] buildings [in all cities]",
+                            "[+100]% Production when constructing [전차 공장] buildings [in all cities]",
+                            "[+2 Science, +2 Culture] from every [훈련실]",
+                            "[+50]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                            "Only available <before adopting [연합 정치]>"],
+                "requires": ["상투스","필리우스","상투스"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "분산 지원",
+				"uniques": ["[+10]% Strength<when attacking>"]
+				"requires": ["집중포화 교리"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "전략적 마비 전술",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",
+                            "[+1] Movement","[+25]% Strength <vs [Wounded] units>"],
+				"requires": ["트리니티 군사교리"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Plan 1919",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",
+                            "All newly-trained [5] units [in all cities] receive the [정예병] promotion"
+                            "[+30]% Production when constructing [전차] units [in all cities]"],
+				"requires": ["전략적 마비 전술"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "지상 지원",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",                            
+                            "[비행] units gain the [지상 지원] promotion",
+                            "[전함] units gain the [해안 포격] promotion"],
+				"requires": ["집중포화 교리"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "구호기사단 소집",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["트리니티 총동원령"],
+				"row": 2,
+				"column": 13
+			},
+			{
+				"name": "도서부 협조 요청",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["트리니티 총동원령"],
+				"row": 2,
+				"column": 15
+			},
+			{
+				"name": "정의실현부 소집",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["구호기사단 소집"],
+				"row": 3,
+				"column": 12
+			},
+			{
+				"name": "트리니티 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+	},
+{
+		"name": "풍기위원",
+		"era": "이름없는 신들의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"uniques": [
+                "Unavailable <for [{non-[선도부]}] Civilizations>",
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "Only available <for [선도부] Civilizations>"
+		],
+		"policies": [
+			{
+				"name": "선도부 군사교리",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "선도부장",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            ],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "죄수 징용",
+				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"]
+				"row": 1,
+				"column": 13
+			},
+			{
+				"name": "히나 중심 편성",
+				"uniques": [
+                "[히나] units gain the [히나 중심 편성] promotion",
+                "All newly-trained [히나] units [in all cities] receive the [히나 중심 편성] promotion"],
+				"requires": ["선도부 군사교리"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "질서 수호",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "Only available <before adopting [무질서에 합류]>"],
+                "requires": ["선도부장"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "무질서에 합류",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "Only available <before adopting [질서 수호]>"],
+                "requires": ["선도부장"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "선의의 독재자",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "[+100]% Production when constructing [훈련실] buildings [in all cities]",
+                            "[+100]% Production when constructing [전차 공장] buildings [in all cities]",
+                            "[+2 Science, +2 Culture] from every [훈련실]",
+                            "[+50]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                            "Only available <before adopting [신도, 주인도 없다]>"],
+                "requires": ["질서 수호"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "신도, 주인도 없다",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [3] population [in all cities]",
+                            "[+25]% [Science] <in cities with a [민수 공장]>",
+                            "[+100]% Production when constructing [민수 공장] buildings [in all cities]",
+                            "[+2 Production] [in all cities]",
+                            "[+1 Production] from every [Mine]",
+                            "[Gold] cost of purchasing [All] buildings [-50]%",
+                            "Only available <before adopting [선의의 독재자]>"],
+                "requires": ["무질서에 합류"],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "압도적 무력",
+				"uniques": [
+                "[히나] units gain the [종막-이스보셋] promotion",
+                "All newly-trained [히나] units [in all cities] receive the [종막-이스보셋] promotion"]
+				"requires": ["히나 중심 편성"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "풍기위원회 예산 증강",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",
+                            "[+10]% Strength<when defending>"],
+				"requires": ["선도부 군사교리"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "군사력 분산",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",
+                            "[+30]% Production when constructing [Infantry] units [in this city]",
+                            ],
+				"requires": ["풍기위원회 예산 증강"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "철두철미",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",                      
+                            "[히나] units gain the [두려움] promotion",
+                "All newly-trained [히나] units [in all cities] receive the [두려움] promotion"],
+				"requires": ["히나 중심 편성"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "온천개발부 징용",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["죄수 징용"],
+				"row": 2,
+				"column": 10
+			},
+			{
+				"name": "반짝반짝부와 협력",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["죄수 징용"],
+				"row": 2,
+				"column": 13
+			},
+			{
+				"name": "미식연구회 징용",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["온천개발부 징용"],
+				"row": 3,
+				"column": 11
+			},
+			{
+				"name": "풍기위원 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+	}
+
+]    

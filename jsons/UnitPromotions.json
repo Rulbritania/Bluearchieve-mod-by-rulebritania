@@ -1,0 +1,695 @@
+[
+
+	{
+		"name": "전차장",
+		"uniques": ["[+2] Movement <in [Forest] tiles>", "[+2] Movement <in [Jungle] tiles>"],
+		"unitTypes": ["이로하"]
+	},
+	{
+		"name": "초무적철갑 토라마루",
+        "prerequisites": ["전차장"],
+		"uniques": ["[+30]% Strength<when defending>"],
+		"unitTypes": ["이로하"]
+	},
+    {
+		"name": "늘 그랬듯이 오늘도 땡땡이 쳐볼까요?",
+		"uniques": ["Unit will heal every tern, even if it performs an action","[+10] HP when healing"],
+		"unitTypes": ["이로하"]
+	},
+    //"May heal outside of friendly territory",
+    //"Unit will heal every turn, even if it performs an action",
+    //"[+100]% Strength <when defending>>"
+    //"Heals [25] damage if it kills a unit"
+    //"Can build [Water] improvements on tiles"
+    //"All healing effects doubled"
+    {
+		"name": "주포 발사",
+        "prerequisites": ["전차장"],
+		"uniques": ["[+30]% to Flank Attack bonuses"],
+		"unitTypes": ["이로하"]
+	},
+    {
+		"name": "살작 딴 데서 농땡이 부리지 않을래요?",
+        "prerequisites": ["늘 그랬듯이 오늘도 땡땡이 쳐볼까요?"]
+		"uniques": ["[+30]% Strength<when defending>"],
+		"unitTypes": ["이로하"]
+	},
+    {
+		"name": "전격전",
+        "prerequisites": ["살작 딴 데서 농땡이 부리지 않을래요?","초무적철갑 토라마루"],
+		"uniques": ["[2] additional attacks per turn","[+50]% to Flank Attack bonuses"],
+		"unitTypes": ["이로하"]
+	},
+    {
+		"name": "토라마루, 등장",
+        "prerequisites": ["전격전"],
+		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory"],
+		"unitTypes": ["이로하"]
+	},
+    {
+		"name": "최면술사",
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["사츠키"]
+	},
+    	{
+		"name": "최면어플",
+        "prerequisites": ["최면술사"],
+		"uniques": ["May capture killed [Military] units"],
+		"unitTypes": ["사츠키"]
+	},
+    	{
+		"name": "대규모 최면",
+        "prerequisites": ["최면어플"],
+		"uniques": ["[+30]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["사츠키"]
+	},
+	{
+		"name": "정보부장",
+        "prerequisites": ["최면술사"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["사츠키"]
+	},
+    
+    	{
+		"name": "타겟 정보 수집",
+        "prerequisites": ["정보부장"],
+		"uniques": ["[+3] Sight", "[+1] Range"],
+		"unitTypes": ["사츠키"]
+	},
+	{
+		"name": "프로젝트 NK 울트라",
+        "prerequisites": ["타겟 정보 수집"],
+		"uniques": ["Invisible to non-adjacent units"],
+		"unitTypes": ["사츠키"]
+	},
+	{
+		"name": "위대한 서기",
+		"uniques": ["[+10] Sight"],
+		"unitTypes": ["치아키"]
+	},
+	{
+		"name": "탐사보도",
+        "prerequisites": ["위대한 서기"],
+		"uniques": ["[+5] Movement"],
+		"unitTypes": ["치아키"]
+	},
+	{
+		"name": "게헨나의 진정한 의장",
+		"uniques": ["[-20]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["이부키"]
+	},
+    	{
+		"name": "게헨나 마스코트",
+        "prerequisites": ["게헨나의 진정한 의장"],
+		"uniques": ["[-30]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["이부키"]
+	},
+    	{
+		"name": "응급돌파 11호",
+		"uniques": ["All adjacent units heal [+20] HP when healing"],
+		"unitTypes": ["세나"]
+	},
+    {
+		"name": "명령 227",
+		"uniques": ["[+50]% Strength <when defending>",
+            "[-50]% Strength <when attacking>"],
+        "unitTypes": ["붉은연방 모브"]
+	},
+{
+		"name": "최후의 최후까지",
+		"uniques": ["Can build [Citadel] improvements on tiles",
+        "Can build [Citadel] improvements at a [+200]% rate"],
+        "unitTypes": ["붉은연방 모브"]
+	},
+    {
+		"name": "정예병",
+		"uniques": ["Heals [25] damage if it kills a unit",
+        "[+100]% maintenance costs",
+        "May Paradrop up to [9] tiles from inside friendly territory",],
+	},
+    {
+		"name": "죽음 숭배",
+		"uniques": [
+        "[-100]% maintenance costs",
+        "[-100]% Strength <when defending>",
+        "[+200]% Strength <when attacking>"],
+	},
+    {
+		"name": "화력 우세",
+		"uniques": [
+        "[+1] Range",
+        "[+10]% Strength <when attacking>"],
+	},
+{
+		"name": "지상 지원",
+		"uniques": [
+        "[+5] Range",
+        "[+30]% Strength <when attacking>"],
+	},
+{
+		"name": "해안 포격",
+		"uniques": [
+        "[+2] Range",
+        "[+30]% Strength <when attacking>"],
+	},
+    {
+		"name": "Deus Vult",
+		"uniques": [
+        "[10]% Strength <when attacking>",
+        "All adjacent units heal [+10] HP when healing",
+        "May heal outside of friendly territory",
+        "Unit will heal every turn, even if it performs an action",
+        "Heals [15] damage if it kills a unit"
+        ],
+	},
+    {
+		"name": "스케반",
+		"uniques": ["Heals [25] damage if it kills a unit",
+        "[-100]% maintenance costs"],
+	},
+    {
+		"name": "이름없는 신의 숭배자",
+		"uniques": ["Heals [25] damage if it kills a unit",
+        "[-100]% maintenance costs"],
+	},
+{
+		"name": "밀레니엄 비탈",
+		"uniques": [
+        "[+10]% Strength <when attacking>",
+        "[+25]% Strength <vs [Wounded] units>"
+        "Ignores Zone of Control"
+        "No damage penalty for wounded units <for [All] units>"     
+        "Unit will heal every turn, even if it performs an action",
+        ],
+	},
+{
+		"name": "정신력의 우월성",
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+	},
+{
+		"name": "두려움",
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+	},
+{
+		"name": "히나 중심 편성",
+		"uniques": ["[+20]% Strength<when attacking>"],
+	},
+{
+		"name": "종막-이스보셋",
+		"uniques": ["[+10]% Strength<when attacking>",
+        "[+25]% Strength <vs [Wounded] units>",
+        "Ignores Zone of Control"],
+	},
+{
+		"name": "리로드 앤 디스트로이",
+		"uniques": ["[+30]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["히나"]
+	},
+{
+		"name": "일인군단",
+        "prerequisites": ["리로드 앤 디스트로이"],
+		"uniques": ["Heals [15] damage if it kills a unit",],
+		"unitTypes": ["히나"]
+	},
+{
+		"name": "종막의 디스트로이어",
+        "prerequisites": ["일인군단"],
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["히나"]
+	},
+{
+		"name": "선도부장",
+        "prerequisites": ["종막의 디스트로이어"],
+		"uniques": ["[+30]% to Flank Attack bonuses"],
+		"unitTypes": ["히나"]
+	},
+{
+		"name": "격정",
+		"uniques": ["Heals [25] damage if it kills a unit",],
+		"unitTypes": ["츠루기"]
+	},
+{
+		"name": "민첩함",
+        "prerequisites": ["격정"],
+		"uniques": ["[+2] Movement"],
+		"unitTypes": ["츠루기"]
+	},
+{
+		"name": "통제 불능의 힘",
+        "prerequisites": ["민첩함"],
+		"uniques": ["[-30]% Strength <when defending>",
+        "[+50]% Strength <when attacking>"],
+		"unitTypes": ["츠루기"]
+	},
+{
+		"name": "기괴멸렬",
+        "prerequisites": ["통제 불능의 힘"],
+		"uniques": ["[-20]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["츠루기"]
+	},
+{
+		"name": "키리에 엘리이손",
+		"uniques": ["[+30]% to Flank Attack bonuses"],
+		"unitTypes": ["미카"]
+	},
+{
+		"name": "별의 부름",
+        "prerequisites": ["키리에 엘리이손"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["미카"]
+	},
+{
+		"name": "글로리아 파트리",
+        "prerequisites": ["별의 부름"],
+		"uniques": ["[+1] Movement","[2] additional attacks per turn",],
+		"unitTypes": ["미카"]
+	},
+{
+		"name": "베네딕티오",
+        "prerequisites": ["글로리아 파트리"],
+		"uniques": ["[-20]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["미카"]
+	},
+{
+		"name": "코드명 더블오",
+		"uniques": ["Heals [15] damage if it kills a unit",],
+		"unitTypes": ["네루"]
+	},
+    {
+		"name": "분노 강화",
+        "prerequisites": ["코드명 더블오"],
+		"uniques": ["[+30]% to Flank Attack bonuses"],
+		"unitTypes": ["네루"]
+	},
+    {
+		"name": "트윈 드래곤",
+        "prerequisites": ["분노 강화"],
+		"uniques": ["[2] additional attacks per turn",],
+		"unitTypes": ["네루"]
+	},
+    {
+		"name": "가랄(苛辣)",
+        "prerequisites": ["트윈 드래곤"],
+		"uniques": ["[+40]% Strength <when attacking>",
+        "[-20]% Strength <when defending>"],
+		"unitTypes": ["네루"]
+	},	
+//공용
+    // Water melee
+    {
+        "name": "전력 강화 I",
+        "uniques": ["[+15]% Strength <vs [Water] units>"],
+        "unitTypes": ["구축함"]
+    },
+    {
+        "name": "전력 강화 II",
+        "prerequisites": ["전력 강화 I"],
+        "uniques": ["[+15]% Strength <vs [Water] units>"],
+        "unitTypes": ["구축함"]
+    },
+    {
+        "name": "전력 강화 III",
+        "prerequisites": ["전력 강화 II"],
+        "uniques": ["[+15]% Strength <vs [Water] units>"],
+        "unitTypes": ["구축함"]
+    },
+    {
+        "name": "상륙 지원 I",
+        "uniques": [
+            "[+15]% Strength <vs cities>",
+            "Earn [33]% of the damage done to [City] units as [Gold]"
+        ],
+        "unitTypes": ["구축함","전함"]
+    },
+    {
+        "name": "상륙 지원 II",
+        "prerequisites": ["상륙 지원 I"],
+        "uniques": [
+            "[+15]% Strength <vs cities>",
+            "Earn [33]% of the damage done to [City] units as [Gold]"
+        ],
+        "unitTypes": ["구축함","전함"]
+    },
+    {
+        "name": "상륙 지원 III",
+        "prerequisites": ["상륙 지원 II"],
+        "uniques": [
+            "[+20]% Strength <vs cities>",
+            "Earn [33]% of the damage done to [City] units as [Gold]"
+        ],
+        "unitTypes": ["구축함","전함"]
+    },
+    {
+        "name": "요격 I",
+        "uniques": ["[+25]% Damage when intercepting"],
+        "unitTypes": ["구축함"]
+    },
+    {
+        "name": "요격 II",
+        "prerequisites": ["요격 I"],
+        "uniques": ["[+25]% Damage when intercepting"],
+        "unitTypes": ["구축함"]
+    },
+    {
+        "name": "요격 III",
+        "prerequisites": ["요격 II"],
+        "uniques": [
+            "[+100]% Strength <vs [비행] units>",
+        ],
+        "unitTypes": ["구축함"]
+    },
+    /*{
+        "name": "Landing Party",
+        "uniques": ["Eliminates combat penalty for attacking across a coast"],
+        "unitTypes": [""구축함""]
+    },*/
+    // Water Ranged
+    {
+        "name": "사격 통제 I",
+        "uniques": ["[+15]% Strength <vs [Water] units>"],
+        "unitTypes": ["전함","잠수함"]
+    },
+    {
+        "name": "사격 통제 II",
+        "prerequisites": ["사격 통제 I"],
+        "uniques": ["[+15]% Strength <vs [Water] units>"],
+        "unitTypes": ["전함","잠수함"]
+    },
+    {
+        "name": "사격 통제 III",
+        "prerequisites": ["사격 통제 II"],
+        "uniques": ["[+15]% Strength <vs [Water] units>"],
+        "unitTypes": ["전함","잠수함"]
+    },
+{
+        "name": "집중방호구역",
+        "uniques": ["[+25]% Strength <when defending>"],
+        "unitTypes": ["항공모함","전함"]
+    },
+    {
+        "name": "터틀백 장갑 구조",
+        "prerequisites": ["집중방호구역"],
+        "uniques": ["[+25]% Strength <when defending>"],
+        "unitTypes": ["항공모함","전함"]
+    },
+    {
+        "name": "알루미늄 합금 장갑",
+        "prerequisites": ["터틀백 장갑 구조"],
+        "uniques": ["[+25]% Strength <when defending>"],
+        "unitTypes": ["항공모함","전함"]
+    },
+    {
+        "name": "개장 순양함",
+        "uniques": ["Can carry [1] extra [Aircraft] units"],
+        "unitTypes": ["전함"]
+    },
+    {
+        "name": "비행 갑판",
+        "uniques": ["Can carry [1] extra [Aircraft] units"],
+        "unitTypes": ["항공모함"]
+    },
+    {
+        "name": "중규모 비행 갑판",
+        "prerequisites": ["비행 갑판"],
+        "uniques": ["Can carry [2] extra [Aircraft] units"],
+        "unitTypes": ["항공모함"]
+    },
+    {
+        "name": "대규모 비행 갑판",
+        "prerequisites": ["중규모 비행 갑판"],
+        "uniques": ["Can carry [3] extra [Aircraft] units"],
+        "unitTypes": ["항공모함"]
+    },
+    {
+        "name": "차단 I",
+        "uniques": ["[+33]% Damage when intercepting"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "차단 II",
+        "prerequisites": ["차단 I"],
+        "uniques": ["[+33]% Damage when intercepting"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "차단 III",
+        "prerequisites": ["차단 II"],
+        "uniques": ["[+34]% Damage when intercepting"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "개싸움 I",
+        "uniques": ["[+33]% Strength when performing Air Sweep"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "개싸움 II",
+        "prerequisites": ["개싸움 I"],
+        "uniques": ["[+33]% Strength when performing Air Sweep"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "개싸움 III",
+        "prerequisites": ["개싸움 II"],
+        "uniques": ["[+34]% Strength when performing Air Sweep"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "함재기 I",
+        "uniques": ["[+33]% Strength <vs [Water] units>"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "함재기 II",
+        "prerequisites": ["함재기 I"],
+        "uniques": ["[+33]% Strength <vs [Water] units>"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "함재기 III",
+        "prerequisites": ["함재기 II"],
+        "uniques": ["[+34]% Strength <vs [Water] units>"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "Sortie",
+        "prerequisites": ["함재기 II", "개싸움 II","함재기 II"],
+        "uniques": ["[1] extra interceptions may be made per turn"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "Operational Range",
+        "prerequisites": ["차단 I", "개싸움 I","함재기 I"],
+        "uniques": ["[+2] Range"],
+        "unitTypes": ["비행"]
+    },
+    {
+        "name": "Air Repair",
+        "prerequisites": ["차단 III","개싸움 III","함재기 III"],
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action"
+        ],
+        "unitTypes": ["비행","헬리콥터"]
+    },
+{
+        "name": "의무병 I",
+        "prerequisites": ["돌진 I", "게릴라전 I","매복 I", "정찰 II", "현지보급 II"],
+        "uniques": [ 
+            "All adjacent units heal [+5] HP when healing"
+        ],
+        "unitTypes": ["세나","미네","세리나","하나에"]
+    },
+    {
+        "name": "현지보급 I",
+        "uniques": [
+            "[+5] HP when healing <in [Foreign Land] tiles>",
+            "[+25]% Strength <when defending>"
+        ],
+        "unitTypes": ["Scout","하루나","아카리","이즈미","준코","아케미","아리우스 모브","붉은연방 모브"]
+    },
+    {
+        "name": "현지보급 II",
+        "prerequisites": ["현지보급 I"],
+        "uniques": [
+            "[+5] HP when healing <in [Foreign Land] tiles>",
+            "[+25]% Strength <when defending>"
+        ],
+        "unitTypes": ["Scout","하루나","아카리","이즈미","준코","아케미","아리우스 모브","붉은연방 모브"]
+    },
+    {
+        "name": "현지보급 III",
+        "prerequisites": ["현지보급 II"],
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action",
+            "Withdraws before melee combat <with [50]% chance>"
+        ],
+        "unitTypes": ["Scout","하루나","아카리","이즈미","준코","아케미","아리우스 모브","붉은연방 모브"]
+    },
+    {
+        "name": "매복 I",
+        "uniques": [
+            "[+15]% Strength <vs [전차] units>",
+            "[+15]% Strength <vs [Mounted] units>"
+        ],
+        //"이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        //"치나츠",아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        //"츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        //"에리카","헬멧단"
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+    {
+        "name": "매복 II",
+        "prerequisites": ["매복 I"],
+        "uniques": [
+            "[+15]% Strength <vs [전차] units>",
+            "[+15]% Strength <vs [Mounted] units>"
+        ],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+    {
+        "name": "매복 III",
+        "prerequisites": ["매복 II"],
+        "uniques": [
+            "[+30]% Strength <vs [전차] units>",
+            "[+30]% Strength <vs [Mounted] units>"
+        ],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+{
+        "name": "정찰 I",
+        "uniques": ["[+1] Sight"],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "정찰 II",
+        "prerequisites": ["정찰 I"],
+        "uniques": ["[+1] Sight"],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "정찰 III",
+        "prerequisites": ["정찰 II"],
+        "uniques": ["[+1] Movement"],
+        "unitTypes": ["Scout"]
+    },
+{
+        "name": "돌진 I",
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+    {
+        "name": "돌진 II",
+        "prerequisites": ["돌진 I"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+    {
+        "name": "돌진 III",
+        "prerequisites": ["돌진 II"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+    {
+        "name": "게릴라전 I",
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+    {
+        "name": "게릴라전 II",
+        "prerequisites": ["게릴라전 I"],
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"],
+    },
+    {
+        "name": "게릴라전 III",
+        "prerequisites": ["게릴라전 II"],
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "unitTypes": [
+        "이로하","치아키","사츠키","이부키","붉은연방 모브","트리니티 포병","세나","아루","무츠키","카요코","하루카","토모에","마리나","메루","모미지","후우카","주리","유키노","아코","히나","이오리",
+        "치나츠","아리우스 모브","미노리","시구레","노도카","모모이","미도리","유즈","아리스","네루","아카네","아스나","카린","토키","유우카","노아","우타하","코토리","하비키","아케미","미카","세이아",
+        "츠루기","하스미","이치카","마시로","미네","세리나","하나에","우이","시미코","하루나","아카리","이즈미","준코","카스미","메구","키라라",
+        "에리카","헬멧단","전차","Infantry"]
+    },
+    {
+        "name": "돌격",
+        "prerequisites": ["돌진 II","게릴라전 II","매복 II"],
+        "uniques": ["[+33]% Strength <vs [Wounded] units>"],
+        "unitTypes": ["이로하","전차","Infantry"]
+    },
+    {
+        "name": "장갑 I",
+        "uniques": ["[+20]% Strength<when defending>"],
+        "unitTypes": ["이로하","전차"]
+    },
+    {
+        "name": "경사장갑",
+        "prerequisites": ["장갑 I"],
+        "uniques": ["[+20]% Strength<when defending>",
+        "Only available <for units without [직사장갑]>"],
+        "unitTypes": ["이로하","전차"]
+    },
+    {
+        "name": "증가장갑",
+        "prerequisites": ["경사장갑"],
+        "uniques": ["[+20]% Strength<when defending>",
+        "Only available <for units without [직사장갑]>"],
+        "unitTypes": ["이로하","전차"]
+    },
+    {
+        "name": "직사장갑",
+        "prerequisites": ["장갑 I"],
+        "uniques": ["[+10]% Strength<when defending>",
+        "[+10]% Strength<when attacking>",
+        "Only available <for units without [경사장갑]>",]
+        "unitTypes": ["이로하","전차"]
+    },
+    {
+        "name": "공간장갑",
+        "prerequisites": ["직사장갑"],
+        "uniques": ["[+10]% Strength<when defending>",
+        "[+10]% Strength<when attacking>",
+        "Only available <for units without [경사장갑]>"],
+        "unitTypes": ["이로하","전차"]
+    },
+    {
+        "name": "의무병 II",
+        "prerequisites": ["의무병 I"],
+        "uniques": [
+            "[+5] HP when healing <in [Foreign Land] tiles>",
+            "All adjacent units heal [+5] HP when healing"
+        ],
+        "unitTypes": ["세나","미네","세리나","하나에"]
+    },
+]

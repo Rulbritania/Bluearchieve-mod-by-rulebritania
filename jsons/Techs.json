@@ -1,0 +1,764 @@
+[{
+        "columnNumber": 0,
+        "era": "이름없는 신들의 시대",
+        "techCost": 20,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "키보토스",
+                "row": 5,
+                "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+                "uniques": [
+                    "Starting tech",
+                    "Notified of new Barbarian encampments"
+                ]
+            }
+        ]
+    }
+    {
+        "columnNumber": 1,
+        "era": "이름없는 신들의 시대",
+        "techCost": 35,
+        "buildingCost": 60,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "내정",
+                "row": 5,
+                "prerequisites": ["키보토스"],
+                "quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+            },
+            {
+                "name": "외정",
+                "row": 9,
+                "prerequisites": ["키보토스"],
+                "quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4",
+            },
+        ]
+    },
+    {
+        "columnNumber": 2,
+        "era": "이름없는 신들의 시대",
+        "techCost": 55,
+        "buildingCost": 75,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "식량",
+                "row": 1,
+                "prerequisites": ["내정"],
+                "quote": "'He who commands the sea has command of everything.' - Themistocles",
+                "uniques": [
+                    "Provides [1] [청휘석]",
+                ]
+            },
+            {
+                "name": "해산업 발전",
+                "row": 3,
+                "prerequisites": ["내정"],
+                "quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+                "uniques": ["Enables embarkation for land units"]
+                
+            },
+            {
+                "name": "광산업 발전",
+                "row": 5,
+                "prerequisites": ["내정"],
+                "quote": "'He who destroys a good book kills reason itself.' - John Milton"
+            },
+            {
+                "name": "비행선 연구",
+                "row": 14,
+                "prerequisites": ["외정"],
+                "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+            },
+            {
+                "name": "기계화 산업",
+                "row": 12,
+                "prerequisites": ["내정", "외정"],
+                "quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+            },
+            {
+                "name": "고대 문자",
+                "row": 7,
+                "prerequisites": ["내정"],
+                "quote": "'How happy are those whose walls already rise!' - Virgil"
+            },
+            {
+                "name": "화폐 도입",
+                "row": 9,
+                "prerequisites": ["내정"],
+                "quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+            }
+        ]
+    },
+    {
+        "columnNumber": 3,
+        "era": "잊혀진 신들의 시대",
+        "techCost": 105,
+        "buildingCost": 75,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "항만",
+                "row": 1,
+                "prerequisites": ["해산업 발전"],
+                "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+            },
+            {
+                "name": "고대 종교",
+                "cost": 85,
+                "row": 2,
+                "prerequisites": ["고대 문자"],
+                "uniques": ["[+1] Movement <for [Embarked] units>"],
+                "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+            },
+            {
+                "name": "학교",
+                "cost": 85,
+                "row": 6,
+                "prerequisites": ["고대 문자"],
+                "uniques": ["[+1] Movement <for [Embarked] units>"],
+                "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+            },
+            {
+                "name": "운수부",
+                "cost": 85,
+                "row": 14,
+                "prerequisites": ["기계화 산업"],
+                "uniques": ["[+1] Movement <for [Embarked] units>"],
+                "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+            },
+            {
+                "name": "전기",
+                "row": 8,
+                "prerequisites": ["광산업 발전","기계화 산업"],
+                "quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+            },
+            {
+                "name": "총기 개발",
+                "row": 12,
+                "prerequisites": ["기계화 산업"],
+                "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+            },
+            {
+                "name": "기초 군수공장",
+                "row": 10,
+                "prerequisites": ["화폐 도입","기계화 산업"],
+                "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+            },
+            {
+                "name": "뇌제의 유산",
+                "row": 16,
+                "prerequisites": ["기계화 산업"],
+                "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe",
+                "uniques": ["Only available <after adopting [뇌제의 유산 활용]>"]
+            }
+        ]
+    },
+    {
+        "columnNumber": 4,
+        "era": "잊혀진 신들의 시대",
+        "techCost": 175,
+        "buildingCost": 100,
+        "wonderCost": 250,
+        "techs": [
+            {
+                "name": "상업 발전",
+                "row": 2,
+                "prerequisites": ["화폐 도입","고대 문자"],
+                "quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+            },
+            {
+                "name": "문화 발전",
+                "row": 3,
+                "prerequisites": ["고대 문자"],
+                "quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+            },
+            {
+                "name": "발전소",
+                "row": 7,
+                "prerequisites": ["전기"],
+                "quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+            },
+            {
+                "name": "후장식 소총",
+                "row": 8,
+                "prerequisites": ["총기 개발","기초 군수공장"],
+                "quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci",
+                "uniques": [
+                    "Provides [1] [청휘석]",
+                    "Roads connect tiles across rivers"
+                ]
+            },
+            {
+                "name": "포병 연구",
+                "row": 10,
+                "prerequisites": ["기초 군수공장"],
+                "quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+            },
+{
+                "name": "내연 기관",
+                "row": 12,
+                "prerequisites": ["기초 군수공장","운수부"],
+                "quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+            }
+        ]
+    },
+{
+        "columnNumber": 5,
+        "era": "숭고의 시대",
+        "techCost": 275,
+        "buildingCost": 120,
+        "wonderCost": 300,
+        "techs": [
+            {
+                "name": "건설학",
+                "row": 2,
+                "prerequisites": ["문화 발전","상업 발전"],
+                "quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+            },
+            {
+                "name": "민수산업",
+                "row": 4,
+                "prerequisites": ["발전소","상업 발전"],
+                "quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+            },
+{
+                "name": "경제학",
+                "row": 7,
+                "prerequisites": ["상업 발전"],
+                "uniques": ["Enables conversion of city production to [Gold]"],
+                "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+            },
+            {
+                "name": "도시 보호",
+                "row": 9,
+                "prerequisites": ["포병 연구"],
+                "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+            },
+{
+                "name": "함포 연구",
+                "row": 11,
+                "prerequisites": ["포병 연구"],
+                "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+            },
+            {
+                "name": "복엽기",
+                "row": 13,
+                "prerequisites": ["비행선 연구","내연 기관"],
+                "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+            }
+        ]
+    },
+        {
+        "columnNumber": 6,
+        "era": "숭고의 시대",
+        "techCost": 485,
+        "buildingCost": 160,
+        "wonderCost": 400,
+        "techs": [
+            {
+                "name": "신학",
+                "cost": 375,
+                "row": 1,
+                "prerequisites": ["고대 종교","문화 발전"],
+                "quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes",
+                "uniques": [
+                    "Provides [1] [청휘석]",
+                    
+                ]
+            },
+            {
+                "name": "기업",
+                "row": 3,
+                "prerequisites": ["학교","문화 발전"],
+                "uniques": ["Enables conversion of city production to [Science]"],
+                "quote": "'Education is the best provision for old age.' - Aristotle"
+            },
+            {
+                "name": "인쇄 기술",
+                "row": 6,
+                "prerequisites": ["민수산업","문화 발전"],
+                "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+            },
+            {
+                "name": "공병",
+                "row": 8,
+                "prerequisites": ["민수산업","도시 보호"],
+                "uniques": ["Improves movement speed on roads"],
+                "quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+            },
+            {
+                "name": "물리학",
+                "row": 9,
+                "prerequisites": ["함포 연구"],
+                "quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+            },
+            {
+                "name": "오토마타 보병",
+                "row": 10,
+                "prerequisites": ["민수산업","후장식 소총"],
+                "quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+            },
+        ]
+    },
+{
+        "columnNumber": 7,
+        "era": "공포의 시대",
+        "techCost": 780,
+        "buildingCost": 200,
+        "wonderCost": 500,
+        "techs": [
+            {
+                "name": "주식 시장",
+                "row": 2,
+                "prerequisites": ["기업","경제학"],
+                "quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+            },
+            {
+                "name": "스포츠",
+                "row": 4,
+                "prerequisites": ["문화 발전"],
+                "quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+            },
+            {
+                "name": "라디오",
+                "row": 6,
+                "prerequisites": ["인쇄 기술","기업"],
+                "quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau",
+                "uniques": ["Provides [1] [청휘석]"]
+            },
+            {
+                "name": "전간기 전차",
+                "row": 10,
+                "prerequisites": ["공병","물리학","오토마타 보병"],
+                "quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+            },
+            {
+                "name": "전간기 항공기",
+                "row": 12,
+                "prerequisites": ["복엽기","공병"],
+                "quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+            }
+            {
+                "name": "전간기 해군",
+                "row": 14,
+                "uniques": ["Enables [Embarked] units to enter ocean tiles"],
+                "prerequisites": ["복엽기","공병","물리학","기업"],
+                "quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+            }
+        ]
+    },
+    {
+        "columnNumber": 8,
+        "era": "공포의 시대",
+        "techCost": 1150,
+        "buildingCost": 250,
+        "wonderCost": 625,
+        "techs": [
+            {
+                "name": "제2차 산업혁명",
+                "row": 2,
+                "prerequisites": ["주식 시장"],
+                "uniques": ["[+1] Movement <for [Embarked] units>"],
+                "quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+            },
+            {
+                "name": "영화관",
+                "row": 4,
+                "prerequisites": ["라디오","스포츠"],
+                "quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+            },
+            {
+                "name": "진공관",
+                "row": 6,
+                "prerequisites": ["라디오","스포츠"],
+                "quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+            },
+            {
+                "name": "레이더",
+                "row": 9,
+                "prerequisites": ["라디오","전간기 해군"],
+                "quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+            },
+            {
+                "name": "보병 화기",
+                "row": 10,
+                "prerequisites": ["전간기 전차"],
+                "quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+            }
+        ]
+    },
+    {
+        "columnNumber": 9,
+        "era": "키보토스의 시대",
+        "techCost": 1600,
+        "buildingCost": 300,
+        "wonderCost": 750,
+        "techs": [
+            {
+                "name": "에어컨",
+                "row": 2,
+                "prerequisites": ["제2차 산업혁명","영화관"],
+                "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+            },
+            {
+                "name": "화학비료",
+                "row": 4,
+                "prerequisites": ["제2차 산업혁명"],
+                "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
+            },
+{
+                "name": "현대 물리학",
+                "row": 5,
+                "prerequisites": ["제2차 산업혁명","진공관"],
+                "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
+            },
+            {
+                "name": "콜로서스",
+                "row": 6,
+                "prerequisites": ["진공관"],
+                "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
+            },
+            {
+                "name": "서스펜션",
+                "row": 7,
+                "prerequisites": ["제2차 산업혁명","전간기 전차"],
+                "quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+            },
+            {
+                "name": "음파탐지기",
+                "row": 9,
+                "prerequisites": ["레이더","제2차 산업혁명"],
+                "quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
+            },
+            {
+                "name": "프롭기",
+                "row": 10,
+                "prerequisites": ["전간기 항공기"],
+                "quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+            }
+        ]
+    },
+{
+        "columnNumber": 10,
+        "era": "키보토스의 시대",
+        "techCost": 2350,
+        "buildingCost": 360,
+        "wonderCost": 920,
+        "techs": [
+            {
+                "name": "플라스틱",
+                "row": 2,
+                "prerequisites": ["화학비료","에어컨"],
+                "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson",
+                "uniques": ["Provides [1] [청휘석]"]
+            },
+            {
+                "name": "핵융합",
+                "row": 3,
+                "prerequisites": ["콜로서스","현대 물리학"],
+                "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
+            },
+            {
+                "name": "연료 정제",
+                "row": 6,
+                "prerequisites": ["화학비료"],
+                "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+            },
+            {
+                "name": "미사일",
+                "row": 9,
+                "prerequisites": ["프롭기"],
+                "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+            },
+            {
+                "name": "특수부대",
+                "row": 12,
+                "prerequisites": ["음파탐지기","프롭기"],
+                "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+            },
+            {
+                "name": "뇌제의 무기",
+                "row": 14,
+                "prerequisites": ["뇌제의 유산"],
+                "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+            },
+            {
+                "name": "색채 연구",
+                "row": 16,
+                "prerequisites": ["현대 물리학"],
+                "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+            }
+        ]
+    },
+{
+        "columnNumber": 11,
+        "era": "혼돈의 시대",
+        "techCost": 3100,
+        "buildingCost": 500,
+        "wonderCost": 1060,
+        "techs": [
+            {
+                "name": "핵 폭탄",
+                "row": 2,
+                "prerequisites": ["미사일", "핵융합"],
+                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+            },
+            {
+                "name": "합성 자제",
+                "row": 3,
+                "prerequisites": ["플라스틱","연료 정제"],
+                "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+            },
+            {
+                "name": "현대 전차",
+                "row": 4,
+                "prerequisites": ["연료 정제","플라스틱","서스펜션"],
+                "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+            },
+            {
+                "name": "제트기",
+                "row": 6,
+                "prerequisites": ["프롭기"],
+                "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+            },
+            {
+                "name": "고속철도",
+                "row": 10,
+                "prerequisites": ["연료 정제","플라스틱"],
+                "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
+                "uniques": ["Provides [1] [청휘석]"]
+            },
+            {
+                "name": "슈퍼캐리어",
+                "row": 8,
+                "prerequisites": ["연료 정제","플라스틱"],
+                "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
+                "uniques": ["Provides [1] [청휘석]"]
+            }
+        ]
+    },
+    {
+        "columnNumber": 12,
+        "era": "혼돈의 시대",
+        "techCost": 4100,
+        "buildingCost": 500,
+        "wonderCost": 1250,
+        "techs": [
+            {
+                "name": "원자력 발전소",
+                "row": 3,
+                "prerequisites": ["합성 자제"],
+                "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+            },
+            {
+                "name": "제 3차 산업혁명",
+                "row": 5,
+                "prerequisites": ["합성 자제", "콜로서스"],
+                "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+            },
+            {
+                "name": "인공 위성",
+                "row": 6,
+                "prerequisites": ["제트기","미사일"],
+                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+            },
+            {
+                "name": "탄도 미사일",
+                "row": 8,
+                "prerequisites": ["미사일","제트기"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+            },
+            {
+                "name": "헤일로 파괴 폭탄",
+                "row": 12,
+                "prerequisites": ["색채 연구"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+            },
+            {
+                "name": "색채에 대하여",
+                "row": 14,
+                "prerequisites": ["색채 연구"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+            }
+        ]
+    },
+        {
+        "columnNumber": 13,
+        "era": "색채의 시대",
+        "techCost": 5100,
+        "buildingCost": 500,
+        "wonderCost": 1250,
+        "techs": [
+            {
+                "name": "우주 공학",
+                "row": 2,
+                "prerequisites": ["인공 위성"],
+                "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
+                "uniques": ["Provides [1] [청휘석]"]
+            },
+            {
+                "name": "인터넷",
+                "row": 4,
+                "prerequisites": ["인공 위성","제 3차 산업혁명"],
+                "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+            },
+            {
+                "name": "핵융합 동력",
+                "row": 6,
+                "prerequisites": ["원자력 발전소"],
+                "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+            },
+            {
+                "name": "스텔스 기술",
+                "row": 8,
+                "prerequisites": ["원자력 발전소","탄도 미사일"],
+                "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+            },
+            {
+                "name": "색채 강림",
+                "row": 14,
+                "prerequisites": ["색채에 대하여"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+            }
+        ]
+    },
+{
+        "columnNumber": 14,
+        "era": "색채의 시대",
+        "techCost": 6400,
+        "buildingCost": 500,
+        "wonderCost": 1250,
+        "techs": [
+            {
+                "name": "나노 기술",
+                "row": 2,
+                "prerequisites": ["인터넷"],
+                "quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
+            },
+            {
+                "name": "로봇 공학",
+                "row": 4,
+                "prerequisites": ["우주 공학","인터넷"],
+                "quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+            },
+            {
+                "name": "이지스함",
+                "row": 6,
+                "prerequisites": ["스텔스 기술","핵융합 동력"],
+                "quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+            },
+            {
+                "name": "극초음속 미사일",
+                "row": 8,
+                "prerequisites": ["스텔스 기술"],
+                "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+            }
+        ]
+    },
+    {
+        "columnNumber": 15,
+        "era": "새천년의 시대",
+        "techCost": 8470,
+        "buildingCost": 750,
+        "wonderCost": 1250,
+        "techs": [
+            {
+                "name": "데카그라마톤",
+                "row": 2,
+                "prerequisites": ["로봇 공학"],
+                "quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
+            },
+            {
+                "name": "보행병기",
+                "row": 3,
+                "prerequisites": ["로봇 공학","나노 기술"],
+                "quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
+            },
+            {
+                "name": "드론 기술",
+                "row": 5,
+                "prerequisites": ["극초음속 미사일","로봇 공학"],
+                "quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' - Martin Luther King Jr."
+            },
+            {
+                "name": "레일건",
+                "row": 6,
+                "prerequisites": ["이지스함","극초음속 미사일"],
+                "uniques": ["Reveals the entire map"],
+                "quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+            },
+            {
+                "name": "신체능력 강화",
+                "row": 7,
+                "prerequisites": ["나노 기술","로봇 공학"],
+                "quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+            },
+            {
+                "name": "색채 대항 병기",
+                "row": 8,
+                "prerequisites": ["로봇 공학","극초음속 미사일"],
+                "quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+            }
+        ]
+    },
+        {
+        "columnNumber": 16,
+        "era": "새천년의 시대",
+        "techCost": 9680,
+        "buildingCost": 750,
+        "wonderCost": 1250,
+        "techs": [
+            {
+                "name": "새로운 소재",
+                "row": 1,
+                "prerequisites": ["보행병기"],
+                "quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+            },
+            {
+                "name": "전투분석능력 강화",
+                "row": 3,
+                "prerequisites": ["신체능력 강화","데카그라마톤","보행병기"],
+                "quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+            },
+            {
+                "name": "광자포",
+                "row": 5,
+                "prerequisites": ["레일건","보행병기"],
+                "quote": "The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
+            },
+            {
+                "name": "반물질 동력원",
+                "row": 6,
+                "prerequisites": ["보행병기"],
+                "quote": "The impact of nanotechnology is expected to exceed the impact the electronics revolution has had on our lives. - Richard Schwartz"
+            },
+            {
+                "name": "뇌제 대항 병기",
+                "row": 7,
+                "prerequisites": ["레일건"],
+                "quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent' state' - Sun Tzu"
+            }
+        ]
+    },
+    {
+        "columnNumber": 17,
+        "era": "새천년의 시대",
+        "techCost": 9500,
+        "buildingCost": 750,
+        "wonderCost": 1250,
+        "techs": [
+            {
+                "name": "Future Tech",
+                "row": 5,
+                "prerequisites": ["뇌제 대항 병기","반물질 동력원","광자포","전투분석능력 강화","새로운 소재"],
+                "uniques": ["Comment [Who knows what the future holds?]","Can be continually researched"],
+                "quote": "'I think we agree, the past is over.' - George W. Bush"
+            }
+        ]
+    }
+]   
+  
