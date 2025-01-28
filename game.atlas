@@ -1,34 +1,1491 @@
-
-game.png
-size: 512, 128
+문화.png
+size: 1200, 2400
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Breeders
+UnitPromotionIcons/토라마루, 등장
   rotate: false
-  xy: 112, 4
+  xy: 0, 2400
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/프로젝트 NK 울트라
+  rotate: false
+  xy: 600, 2400
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/탐사보도
+  rotate: false
+  xy: 300, 2400
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/게헨나 마스코트
+  rotate: false
+  xy: 900, 2400
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/선도부장
+  rotate: false
+  xy: 900, 2100
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 군사교리
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 군사교리
+  rotate: false
+  xy: 300, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/게헨나 군사교리
+  rotate: false
+  xy: 600, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/기동전
+  rotate: false
+  xy: 0, 300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/기갑 선봉대
+  rotate: false
+  xy: 300, 300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/종심돌파 이론
+  rotate: false
+  xy: 600, 300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/화력우세
+  rotate: false
+  xy: 900, 300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/압도적인 화력
+  rotate: false
+  xy: 300, 600
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/게헨나 동아리 소집
+  rotate: false
+  xy: 600, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/흥신소 고용
+  rotate: false
+  xy: 300, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+BuildingIcons/흥신소 68 고용
+  rotate: false
+  xy: 300, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/응급의학부에 연락 제시
+  rotate: false
+  xy: 0, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/급양부 대규모 지원
+  rotate: false
+  xy: 600, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+BuildingIcons/급양부 동원
+  rotate: false
+  xy: 600, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/마코토의 두 얼굴
+  rotate: false
+  xy: 600, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/뇌제의 유산 파괴
+  rotate: false
+  xy: 600, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/뇌제의 유산 활용
+  rotate: false
+  xy: 300, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/제2의 뇌제
+  rotate: false
+  xy: 900, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/키보토스의 유일한 민주주의
+  rotate: false
+  xy: 900, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은겨울 군사교리
+  rotate: false
+  xy: 0, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/대 서기장 체리노
+  rotate: false
+  xy: 0, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은겨울 동아리 소집
+  rotate: false
+  xy: 0, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/대규모 돌격
+  rotate: false
+  xy: 600, 600
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/제파 공격
+  rotate: false
+  xy: 0,600
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/종심돌파 교리
+  rotate: false
+  xy: 300, 900
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/종심방어 교리
+  rotate: false
+  xy: 0, 1800
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은백정
+  rotate: false
+  xy: 300, 1800
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/체리노주의
+  rotate: false
+  xy: 600, 1800
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/죄수 사면
+  rotate: false
+  xy: 300, 2100
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+BuildingIcons/구교사
+  rotate: false
+  xy: 300, 2100
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/지식해방전선과의 협조
+  rotate: false
+  xy: 600, 2100
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+BuildingIcons/지식해방전선 청사
+  rotate: false
+  xy: 600, 2100
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/인민들의 아버이
+  rotate: false
+  xy: 900, 1800
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/프롤레타리아 독재
+  rotate: false
+  xy: 900, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/명령 227호
+  rotate: false
+  xy: 600, 900
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/미노리와의 협력
+  rotate: false
+  xy: 600, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 군사교리
+  rotate: false
+  xy: 900, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+
+타일유닛.png
+size: 2683, 204
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/나츠메 이로하
+  rotate: false
+  xy: 2050, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+  TileSets/FantasyHex/Units/쿄고쿠 사츠키
+  rotate: false
+  xy: 2355, 10
+  size: 128, 196
+  orig: 128, 196
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/모토미야 치아키
+  rotate: false
+  xy: 2510, 10
+  size: 128, 196
+  orig: 128, 196
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/탄가 이부키
+  rotate: false
+  xy: 2200, 10
+  size: 138, 196
+  orig: 138, 196
+  offset: 0, 0
+  index: -1
+  
+자원.png
+size: 2000, 200
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/청휘석
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/청휘석
+rotate: false
+  xy: 235, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Holodeck
+  
+학생명부.png
+size: 2000, 2600
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/렌카와 체리노
   rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
+  xy: 0, 200
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Aliens
+LeaderIcons/하누마 마코토
   rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
+  xy: 20, 0
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Phasers
+LeaderIcons/아사기리 스오우
   rotate: false
-  xy: 328, 4
-  size: 100, 100
-  orig: 100, 100
+  xy: 1010, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/조마에 사오리
+  rotate: false
+  xy: 1750, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/츠키츠키 리오
+  rotate: false
+  xy: 1000, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/검은 양복
+  rotate: false
+  xy: 240, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/무명사제들
+  rotate: false
+  xy: 0, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/오가타 칸나
+  rotate: false
+  xy: 0, 1000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/류우게 키사키
+  rotate: false
+  xy: 0, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/오쿠소라 아야네
+  rotate: false
+  xy: 990, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/소라사키 히나 
+  rotate: false
+  xy: 1500, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/키리후지 나기사
+  rotate: false
+  xy: 770, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/쿠리하마 아케미
+  rotate: false
+  xy: 500, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/우타즈미 사쿠라코
+  rotate: false
+  xy: 1750, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/시치도 유키노
+  rotate: false
+  xy: 1230, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/츠키유키 미야코
+  rotate: false
+  xy: 1480, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/아마치 니야
+  rotate: false
+  xy: 1260, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/친위대
+  rotate: false
+  xy: 0, 400
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+UnitIcons/붉은겨울 기갑부대
+  rotate: false
+  xy: 0, 400
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+UnitIcons/아이키요 후우카
+  rotate: false
+  xy: 770, 1000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/우시자키 주리
+  rotate: false
+  xy: 980, 1000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/이케구라 마리나
+  rotate: false
+  xy: 500, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/사시로 토모에
+  rotate: false
+  xy: 230, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/히메키 메루
+  rotate: false
+  xy: 1020, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아케이즈미 모미지
+  rotate: false
+  xy: 770, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/나츠메 이로하
+  rotate: false
+  xy: 230, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/쿄고쿠 사츠키 
+  rotate: false
+  xy: 500, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/모토미야 치아키
+  rotate: false
+  xy: 1020, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/탄가 이부키
+  rotate: false
+  xy: 770, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/히무로 세나
+  rotate: false
+  xy: 1280, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/이구사 하루카
+  rotate: false
+  xy: 280, 400 
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아사기 무츠키
+  rotate: false
+  xy: 1500, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/리쿠하치마 아루
+  rotate: false
+  xy: 1780, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/오니카타 카요코
+  rotate: false
+  xy: 520, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/시치도 유키노
+  rotate: false
+  xy: 1230, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/소라사키 히나
+  rotate: false
+  xy: 1500, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아마우 아코
+  rotate: false
+  xy: 1230, 1000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/시로미 이오리
+  rotate: false
+  xy: 1470, 1000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/히노미야 치나츠
+  rotate: false
+  xy: 1750, 1000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/건설자
+  rotate: false
+  xy: 500, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아리우스 모브
+  rotate: false
+  xy: 0, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/건설자
+  rotate: false
+  xy: 500, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아마미 노도카
+  rotate: false
+  xy: 280, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/마요이 시구레
+  rotate: false
+  xy: 20, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/야스모리 미노리
+  rotate: false
+  xy: 1280, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/사이바 미도리
+  rotate: false
+  xy: 500, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/사이바 모모이
+  rotate: false
+  xy: 250, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/하나오카 유즈
+  rotate: false
+  xy: 0, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/텐도 아리스
+  rotate: false
+  xy: 740, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/미카모 네루
+  rotate: false
+  xy: 990, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/이치노세 아스나
+  rotate: false
+  xy: 1220, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/카쿠다테 카린
+  rotate: false
+  xy: 1480, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/무로카사 아카네
+  rotate: false
+  xy: 1750, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아스마 토키
+  rotate: false
+  xy: 0, 1600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아스마 토키 타입 아비에슈흐
+  rotate: false
+  xy: 240, 1600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/하야세 유우카
+  rotate: false
+  xy: 1500, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/우시노 노아
+  rotate: false
+  xy: 1260, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/시라이시 우타하
+  rotate: false
+  xy: 500, 1600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/트리니티 포병대
+  rotate: false
+  xy: 500, 1800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/토요미 코토리
+  rotate: false
+  xy: 990, 1600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/네코즈마 하비키
+  rotate: false
+  xy: 720, 1600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/미소노 미카
+  rotate: false
+  xy: 740, 1800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/유리조노 세이아
+  rotate: false
+  xy: 990, 1800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아오모리 미네
+  rotate: false
+  xy: 1220, 1800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/스미 세리나
+  rotate: false
+  xy: 1480, 1800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아사가오 하나에
+  rotate: false
+  xy: 1750, 1800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/코제키 우이
+  rotate: false
+  xy: 0, 2000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/엔도우 시미코
+  rotate: false
+  xy: 230, 2000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/켄자키 츠루기
+  rotate: false
+  xy: 500, 2000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/하네카와 하스미
+  rotate: false
+  xy: 740, 2000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/나카마사 이치카
+  rotate: false
+  xy: 990, 2000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/시즈야마 마시로
+  rotate: false
+  xy: 1220, 2000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/레서판다
+  rotate: false
+  xy: 1010, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/쿠리하마 아케미
+  rotate: false
+  xy: 500, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/오토마타 보병
+  rotate: false
+  xy: 1470, 2000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/키누가와 카스미
+  rotate: false
+  xy: 1220, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/시모쿠라 메구
+  rotate: false
+  xy: 1470, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/헬멧단 졸개
+  rotate: false
+  xy: 230, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/헬멧단 간부
+  rotate: false
+  xy: 500, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/쿠로다테 하루나
+  rotate: false
+  xy: 500, 1000
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/요자쿠라 키라라
+  rotate: false
+  xy: 740, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/하타미 에리카
+  rotate: false
+  xy: 970, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/와니부치 아카리
+  rotate: false
+  xy: 1730, 2200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/시시도우 이즈미
+  rotate: false
+  xy: 0, 2400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/아카시 준코
+  rotate: false
+  xy: 260, 2400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+아이콘.png
+size: 2000, 1800
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/판데모니움 소사이어티 
+  rotate: false
+  xy: 20, 25
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+NationIcons/붉은겨울 사무국 
+  rotate: false
+  xy: 1250, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/체리노주의 
+  rotate: false
+  xy: 1250, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/세미나
+  rotate: false
+  xy: 0, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/하이랜더 철도학원
+  rotate: false
+  xy: 1050, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/게마트리아
+  rotate: false
+  xy: 440, 180
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/티파티
+  rotate: false
+  xy: 1037, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/현룡문
+  rotate: false
+  xy: 1480, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/음양부
+  rotate: false
+  xy: 1730, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/발키리 공안국
+  rotate: false
+  xy: 435, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/선도부
+  rotate: false
+  xy: 1250, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/대책위원회
+  rotate: false
+  xy: 1460, 201
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/시스터 후드 
+  rotate: false
+  xy: 1710, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/스케반
+  rotate: false
+  xy: 750, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/FOX 소대
+  rotate: false
+  xy: 0, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/RABBIT 소대
+  rotate: false
+  xy: 200, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/아리우스 스쿼드
+  rotate: false
+  xy: 200, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/죽음 숭배
+  rotate: false
+  xy: 200, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/비행선
+  rotate: false
+  xy: 730, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/장갑차
+  rotate: false
+  xy: 1690, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/7AV
+  rotate: false
+  xy: 1250, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/세미나 FT
+  rotate: false
+  xy: 1470, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/MK1
+  rotate: false
+  xy: 1030, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/포병대
+  rotate: false
+  xy: 0, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/극초음속 미사일
+  rotate: false
+  xy: 1260, 990
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+UnitIcons/드론
+  rotate: false
+  xy: 1050, 1000
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+UnitIcons/밀레니엄 연구자
+  rotate: false
+  xy: 0, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/밀레니엄 싱크탱크
+  rotate: false
+  xy: 180, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/정보부
+  rotate: false
+  xy: 220, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/서기
+  rotate: false
+  xy: 440, 0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+BuildingIcons/응급의학부 청사
+  rotate: false
+  xy: 750, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/붉은겨울 군수공장
+  rotate: false
+  xy: 1050, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/만마전 전차공장
+  rotate: false
+  xy: 20, 25
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/발전소
+  rotate: false
+  xy: 400, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/트리니티 해군조병창
+  rotate: false
+  xy: 420, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/트리움비레이트 공인
+  rotate: false
+  xy: 1255, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/블랙마켓
+  rotate: false
+  xy: 750, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/밀레니엄 기계공장
+  rotate: false
+  xy: 0, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/블랙마켓 은행
+  rotate: false
+  xy: 1000, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+  
+유닛.png
+size: 3000, 2000
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/전드레드노트급 전함
+  rotate: false
+  xy: 0, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/모니터함
+  rotate: false
+  xy: 500, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/1차 세계대전 잠수함
+  rotate: false
+  xy: 1000, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/순양 전함
+  rotate: false
+  xy: 1500, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/초중 전함
+  rotate: false
+  xy: 2000, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/고속 전함
+  rotate: false
+  xy: 2500, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/레일건 전함
+  rotate: false
+  xy: 0, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/협동화력함
+  rotate: false
+  xy: 500, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/다목적 구축함
+  rotate: false
+  xy: 1000, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/이지스함
+  rotate: false
+  xy: 1500, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/항공 전함
+  rotate: false
+  xy: 2000, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/슈퍼 캐리어
+  rotate: false
+  xy: 2500, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/드레드노트급 전함
+  rotate: false
+  xy: 0, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/중형 전차
+  rotate: false
+  xy: 2500, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/전간기 전차
+  rotate: false
+  xy: 0, 1500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/크루세이더짱
+  rotate: false
+  xy: 500, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/토라마루
+  rotate: false
+  xy: 1000, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/M4 리오
+  rotate: false
+  xy: 1500, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/숙청 0호
+  rotate: false
+  xy: 2000, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/중형 전차
+  rotate: false
+  xy: 2500, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/전간기 전투기
+  rotate: false
+  xy: 500, 1500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/전간기 폭격기
+  rotate: false
+  xy: 1000, 1500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/열차포 셰마타
+  rotate: false
+  xy: 1500, 1500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/경전차
+  rotate: false
+  xy: 1500, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/초중전차
+  rotate: false
+  xy: 2000, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/8호전차 마우스
+  rotate: false
+  xy: 2000, 1500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/경전차 레오파르드 
+  rotate: false
+  xy: 2500, 1500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/M3 경전차
+  rotate: false
+  xy: 0, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/빅커스 경전차
+  rotate: false
+  xy: 500, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/T-80 경전차
+  rotate: false
+  xy: 1000, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/2차대전 포병대
+  rotate: false
+  xy: 1500, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/슈퍼마린 스핏파이어 
+  rotate: false
+  xy: 2500, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/BF-109
+  rotate: false
+  xy: 0, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/Me 262
+  rotate: false
+  xy: 2000, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/폴리카르포프 I-16
+  rotate: false
+  xy: 500, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/마코토급 전함
+  rotate: false
+  xy: 1000, 2500
+  size: 500, 500
+  orig: 500, 500
   offset: 0, 0
   index: -1
