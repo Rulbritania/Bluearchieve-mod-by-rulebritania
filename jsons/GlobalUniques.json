@@ -1,6 +1,16 @@
 {
 	"name": "Global uniques", 
 	"uniques": [
+    "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+        "Cannot build [Settler] units <when below [-10] Happiness>",
+        "Rebel units may spawn <when below [-20] Happiness>",
+        "[-1] Sight <for [Embarked] units>",
+        "Enables Open Borders agreements",
+        "Enables Defensive Pacts",
+        
         "[-90]% Strength <for [이로하] units> <during the [이름없는 신들의 시대]>",	 			// 35,
 		"[-70]% Strength <for [이로하] units> <during the [잊혀진 신들의 시대]>", 			// 45,
 		"[-40]% Strength <for [이로하] units> <during the [숭고의 시대]>", 	// 55,
