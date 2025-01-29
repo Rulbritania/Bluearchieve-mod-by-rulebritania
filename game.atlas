@@ -178,6 +178,20 @@ PolicyIcons/붉은겨울 군사교리
   orig: 300, 300
   offset: 0, 0
   index: -1
+UnitPromotionIcons/마약에 취함
+  rotate: false
+  xy: 0, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/마약 투하
+  rotate: false
+  xy: 0, 1500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
 PolicyIcons/대 서기장 체리노
   rotate: false
   xy: 0, 1200
@@ -791,6 +805,34 @@ UnitIcons/미소노 미카
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/조마에 사오리
+  rotate: false
+  xy: 1750, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/이마시노 미사키
+  rotate: false
+  xy: 230, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/츠치나가 히요리
+  rotate: false
+  xy: 500, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/하카리 아츠코
+  rotate: false
+  xy: 750, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/유리조노 세이아
   rotate: false
   xy: 990, 1800
@@ -1203,6 +1245,13 @@ BuildingIcons/트리니티 해군조병창
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/트리니티 공군사관학교 
+  rotate: false
+  xy: 420, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/트리움비레이트 공인
   rotate: false
   xy: 1255, 1200
@@ -1454,9 +1503,44 @@ UnitIcons/2차대전 포병대
   orig: 500, 500
   offset: 0, 0
   index: -1
+UnitIcons/트리니티 자주포
+  rotate: false
+  xy: 1500, 3000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/세이아급 전함
+  rotate: false
+  xy: 1000, 3000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
 UnitIcons/슈퍼마린 스핏파이어 
   rotate: false
   xy: 2500, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/MXY7-아리우스 
+  rotate: false
+  xy: 2500, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/카이류
+  rotate: false
+  xy: 0, 3000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/98식 중전차 치하 
+  rotate: false
+  xy: 500, 3000
   size: 500, 500
   orig: 500, 500
   offset: 0, 0
