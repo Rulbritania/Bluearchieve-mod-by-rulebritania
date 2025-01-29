@@ -262,7 +262,7 @@
 			{
 				"name": "제파 공격",
 				"uniques": ["[+10]% growth [in capital]", 
-							"[+2 Food] [in capital]"
+							"[+2 Food] [in capital]",
                             "[+30]% Production when constructing [붉은연방 모브] units [in this city]"],
 				"requires": ["대규모 돌격"],
 				"row": 3,
@@ -788,6 +788,164 @@
 				"uniques": ["[+15]% growth [in all cities]"]
 			}
 		]
+	},
+{
+		"name": "아리우스",
+		"era": "이름없는 신들의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"uniques": [
+                "Unavailable <for [{non-[아리우스 스쿼드]}] Civilizations>",
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "Only available <for [아리우스 스쿼드] Civilizations>"
+		],
+		"policies": [
+			{
+				"name": "아리우스 군사교리?",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "아리우스 만세!",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            ],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "조마에 사오리.",
+				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"]
+				"row": 1,
+				"column": 13
+			},
+			{
+				"name": "자살 돌격",
+				"uniques": ["[+1] Movement"],
+				"requires": ["아리우스 군사교리?"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "삶은 곧 국가요.",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "Only available <before adopting [아리우스 소년병 해체]>"],
+                "requires": ["아리우스 만세!"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "아리우스 소년병 해체",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "Only available <before adopting [삶은 곧 국가요.]>"],
+                "requires": ["아리우스 만세!"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "아리우스 파시즘",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [10] population [in all cities]",
+                            "[+100]% Production when constructing [소년졍 징집실] buildings [in all cities]",
+                            "[+100]% Production when constructing [전차 공장] buildings [in all cities]",
+                            "[+2 Science, +2 Culture] from every [소년병 징집실]",
+                            "[+50]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                            "Only available <before adopting [자유로운 아리우스]>"],
+                "requires": ["삶은 곧 국가요."],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "자유로운 아리우스",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+							"[+1 Happiness] per [3] population [in all cities]",
+                            "[+25]% [Science] <in cities with a [민수 공장]>",
+                            "[+100]% Production when constructing [민수 공장] buildings [in all cities]",
+                            "[+2 Production] [in all cities]",
+                            "[+1 Production] from every [Mine]",
+                            "[Gold] cost of purchasing [All] buildings [-50]%",
+                            "Only available <before adopting [아리우스 파시즘]>"],
+                "requires": ["아리우스 소년병 해체"],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "정신적 우월성",
+				"uniques": [
+                "[All] units gain the [정신력의 우월성] promotion",
+                "All newly-trained [All] units [in all cities] receive the [정신력의 우월성] promotion"]
+				"requires": ["자살 돌격"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "마약 투하",
+				"uniques": ["[+10]% growth [in capital]", 
+                            "[+2 Food] [in capital]",
+                            "[All] units gain the [마약에 취함] promotion",
+                            "All newly-trained [All] units [in all cities] receive the [마약에 취함] promotion"],
+				"requires": ["아리우스 군사교리?"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "약탈과 노획",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",
+                            "[All] units gain the [약탈과 노획] promotion",
+                            "All newly-trained [All] units [in all cities] receive the [약탈과 노획] promotion"
+                            ],
+				"requires": ["마약 투하"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "죽음 숭배",
+				"uniques": ["[+10]% growth [in capital]", 
+							"[+2 Food] [in capital]",                      
+                            "[All] units gain the [두려움] promotion",
+                "All newly-trained [히나] units [in all cities] receive the [두려움] promotion"],
+				"requires": ["자살 돌격"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "이마시노 미사키.",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["조마에 사오리."],
+				"row": 2,
+				"column": 10
+			},
+			{
+				"name": "츠치나가 히요리.",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["조마에 사오리."],
+				"row": 2,
+				"column": 13
+			},
+			{
+				"name": "하카리 아츠코.",
+				"uniques": [ 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["츠치나가 히요리.","이마시노 미사키."],
+				"row": 3,
+				"column": 11
+			},
+			{
+				"name": "아리우스 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
 	}
-
 ]    

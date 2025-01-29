@@ -116,6 +116,25 @@
         "unitTypes": ["붉은연방 모브"]
 	},
 {
+		"name": "곡사포 전환",
+		"uniques": [
+        "[+2] Range"],
+        "unitTypes": ["열차포"] 
+	},
+{
+		"name": "엔진 문제 해결",
+		"uniques": [
+        "[+1] Movement"],
+        "unitTypes": ["열차포"] 
+	},
+{
+		"name": "36인치 포",
+        "prerequisites": ["엔진 문제 해결","곡사포 전환"],
+		"uniques": [
+        "[+50]% Strength <when attacking>"],
+        "unitTypes": ["열차포"] 
+	},
+{
 		"name": "최후의 최후까지",
 		"uniques": ["Can build [Citadel] improvements on tiles",
         "Can build [Citadel] improvements at a [+200]% rate"],
@@ -183,6 +202,21 @@
         ],
 	},
 {
+		"name": "마약에 취함",
+		"uniques": [
+        "Ignores Zone of Control"
+        "No damage penalty for wounded units <for [All] units>"     
+        ],
+	},
+    //"No movement cost to pillage <for [Melee] units>"
+    {
+		"name": "약탈과 노획",
+		"uniques": [
+        "No movement cost to pillage <for [Melee] units>",
+        "Heals [15] damage if it kills a unit",
+        ],
+	},
+{
 		"name": "정신력의 우월성",
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 	},
@@ -222,6 +256,34 @@
         "prerequisites": ["종막의 디스트로이어"],
 		"uniques": ["[+30]% to Flank Attack bonuses"],
 		"unitTypes": ["히나"]
+	},
+{
+		"name": "밀레니엄 최종병기",
+		"uniques": [
+        "[+2] Movement"],
+        "unitTypes": ["토키"] 
+	},
+{
+		"name": "전술적 판단",
+        "prerequisites": ["밀레니엄 최종병기"],
+		"uniques": [
+        "[+30]% Strength <when attacking>",],
+        "unitTypes": ["토키"] 
+	},
+{
+		"name": "코드명 제로포",
+        "prerequisites": ["전술적 판단"],
+		"uniques": [
+        "Heals [15] damage if it kills a unit",
+        "[2] additional attacks per turn"],
+        "unitTypes": ["토키"] 
+	},
+{
+		"name": "눈에는 눈",
+        "prerequisites": ["코드명 제로포"],
+		"uniques": [
+        "Heals [15] damage if it kills a unit"],
+        "unitTypes": ["토키"] 
 	},
 {
 		"name": "격정",

@@ -361,6 +361,26 @@
         "uniques": ["[-100]% maintenance costs"]
     },
 {
+        "name": "아츠코",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "히요리",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "미사키",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "사오리",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
         "name": "헬멧단",
         "movementType": "Land",
         "uniques": ["[-100]% maintenance costs"]

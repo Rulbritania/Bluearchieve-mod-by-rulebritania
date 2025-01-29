@@ -297,6 +297,29 @@
         "attackSound": "machinegun"
     },
 {
+        "name": "세이아급 전함",
+        "unitType": "전함",
+        "replaces":"초중 전함",
+        "uniqueTo":"티파티",
+        "movement": 7,
+        "strength": 70,
+        "rangedStrength": 80,
+        "range": 4,
+        "cost": 560,
+        "requiredTech": "전간기 해군",
+        "upgradesTo": "협동화력함",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "Can move after attacking",
+            "[+50]% Strength <vs cities> <when attacking>",
+            "[+60]% Strength <vs [전함]> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [트리니티 해군조병창] is constructed>",
+        ],
+        "attackSound": "machinegun"
+    },
+{
         "name": "고속 전함",
         "unitType": "전함",
         "movement": 8,
@@ -379,6 +402,27 @@
             "Can only attack [Water] tiles",
             "Never appears as a Barbarian unit"
         ],
+        "attackSound": "torpedo"
+    },
+    {
+        "name": "카이류",
+        "unitType": "잠수함",
+        "replaces": "Submarine",
+        "uniqueTo": "아리우스 스쿼드",
+        "movement": 3,
+        "strength": 35,
+        "cost": 180,
+        "requiredTech": "레이더",
+        "upgradesTo": "Nuclear Submarine",
+        "uniques": [
+            "[+75]% Strength <when attacking>",
+            "Can only attack [Water] tiles",
+            "Never appears as a Barbarian unit"
+            "[-200]% Strength <vs [구축함] units>",
+            "[+100]% Strength <vs [항공모함] units>",
+            "Self-destructs when attacking",
+        ],
+        "promotions": ["죽음 숭배"],
         "attackSound": "torpedo"
     },
 {
@@ -558,7 +602,6 @@
         "interceptRange": 8,
         "cost": 180,
         "requiredTech": "프롭기",
-        "requiredResource": "Oil",
         "upgradesTo": "Jet Fighter",
         "uniques": [
             "[100]% chance to intercept air attacks",
@@ -567,6 +610,33 @@
             "Can see over obstacles",
             "[+20]% Strength <vs [전차] units>",	
         ],
+        "attackSound": "machinegun"
+    },	
+{
+        "name": "MXY7-아리우스",
+        "unitType": "비행",
+        "replaces":"Fighter",
+        "uniqueTo":"아리우스 스쿼드",
+        "movement": 1,
+        "strength": 30,
+        "rangedStrength": 30,
+        "range": 7,
+        "interceptRange": 10,
+        "cost": 300,
+        "requiredTech": "프롭기",
+        "requiredResource": "Oil",
+        "upgradesTo": "Jet Fighter",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+200]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "[+20]% Strength <vs [전차] units>",	
+            "[-200]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs [전차] units>",
+            "Self-destructs when attacking",
+        ],
+        "promotions": ["죽음 숭배"],
         "attackSound": "machinegun"
     },	
 {
@@ -1034,6 +1104,27 @@
         "attackSound": "bombing"
     },//고유유닛
     {
+        "name": "98식 중전차 치하",
+        "uniqueTo": "아리우스 스쿼드",
+        "unitType": "전차",
+        "replaces": "중형 전차",
+        "movement": 3,
+        "strength": 58,
+        "cost": 300,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "[+20]% Strength bonus for [Land] units within [1] tiles"
+            "[-20]% Strength <vs cities> <when attacking>",
+            "[-30]% Strength <vs [전차] units>",
+        ],
+        "attackSound": "tankshot"
+    },
+    {
         "name": "토라마루",
         "uniqueTo": "판데모니움 소사이어티",
         "unitType": "전차",
@@ -1105,6 +1196,29 @@
             "[+50]% Strength <vs [Land] units>",
             "[+30]% Strength <vs [전차] units>",
             "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "트리니티 자주포",
+        "uniqueTo": "티파티",
+        "unitType": "전차",
+        "movement": 4,
+        "strength": 55,
+        "rangedStrength": 70,
+        "range": 2,
+        "cost": 260,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+50]% Strength <vs [Land] units>",
+            "[-30]% Strength <vs [전차] units>",
+            "Never appears as a Barbarian unit"
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit",
         ],
         "attackSound": "tankshot"
     },
@@ -1458,7 +1572,7 @@
         "unitType": "아리우스 모브",
 		"movement": 4,
 		"strength": 40,
-		"cost": 100,
+		"cost": 140,
         "uniques": [
             "Never appears as a Barbarian unit",
             "Uncapturable",
@@ -1468,6 +1582,8 @@
             "Invisible to non-adjacent units",
             "Can only heal by pillaging",
             "[-200]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs [전차] units>",
+            "May capture killed [Military] units"
         ],
         "promotions": ["죽음 숭배"],
         "attackSound": "phasers"
@@ -2361,6 +2477,7 @@
 			{"text":"긴급메시지 차단 헤제 바랍니다."}
 		]
 	},
+
     {
         "name": "헬멧단 졸개",
         "unitType": "헬멧단",
@@ -2381,4 +2498,91 @@
         "cost": 20,
         "attackSound": "nonmetalhit"
     },
+{
+		"name": "조마에 사오리",
+		"uniqueTo": "아리우스 스쿼드",
+        "unitType": "사오리",
+		"movement": 4,
+		"strength": 80,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn",
+            "Only available <after adopting [조마에 사오리.]>",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "이마시노 미사키",
+		"uniqueTo": "아리우스 스쿼드",
+        "unitType": "미사키",
+		"movement": 3,
+		"strength": 70,
+        "rangedStrength": 75,
+        "range": 2,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "Only available <after adopting [이마시노 미사키.]>",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "츠치나가 히요리",
+		"uniqueTo": "아리우스 스쿼드",
+        "unitType": "히요리",
+		"movement": 3,
+		"strength": 35,
+        "rangedStrength": 85,
+        "range": 7,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[+50]% Strength <vs [전차] units>",
+            "[+50]% Strength <when attacking>",
+            "[-50]% Strength <when defending>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Only available <after adopting [츠치나가 히요리.]>",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "하카리 아츠코",
+		"uniqueTo": "아리우스 스쿼드",
+        "unitType": "아츠코",
+		"movement": 3,
+		"strength": 60,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn",
+            "Only available <after adopting [하카리 아츠코.]>",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
 ] 
