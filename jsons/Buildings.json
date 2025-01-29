@@ -1,4 +1,22 @@
 [
+
+{
+        "name": "특수 규칙",
+        "isNationalWonder": true,
+        "production": 1,
+        "gold": 3,
+        "culture": 1,
+        "cityStrength": 10,
+        "cost": 0,
+        "uniques": [
+            "Cannot build [Settler] units",
+            "Reveals the entire map", 
+            "Never destroyed when the city is captured",
+            "Will not be displayed in Civilopedia",
+            "Unbuildable", "Unsellable"
+        ]
+    },
+
 //기본
 {
         "name": "Palace",
