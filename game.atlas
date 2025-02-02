@@ -59,6 +59,13 @@ PolicyIcons/게헨나 군사교리
   orig: 300, 300
   offset: 0, 0
   index: -1
+PolicyIcons/학생회장 마코토
+  rotate: false
+  xy: 600, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
 PolicyIcons/기동전
   rotate: false
   xy: 0, 300
@@ -206,6 +213,13 @@ PolicyIcons/붉은겨울 동아리 소집
   orig: 300, 300
   offset: 0, 0
   index: -1
+PolicyIcons/학생서기장 체리노
+  rotate: false
+  xy: 0, 1200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
 PolicyIcons/대규모 돌격
   rotate: false
   xy: 600, 600
@@ -311,7 +325,755 @@ PolicyIcons/선도부 군사교리
   orig: 300, 300
   offset: 0, 0
   index: -1
+PolicyIcons/붉은겨울 철도회사
+  rotate: false
+  xy: 600, 3300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은겨울 철도회사 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은겨울 철도회사 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은겨울 철도회사 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은겨울 철도회사 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은군대 전차공장
+  rotate: false
+  xy: 300, 3300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은군대 전차공장 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은군대 전차공장 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은군대 전차공장 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/붉은군대 전차공장 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 연구회사
+  rotate: false
+  xy: 300, 3900
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 연구회사 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 연구회사 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 연구회사 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 연구회사 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 학립산업업체
+  rotate: false
+  xy: 300, 3600
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 학립산업업체 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 학립산업업체 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 학립산업업체 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 학립산업업체 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/포르쉐
+  rotate: false
+  xy: 0, 3300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/포르쉐 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/포르쉐 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/포르쉐 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/포르쉐 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/폭스바게헨나
+  rotate: false
+  xy: 900, 3000
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/폭스바게헨나 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/폭스바게헨나 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/폭스바게헨나 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/폭스바게헨나 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 코퍼레이션
+  rotate: false
+  xy: 900, 2700
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 코퍼레이션 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 코퍼레이션 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 코퍼레이션 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 코퍼레이션 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/로열 아스날
+  rotate: false
+  xy: 0, 3900
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/로열 아스날 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/로열 아스날 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/로열 아스날 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/로열 아스날 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 항공
+  rotate: false
+  xy: 0, 3600
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 항공 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 항공 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 항공 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 항공 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 왕립 해군조병창
+  rotate: false
+  xy: 900, 3300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 왕립 해군조병창 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 왕립 해군조병창 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 왕립 해군조병창 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/트리니티 왕립 해군조병창 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 마틴
+  rotate: false
+  xy: 900, 3600
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 마틴 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 마틴 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 마틴 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/밀레니엄 마틴 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 해양 코퍼레이션
+  rotate: false
+  xy: 900, 2700
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 해양 코퍼레이션 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 해양 코퍼레이션 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 해양 코퍼레이션 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/카이저 해양 코퍼레이션 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 보병장비 설계사
+  rotate: false
+  xy: 600, 3600
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 보병장비 설계사 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 보병장비 설계사 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 보병장비 설계사 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/선도부 보병장비 설계사 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/하르피아
+  rotate: false
+  xy: 600, 3900
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/하르피아 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/하르피아 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/하르피아 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/하르피아 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카이 세인트 네프티스 컴퍼니
+  rotate: false
+  xy: 900, 3900
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카이 세인트 네프티스 컴퍼니 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카이 세인트 네프티스 컴퍼니 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카이 세인트 네프티스 컴퍼니 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카이 세인트 네프티스 컴퍼니 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/세인트 네프티스 컴퍼니
+  rotate: false
+  xy: 0, 3000
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/세인트 네프티스 컴퍼니 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/세인트 네프티스 컴퍼니 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/세인트 네프티스 컴퍼니 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/세인트 네프티스 컴퍼니 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/엔젤24
+  rotate: false
+  xy: 600, 3000
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/엔젤24 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/엔젤24 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/엔젤24 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/엔젤24 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/모모그룹
+  rotate: false
+  xy: 300, 3000
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/모모그룹 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/모모그룹 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/모모그룹 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/모모그룹 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아쿠마 카테드랄리스
+  rotate: false
+  xy: 300, 2700
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아쿠마 카테드랄리스 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아쿠마 카테드랄리스 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아쿠마 카테드랄리스 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아쿠마 카테드랄리스 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아르마 소로리타스
+  rotate: false
+  xy: 0, 2700
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아르마 소로리타스 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아르마 소로리타스 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아르마 소로리타스 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/아르마 소로리타스 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/코코 데빌
+  rotate: false
+  xy: 600, 2700
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/코코 데빌 I
+  rotate: false
+  xy: 0, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/코코 데빌 II
+  rotate: false
+  xy: 300, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/코코 데빌 III
+  rotate: false
+  xy: 600, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+PolicyIcons/코코 데빌 IV
+  rotate: false
+  xy: 900, 4200
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
 
+타일유닛2.png
+size: 256, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/육상전함
+  rotate: false
+  xy: 20, 50
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+  
 타일유닛.png
 size: 2683, 204
 format: RGBA8888
@@ -324,7 +1086,7 @@ TileSets/FantasyHex/Units/나츠메 이로하
   orig: 150, 150
   offset: 0, 0
   index: -1
-  TileSets/FantasyHex/Units/쿄고쿠 사츠키
+TileSets/FantasyHex/Units/쿄고쿠 사츠키
   rotate: false
   xy: 2355, 10
   size: 128, 196
@@ -347,7 +1109,7 @@ TileSets/FantasyHex/Units/탄가 이부키
   index: -1
   
 자원.png
-size: 2000, 200
+size: 600, 200
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -360,7 +1122,14 @@ TileSets/FantasyHex/Tiles/청휘석
   index: -1
 ResourceIcons/청휘석
 rotate: false
-  xy: 235, 40
+  xy: 250, 55
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/주식
+rotate: false
+  xy: 440, 60
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -378,7 +1147,21 @@ LeaderIcons/렌카와 체리노
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/렌카와 체리노 
+  rotate: false
+  xy: 0, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 LeaderIcons/하누마 마코토
+  rotate: false
+  xy: 20, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/하누마 마코토
   rotate: false
   xy: 20, 0
   size: 200, 200
@@ -449,6 +1232,13 @@ LeaderIcons/소라사키 히나
   offset: 0, 0
   index: -1
 LeaderIcons/키리후지 나기사
+  rotate: false
+  xy: 770, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/키리후지 나기사
   rotate: false
   xy: 770, 600
   size: 200, 200
@@ -1531,6 +2321,13 @@ UnitIcons/MXY7-아리우스
   orig: 500, 500
   offset: 0, 0
   index: -1
+UnitIcons/육상전함
+  rotate: false
+  xy: 2500, 3000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
 UnitIcons/카이류
   rotate: false
   xy: 0, 3000
@@ -1569,6 +2366,27 @@ UnitIcons/폴리카르포프 I-16
 UnitIcons/마코토급 전함
   rotate: false
   xy: 1000, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/키사키급 전함
+  rotate: false
+  xy: 1500, 3500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/M13/40
+  rotate: false
+  xy: 1000, 3500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/사아리아노
+  rotate: false
+  xy: 500, 3500
   size: 500, 500
   orig: 500, 500
   offset: 0, 0
