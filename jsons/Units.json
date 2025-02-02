@@ -115,7 +115,7 @@
         "unitType": "열차포",
         "movement": 1,
         "strength": 300,
-        "cost": 1020,
+        "cost": 1620,
         "rangedStrength": 300,
         "range": 3,
         "requiredTech": "뇌제의 무기",
@@ -123,6 +123,21 @@
         "uniques": [
             "Can move after attacking",
             "[+50]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit",
+        ],
+        "attackSound": "shipguns"
+    },
+    {
+        "name": "육상전함",
+        "unitType": "열차포",
+        "movement": 3,
+        "strength": 170,
+        "cost": 1620,
+        "requiredTech": "뇌제의 무기",
+        "requiredResource": "뇌제의 유산",
+        "uniques": [
+            "Can move after attacking",
+            "[+50]% Strength <vs [Land] units> <when attacking>",
             "Never appears as a Barbarian unit",
         ],
         "attackSound": "shipguns"
@@ -269,6 +284,28 @@
         "Can move after attacking",
             "[+50]% Strength <vs cities> <when attacking>",
             "[+50]% Strength <vs [전함]> <when attacking>",
+            "Never appears as a Barbarian unit"
+            "Only available <if [Harbor] is constructed>",],
+        "attackSound": "shipguns"
+    },
+{
+        "name": "키사키급 전함",
+        "unitType": "전함",
+        "replaces":"순양 전함",
+        "uniqueTo":"현룡문",
+        "movement": 8,
+        "strength": 70,
+        "rangedStrength": 60,
+        "range": 3,
+        "cost": 510,
+        "requiredTech": "전간기 해군",
+        "requiredResource": "Oil",
+        "upgradesTo": "협동화력함",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "[+10]% Strength <when defending>",
+            "[+33]% Strength <vs [전함] units> <when attacking>",
+            "Double movement in [Coast]",
             "Never appears as a Barbarian unit"
             "Only available <if [Harbor] is constructed>",],
         "attackSound": "shipguns"
@@ -913,7 +950,7 @@
         "unitType": "전차",
         "movement": 7,
         "strength": 55,
-        "cost": 450,
+        "cost": 220,
         "requiredTech": "서스펜션",
         "requiredResource": "Oil",
         "uniques": [
@@ -930,7 +967,7 @@
         "unitType": "전차",
         "movement": 8,
         "strength": 60,
-        "cost": 505,
+        "cost": 325,
         "requiredTech": "서스펜션",
         "requiredResource": "Oil",
         "uniques": [
@@ -947,7 +984,7 @@
         "unitType": "전차",
         "movement": 8,
         "strength": 55,
-        "cost": 380,
+        "cost": 280,
         "requiredTech": "서스펜션",
         "requiredResource": "Oil",
         "uniques": [
@@ -964,7 +1001,7 @@
         "unitType": "전차",
         "movement": 7,
         "strength": 50,
-        "cost": 405,
+        "cost": 305,
         "requiredTech": "서스펜션",
         "requiredResource": "Oil",
         "uniques": [
@@ -976,6 +1013,24 @@
         "attackSound": "tankshot"
     },
 {
+        "name": "M13/40",
+        "replaces":"경전차",
+        "uniqueTo":"현룡문",
+        "unitType": "전차",
+        "movement": 8,
+        "strength": 50,
+        "cost": 305,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Can move after attacking",
+            "[+30]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+        ],
+        "promotions": ["매복 I","매복 II"],
+        "attackSound": "tankshot"
+    },
+{
         "name": "T-80 경전차",
         "replaces":"경전차",
         "uniqueTo":"붉은겨울 사무국",
@@ -984,7 +1039,6 @@
         "strength": 45,
         "cost": 180,
         "requiredTech": "서스펜션",
-        "requiredResource": "Oil",
         "uniques": [
             "Can move after attacking",
             "[+25]% Strength <vs [Land] units>",
@@ -1143,6 +1197,26 @@
         ],
         "attackSound": "tankshot"
     },
+    {
+        "name": "사아리아노",
+        "uniqueTo": "현룡문",
+        "unitType": "전차",
+        "replaces": "중형 전차",
+        "movement": 4,
+        "strength": 70,
+        "cost": 270,
+        "requiredTech": "서스펜션",
+        "requiredResource": "Oil",
+        "promotions": ["장갑 I"],
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "[+30]% Strength <vs [전차] units>",
+            "Never appears as a Barbarian unit",
+        ],
+        "attackSound": "tankshot"
+    },
         {
         "name": "숙청 0호",
         "uniqueTo": "붉은겨울 사무국",
@@ -1150,9 +1224,8 @@
         "replaces": "중형 전차",
         "movement": 5,
         "strength": 65,
-        "cost": 280,
+        "cost": 220,
         "requiredTech": "서스펜션",
-        "requiredResource": "Oil",
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -1374,6 +1447,69 @@
             "[+2] Sight",
             "Uncapturable",
             "[+20]% Strength bonus for [Military] units within [2] tiles"
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"사업비 집행 정산 재역서.....라니, 무슨의미...?"}
+		]
+	},
+{
+		"name": "하누마 마코토",
+		"uniqueTo": "판데모니움 소사이어티",
+        "unitType": "마코토",
+		"movement": 3,
+		"strength": 80,
+		"cost": 250,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Uncapturable",
+            "[+20]% Strength bonus for [전차] units within [2] tiles",
+            "Only available <after adopting [학생회장 마코토]>",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"사업비 집행 정산 재역서.....라니, 무슨의미...?"}
+		]
+	},
+{
+		"name": "렌카와 체리노",
+		"uniqueTo": "붉은겨울 사무국",
+        "unitType": "체리노",
+		"movement": 3,
+		"strength": 80,
+		"cost": 250,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Uncapturable",
+            "[+20]% Strength bonus for [전차] units within [2] tiles",
+            "Only available <after adopting [학생서기장 체리노]>",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"사업비 집행 정산 재역서.....라니, 무슨의미...?"}
+		]
+	},
+{
+		"name": "키리후지 나기사",
+		"uniqueTo": "티파티",
+        "unitType": "나기사",
+		"movement": 3,
+		"strength": 80,
+		"cost": 250,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "[+2] Sight",
+            "Uncapturable",
+            "[+20]% Strength bonus for [포병] units within [2] tiles",
+            "Only available <after adopting [대의장 나기사]>",
         ],
         "attackSound": "phasers"
         "civilopediaText": [
@@ -1630,7 +1766,7 @@
             "Is part of Great Person group [Merchant]",
             "Great Person - [Gold]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
         ],
         "movement": 4
     },
@@ -2586,3 +2722,4 @@
 		]
 	},
 ] 
+            

@@ -74,6 +74,18 @@
     //
     // Military improvement
     {
+        "name": "Trading post",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh"],
+        "gold": 1,
+        "turnsToBuild": 7,
+        "techRequired": "경제학",
+        "uniques": [
+            "[+1 Gold] <after discovering [주식 시장]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ],
+        "shortcutKey": "T"
+    },
+    {
         "name": "Fort",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
         "turnsToBuild": 6,

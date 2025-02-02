@@ -148,6 +148,14 @@
 				"row": 3,
 				"column": 12
 			},
+            {
+				"name": "학생회장 마코토",
+				"uniques": ["Comment [급양부를 영입 가능합니다.]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["압도적인 화력","급양부 대규모 지원","흥신소 고용"],
+				"row": 4,
+				"column": 5
+			},
 			{
 				"name": "만마전 Complete",
 				"uniques": ["[+15]% growth [in all cities]"]
@@ -301,6 +309,14 @@
 				"requires": ["죄수 사면"],
 				"row": 3,
 				"column": 12
+			},
+            {
+				"name": "학생서기장 체리노",
+				"uniques": ["Comment [급양부를 영입 가능합니다.]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["인민들의 아버이","제파 공격","지식해방전선과의 협조"],
+				"row": 4,
+				"column": 5
 			},
 			{
 				"name": "붉은겨울 Complete",
@@ -506,7 +522,8 @@
 			{
 				"name": "집중포화 교리",
 				"uniques": ["[+5]% Strength<when attacking>",
-                "[트리니티 포병] units gain the [해안 포격] promotion",]
+                "[트리니티 포병] units gain the [집중 포화] promotion",
+                "All newly-trained [트리니티 포병] units [in all cities] receive the [집중 포화] promotion"],
 				"requires": ["트리니티 군사교리"],
 				"row": 2,
 				"column": 1
@@ -595,7 +612,9 @@
 				"uniques": ["[+10]% growth [in capital]", 
 							"[+2 Food] [in capital]",                            
                             "[비행] units gain the [지상 지원] promotion",
-                            "[전함] units gain the [해안 포격] promotion"],
+                            "All newly-trained [비헹] units [in all cities] receive the [지상 지원] promotion"
+                            "[전함] units gain the [해안 포격] promotion",
+                            "All newly-trained [전함] units [in all cities] receive the [해안 포격] promotion"],
 				"requires": ["집중포화 교리"],
 				"row": 3,
 				"column": 3
@@ -623,6 +642,14 @@
 				"requires": ["구호기사단 소집"],
 				"row": 3,
 				"column": 12
+			},
+            {
+				"name": "대의장 나기사",
+				"uniques": ["Comment [급양부를 영입 가능합니다.]", 
+							"[+1 Production] per [5] population [in capital]"],
+				"requires": ["정의실현부 소집","지상 지원"],
+				"row": 4,
+				"column": 5
 			},
 			{
 				"name": "트리니티 Complete",
@@ -789,7 +816,7 @@
 			}
 		]
 	},
-{
+    {
 		"name": "아리우스",
 		"era": "이름없는 신들의 시대",
 		"priorities": {
@@ -912,7 +939,7 @@
 				"name": "죽음 숭배",
 				"uniques": ["[+10]% growth [in capital]", 
 							"[+2 Food] [in capital]",                      
-                            "[All] units gain the [두려움] promotion",
+                            "[히나] units gain the [두려움] promotion",
                 "All newly-trained [히나] units [in all cities] receive the [두려움] promotion"],
 				"requires": ["자살 돌격"],
 				"row": 3,
@@ -947,5 +974,1299 @@
 				"uniques": ["[+15]% growth [in all cities]"]
 			}
 		]
+	},
+        {
+		"name": "보병 기업체 협력",
+		"era": "숭고의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"policies": [
+			{
+				"name": "카이저 코퍼레이션",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when attacking><for [Infantry] units>",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"
+                ],
+				"row": 1,
+				"column": 1
+			},
+            {
+				"name": "카이저 코퍼레이션 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when attacking><for [Infantry] units>",
+                ],
+                "requires": ["카이저 코퍼레이션"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "카이저 코퍼레이션 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when attacking><for [Infantry] units>",
+                ],
+                "requires": ["카이저 코퍼레이션 I"],
+				"row": 3,
+				"column": 1
+			},
+            {
+				"name": "카이저 코퍼레이션 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when attacking><for [Infantry] units>",
+                ],
+                "requires": ["카이저 코퍼레이션 II"],
+				"row": 4,
+				"column": 1
+			},
+            {
+				"name": "카이저 코퍼레이션 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when attacking><for [Infantry] units>",
+                ],
+                "requires": ["카이저 코퍼레이션 III"],
+				"row": 5,
+				"column": 1
+			},
+            {
+				"name": "세인트 네프티스 컴퍼니",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when defending><for [Infantry] units>",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"
+                ],
+				"row": 1,
+				"column": 5
+			},
+            {
+				"name": "세인트 네프티스 컴퍼니 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when defending><for [Infantry] units>"
+                ],
+                "requires": ["세인트 네프티스 컴퍼니"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "세인트 네프티스 컴퍼니 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when defending><for [Infantry] units>"
+                ],
+                "requires": ["세인트 네프티스 컴퍼니 I"],
+				"row": 3,
+				"column": 5
+			},
+            {
+				"name": "세인트 네프티스 컴퍼니 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when defending><for [Infantry] units>"
+                ],
+                "requires": ["세인트 네프티스 컴퍼니 II"],
+				"row": 4,
+				"column": 5
+			},
+            {
+				"name": "세인트 네프티스 컴퍼니 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+5]% Strength<when defending><for [Infantry] units>"
+                ],
+                "requires": ["세인트 네프티스 컴퍼니 III"],
+				"row": 5,
+				"column": 5
+			},
+			{
+				"name": "엔젤24",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+25]% Production when constructing [Infantry] units [in all cities]",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"
+                ],
+				"row": 1,
+				"column": 9
+			},
+            			{
+				"name": "엔젤24 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+25]% Production when constructing [Infantry] units [in all cities]"
+                ],
+                "requires": ["엔젤24"],
+				"row": 2,
+				"column": 9
+			},
+            			{
+				"name": "엔젤24 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+25]% Production when constructing [Infantry] units [in all cities]"
+                ],
+                "requires": ["엔젤24 I"],
+				"row": 3,
+				"column": 9
+			},
+            			{
+				"name": "엔젤24 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+25]% Production when constructing [Infantry] units [in all cities]"
+                ],
+                "requires": ["엔젤24 II"],
+				"row": 4,
+				"column": 9
+			},
+            			{
+				"name": "엔젤24 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+25]% Production when constructing [Infantry] units [in all cities]"
+                ],
+                "requires": ["엔젤24 III"],
+				"row": 5,
+				"column": 9
+			},
+			{
+				"name": "모모그룹",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[-20]% maintenance costs",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"
+							],
+				"row": 1,
+				"column": 13
+			},
+            {
+				"name": "모모그룹 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[-20]% maintenance costs"
+							],
+                "requires": ["모모그룹"],
+				"row": 2,
+				"column": 13
+			},
+            {
+				"name": "모모그룹 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[-20]% maintenance costs"
+							],
+                "requires": ["모모그룹 I"],
+				"row": 3,
+				"column": 13
+			},
+            {
+				"name": "모모그룹 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[-20]% maintenance costs"
+							],
+                "requires": ["모모그룹 II"],
+				"row": 4,
+				"column": 13
+			},
+            {
+				"name": "모모그룹 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[-20]% maintenance costs"
+							],
+                "requires": ["모모그룹 III"],
+				"row": 5,
+				"column": 13
+			},
+			{
+				"name": "아쿠마 카테드랄리스",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","Heals [5] damage if it kills a unit",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"],
+				"row": 1,
+				"column": 17
+			},
+            {
+				"name": "아쿠마 카테드랄리스 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","Heals [5] damage if it kills a unit"],
+                "requires": ["아쿠마 카테드랄리스"],
+				"row": 2,
+				"column": 17
+			},
+            {
+				"name": "아쿠마 카테드랄리스 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","Heals [5] damage if it kills a unit"],
+                "requires": ["아쿠마 카테드랄리스 I"],
+				"row": 3,
+				"column": 17
+			},
+            {
+				"name": "아쿠마 카테드랄리스 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","Heals [5] damage if it kills a unit"],
+                "requires": ["아쿠마 카테드랄리스 II"],
+				"row": 4,
+				"column": 17
+			},
+			{
+				"name": "아쿠마 카테드랄리스 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","Heals [5] damage if it kills a unit"],
+                "requires": ["아쿠마 카테드랄리스 III"],
+				"row": 5,
+				"column": 17
+			},
+			{
+				"name": "코코 데빌",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+8]% Strength <vs cities> <when attacking>",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"],
+				"row": 1,
+				"column": 21
+			},
+            {
+				"name": "코코 데빌 I",
+				"uniques": ["[+8]% Strength <vs cities> <when attacking>"],
+                "requires": ["코코 데빌"],
+				"row": 2,
+				"column": 21
+			},
+            {
+				"name": "코코 데빌 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+8]% Strength <vs cities> <when attacking>"],
+                "requires": ["코코 데빌 I"],
+				"row": 3,
+				"column": 21
+			},
+            {
+				"name": "코코 데빌 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+8]% Strength <vs cities> <when attacking>"],
+                "requires": ["코코 데빌 II"],
+				"row": 4,
+				"column": 21
+			},
+            {
+				"name": "코코 데빌 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+8]% Strength <vs cities> <when attacking>"],
+                "requires": ["코코 데빌 III"],
+				"row": 5,
+				"column": 21
+			},
+            {
+				"name": "아르마 소로리타스",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+10]% to Flank Attack bonuses",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"],
+				"row": 1,
+				"column": 25
+			},
+            {
+				"name": "아르마 소로리타스 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+10]% to Flank Attack bonuses"],
+                "requires": ["아르마 소로리타스"],
+				"row": 2,
+				"column": 25
+			},
+            {
+				"name": "아르마 소로리타스 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+10]% to Flank Attack bonuses"],
+                "requires": ["아르마 소로리타스 I"],
+				"row": 3,
+				"column": 25
+			},
+            {
+				"name": "아르마 소로리타스 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+10]% to Flank Attack bonuses"],
+                "requires": ["아르마 소로리타스 II"],
+				"row": 4,
+				"column": 25
+			},
+            {
+				"name": "아르마 소로리타스 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+10]% to Flank Attack bonuses"],
+                "requires": ["아르마 소로리타스 III"],
+				"row": 5,
+				"column": 25
+			},
+            {
+				"name": "로열 아스날",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+15]% Production when constructing [포병] units [in all cities]",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>",
+                "Only available <for [티파티] Civilizations>"
+                            ],
+				"row": 1,
+				"column": 29
+			},
+            {
+				"name": "로열 아스날 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+15]% Production when constructing [포병] units [in all cities]", 
+                "[+5]% Strength<when attacking><for [포병] units>",
+                            ],
+                "requires": ["로열 아스날"],
+				"row": 2,
+				"column": 29
+			},
+            {
+				"name": "로열 아스날 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+15]% Production when constructing [포병] units [in all cities]",
+                "[+5]% Strength<when attacking><for [포병] units>",
+                            ],
+                "requires": ["로열 아스날 I"],
+				"row": 3,
+				"column": 29
+			},
+            {
+				"name": "로열 아스날 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+15]% Production when constructing [포병] units [in all cities]",
+                "[+5]% Strength<when attacking><for [포병] units>",],
+                "requires": ["로열 아스날 II"],
+				"row": 4,
+				"column": 29
+			}
+            {
+				"name": "로열 아스날 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+15]% Production when constructing [포병] units [in all cities]", 
+                            "[포병] units gain the [로열 아스날] promotion",
+                "All newly-trained [포병] units [in all cities] receive the [로열 아스날] promotion"],
+                "requires": ["로열 아스날 III"],
+				"row": 5,
+				"column": 29
+			},
+            {
+				"name": "선도부 보병장비 설계사",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+40]% Production when constructing [Infantry] units [in all cities]",
+                "Only available <before adopting [세인트 네프티스 컴퍼니]>",
+                "Only available <before adopting [카이저 코퍼레이션]>",
+                "Only available <before adopting [엔젤24]>",
+                "Only available <before adopting [모모그룹]>",
+                "Only available <before adopting [아쿠마 카테드랄리스]>", 
+                "Only available <before adopting [코코 데빌]>",
+                "Only available <before adopting [아르마 소로리타스]>",
+                "Only available <before adopting [선도부 보병장비 설계사]>",
+                "Only available <before adopting [로열 아스날]>"
+                "Only available <for [선도부] Civilizations>"],
+				"row": 1,
+				"column": 33
+			},
+            {
+				"name": "선도부 보병장비 설계사 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+20]% Production when constructing [Infantry] units [in all cities]",
+                "[+5]% Strength<when attacking><for [Infantry] units>",],
+                "requires": ["선도부 보병장비 설계사"],
+				"row": 2,
+				"column": 33
+			},
+            {
+				"name": "선도부 보병장비 설계사 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+20]% Production when constructing [Infantry] units [in all cities]",
+                "[+5]% Strength<when attacking><for [Infantry] units>",],
+                "requires": ["선도부 보병장비 설계사 I"],
+				"row": 3,
+				"column": 33
+			},
+            {
+				"name": "선도부 보병장비 설계사 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>","[+20]% Production when constructing [Infantry] units [in all cities]",
+                "[+5]% Strength<when attacking><for [Infantry] units>",],
+                "requires": ["선도부 보병장비 설계사 II"],
+				"row": 4,
+				"column": 33
+			},
+            {
+				"name": "선도부 보병장비 설계사 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[Infantry] units gain the [선도부] promotion",
+                "All newly-trained [Infantry] units [in all cities] receive the [선도부] promotion"],
+                "requires": ["선도부 보병장비 설계사 III"],
+				"row": 5,
+				"column": 33
+			},
+			{
+				"name": "보병 기업체 협력 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+            
+            
+		]
+	},
+{
+		"name": "해군 기업체 협력",
+		"era": "숭고의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"policies": [
+			{
+				"name": "카이저 해양 코퍼레이션",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+5]% Strength<when attacking><for [전함] units>",
+                "[+5]% Strength<when defending><for [전함] units>",
+                "[+5]% Strength<when defending><for [항공모함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",
+                "Only available <before adopting [카이저 해양 코퍼레이션]>",
+                "Only available <before adopting [하르피아]>"
+                "Only available <before adopting [트리니티 왕립 해군조병창]>"],
+				"row": 1,
+				"column": 1
+			},
+            {
+				"name": "카이저 해양 코퍼레이션 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+5]% Strength<when attacking><for [전함] units>",
+                "[+5]% Strength<when defending><for [전함] units>",
+                "[+5]% Strength<when defending><for [항공모함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",],
+                "requires": ["카이저 해양 코퍼레이션"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "카이저 해양 코퍼레이션 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+5]% Strength<when attacking><for [전함] units>",
+                "[+5]% Strength<when defending><for [전함] units>",
+                "[+5]% Strength<when defending><for [항공모함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",],
+                "requires": ["카이저 해양 코퍼레이션 I"],
+				"row": 3,
+				"column": 1
+			},
+            {
+				"name": "카이저 해양 코퍼레이션 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+5]% Strength<when attacking><for [전함] units>",
+                "[+5]% Strength<when defending><for [전함] units>",
+                "[+5]% Strength<when defending><for [항공모함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",],
+                "requires": ["카이저 해양 코퍼레이션 II"],
+				"row": 4,
+				"column": 1
+			},
+            {
+				"name": "카이저 해양 코퍼레이션 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+5]% Strength<when attacking><for [전함] units>",
+                "[+5]% Strength<when defending><for [전함] units>",
+                "[+5]% Strength<when defending><for [항공모함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",],
+                "requires": ["카이저 해양 코퍼레이션 III"],
+				"row": 5,
+				"column": 1
+			},
+            
+            {
+				"name": "하르피아",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+15]% Strength<when attacking><for [잠수함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",
+                "Only available <before adopting [카이저 해양 코퍼레이션]>",
+                "Only available <before adopting [하르피아]>"
+                "Only available <before adopting [트리니티 왕립 해군조병창]>"],
+				"row": 1,
+				"column": 5
+			},
+            {
+				"name": "하르피아 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+15]% Strength<when attacking><for [잠수함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",
+                "[+1] Movement <for [잠수함] units>",],
+                "requires": ["하르피아"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "하르피아 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+15]% Strength<when attacking><for [잠수함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",
+                "[+1] Movement <for [잠수함] units>",],
+                "requires": ["하르피아 I"],
+				"row": 3,
+				"column": 5
+			},
+            {
+				"name": "하르피아 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+15]% Strength<when attacking><for [잠수함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",
+                "[+1] Movement <for [잠수함] units>",],
+                "requires": ["하르피아 II"],
+				"row": 4,
+				"column": 5
+			},
+            {
+				"name": "하르피아 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+15]% Strength<when attacking><for [잠수함] units>",
+                "[+5]% Strength<when attacking><for [구축함] units>",
+                "[+2] Sight <for [잠수함] units>",],
+                "requires": ["하르피아 III"],
+				"row": 5,
+				"column": 5
+			},
+            {
+				"name": "트리니티 왕립 해군조병창",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"[+15]% Strength<when attacking><for [전함] units>",
+                "[+10]% Strength<when defending><for [전함] units>",
+                "[+10]% Strength<when defending><for [항공모함] units>",
+                 "Only available <before adopting [카이저 해양 코퍼레이션]>",
+                 "Only available <before adopting [하르피아]>"
+                 "Only available <before adopting [트리니티 왕립 해군조병창]>"
+                 "Only available <for [티파티] Civilizations>"],
+				"row": 1,
+				"column": 9
+			},
+            {
+				"name": "트리니티 왕립 해군조병창 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+10]% Strength <when attacking><for [전함] units>",
+                "[+10]% Strength <when defending><for [전함] units>",
+                "[+10]% Strength <when defending><for [항공모함] units>",
+                "[+10]% Production when constructing [전함] units [in all cities]",
+                "[+10]% Production when constructing [항공모함] units [in all cities]"],
+                "requires": ["트리니티 왕립 해군조병창"],
+				"row": 2,
+				"column": 9
+			},
+            {
+				"name": "트리니티 왕립 해군조병창 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+10]% Strength <when attacking><for [전함] units>",
+                "[+10]% Strength <when defending><for [전함] units>",
+                "[+10]% Strength <when defending><for [항공모함] units>",
+                "[+10] HP when healing <for [전함] units>"],
+                "requires": ["트리니티 왕립 해군조병창 I"],
+				"row": 3,
+				"column": 9
+			},
+            {
+				"name": "트리니티 왕립 해군조병창 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [전함] units>",
+                "[+10]% Strength <when defending><for [전함] units>",
+                "[+10]% Strength <when defending><for [항공모함] units>",
+                "[+30]% Strength <vs [잠수함] units> <when attacking>"
+                ],
+                "requires": ["트리니티 왕립 해군조병창 II"],
+				"row": 4,
+				"column": 9
+			},
+            {
+				"name": "트리니티 왕립 해군조병창 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [전함] units>",
+                "[+10]% Strength <when defending><for [전함] units>",
+                "[+10]% Strength <when defending><for [항공모함] units>",
+                "[+1] Movement <for [전함] units>"
+                "[+2] Movement <for [항공모함] units>"
+                ]
+                "requires": ["트리니티 왕립 해군조병창 III"],
+				"row": 5,
+				"column": 9
+			},
+			{
+				"name": "해군 기업체 협력 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+	},
+{
+		"name": "공군 기업체 협력",
+		"era": "숭고의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"uniques": [
+        "[-25]% Culture cost of natural border growth [in all cities]",
+		],
+		"policies": [
+			{
+				"name": "스카이 세인트 네프티스 컴퍼니",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                 "Only available <before adopting [밀레니엄 마틴]>",
+                 "Only available <before adopting [스카이 세인트 네프티스 컴퍼니]>",
+                 "Only available <before adopting [트리니티 항공]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+10]% Strength <when defending><for [비행] units>",
+                "Only available <before adopting [스카이 세인트 네프티스 컴퍼니]>",
+                 "Only available <before adopting [밀레니엄 마틴]>",
+                 "Only available <before adopting [트리니티 항공]>"],
+				"row": 1,
+				"column": 1
+			},
+            {
+				"name": "스카이 세인트 네프티스 컴퍼니 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+10]% Strength <when defending><for [비행] units>"],
+                "requires": ["스카이 세인트 네프티스 컴퍼니"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "스카이 세인트 네프티스 컴퍼니 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+10]% Strength <when defending><for [비행] units>"],
+                "requires": ["스카이 세인트 네프티스 컴퍼니 I"],
+				"row": 3,
+				"column": 1
+			},
+            {
+				"name": "스카이 세인트 네프티스 컴퍼니 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+10]% Strength <when defending><for [비행] units>"],
+                "requires": ["스카이 세인트 네프티스 컴퍼니 II"],
+				"row": 4,
+				"column": 1
+			},
+            {
+				"name": "스카이 세인트 네프티스 컴퍼니 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+10]% Strength <when defending><for [비행] units>"],
+                "requires": ["스카이 세인트 네프티스 컴퍼니 III"],
+				"row": 5,
+				"column": 1
+			},
+{
+				"name": "밀레니엄 마틴",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "Only available <before adopting [밀레니엄 마틴]>",
+                 "Only available <before adopting [스카이 세인트 네프티스 컴퍼니]>",
+                 "Only available <before adopting [트리니티 항공]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when defending><for [비행] units>",
+                "[+1] Movement <for [비행] units>",
+                "[+1] Sight <for [비행] units>",
+                "Only available <before adopting [스카이 세인트 네프티스 컴퍼니]>",
+                 "Only available <before adopting [밀레니엄 마틴]>",
+                 "Only available <before adopting [트리니티 항공]>",
+                 "Only available <for [세미나] Civilizations>"],
+				"row": 1,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 마틴 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when defending><for [비행] units>",
+                "[+1] Movement <for [비행] units>",
+                "[+1] Sight <for [비행] units>"],
+                "requires": ["밀레니엄 마틴"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 마틴 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when defending><for [비행] units>",
+                "[+1] Movement <for [비행] units>",
+                "[+1] Sight <for [비행] units>" ],
+                "requires": ["밀레니엄 마틴 I"],
+				"row": 3,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 마틴 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when defending><for [비행] units>",
+                "[+1] Movement <for [비행] units>",
+                "[+1] Sight <for [비행] units>" ],
+                "requires": ["밀레니엄 마틴 II"],
+				"row": 4,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 마틴 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+1] Movement <for [비행] units>",
+                "[+1] Sight <for [비행] units>" ],
+                "requires": ["밀레니엄 마틴 III"],
+				"row": 5,
+				"column": 5
+			},
+            {
+				"name": "트리니티 항공",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                 "Only available <before adopting [밀레니엄 마틴]>",
+                 "Only available <before adopting [스카이 세인트 네프티스 컴퍼니]>",
+                 "Only available <before adopting [트리니티 항공]>",
+                "[+5]% Production when constructing [비행] units [in all cities]",
+                "[+1] Movement <for [비행] units>",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+15]% Strength <when fighting in [Ocean] tiles> <when attacking> <for [비행] units>",
+                "[+15]% Strength <when fighting in [Coast] tiles> <when attacking> <for [비행] units>",
+                "Only available <before adopting [스카이 세인트 네프티스 컴퍼니]>",
+                 "Only available <before adopting [밀레니엄 마틴]>",
+                 "Only available <before adopting [트리니티 항공]>",
+                 "Only available <for [티파티] Civilizations>"
+                ],
+				"row": 1,
+				"column": 9
+			},
+            {
+				"name": "트리니티 항공 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+10]% Production when constructing [비행] units [in all cities]",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when fighting in [Ocean] tiles> <when attacking> <for [비행] units>",
+                "[+5]% Strength <when fighting in [Coast] tiles> <when attacking> <for [비행] units>"
+                ],
+                "requires": ["트리니티 항공"],
+				"row": 2,
+				"column": 9
+			},
+            {
+				"name": "트리니티 항공 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+10]% Production when constructing [비행] units [in all cities]",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when fighting in [Ocean] tiles> <when attacking> <for [비행] units>",
+                "[+5]% Strength <when fighting in [Coast] tiles> <when attacking> <for [비행] units>"
+                ],
+                "requires": ["트리니티 항공 I"],
+				"row": 3,
+				"column": 9
+			},
+            {
+				"name": "트리니티 항공 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+25]% Production when constructing [비행] units [in all cities]",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when fighting in [Ocean] tiles> <when attacking> <for [비행] units>",
+                "[+5]% Strength <when fighting in [Coast] tiles> <when attacking> <for [비행] units>"
+                ],
+                "requires": ["트리니티 항공 II"],
+				"row": 4,
+				"column": 9
+			},
+            {
+				"name": "트리니티 항공 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+25]% Production when constructing [비행] units [in all cities]",
+                "[+5]% Strength <when attacking><for [비행] units>",
+                "[+5]% Strength <when fighting in [Ocean] tiles> <when attacking> <for [비행] units>",
+                "[+5]% Strength <when fighting in [Coast] tiles> <when attacking> <for [비행] units>"
+                ],
+                "requires": ["트리니티 항공 III"],
+				"row": 5,
+				"column": 9
+			},
+			{
+				"name": "공군 기업체 협력 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+	},
+{
+		"name": "기갑 기업체 협력",
+		"era": "숭고의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"policies": [
+			{
+				"name": "붉은군대 전차공장",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+25]% Production when constructing [전차] units [in all cities]",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+10]% Strength <when defending><for [전차] units>",
+                "Only available <before adopting [붉은군대 전차공장]>",
+                 "Only available <before adopting [폭스바게헨나]>",
+                 "Only available <before adopting [포르쉐]>",
+                 "Only available <for [붉은겨울 사무국] Civilizations>"
+                ],
+				"row": 1,
+				"column": 1
+			},
+            {
+				"name": "붉은군대 전차공장 I",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+25]% Production when constructing [전차] units [in all cities]",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+10]% Strength <when defending><for [전차] units>",
+                ],
+                "requires": ["붉은군대 전차공장"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "붉은군대 전차공장 II",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+25]% Production when constructing [전차] units [in all cities]",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+10]% Strength <when defending><for [전차] units>",
+                ],
+                "requires": ["붉은군대 전차공장 I"],
+				"row": 3,
+				"column": 1
+			},
+            {
+				"name": "붉은군대 전차공장 III",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+25]% Production when constructing [전차] units [in all cities]",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+10]% Strength <when defending><for [전차] units>",
+                ],
+                "requires": ["붉은군대 전차공장 II"],
+				"row": 4,
+				"column": 1
+			},
+            {
+				"name": "붉은군대 전차공장 IV",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+25]% Production when constructing [전차] units [in all cities]",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+10]% Strength <when defending><for [전차] units>",
+                "[전차] units gain the [경사장갑] promotion",
+                "All newly-trained [전차] units [in all cities] receive the [경사장갑] promotion",
+                ],
+                "requires": ["붉은군대 전차공장 III"],
+				"row": 5,
+				"column": 1
+			},
+{
+				"name": "폭스바게헨나",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+"Only available <before adopting [붉은군대 전차공장]>",
+                 "Only available <before adopting [폭스바게헨나]>",
+                 "Only available <before adopting [포르쉐]>",
+                "[+1] Movement <for [전차] units>",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+5]% Strength <when defending><for [전차] units>",
+                "Only available <for [판데모니움 소사이어티] Civilizations>"
+                ],
+				"row": 1,
+				"column": 5
+			},
+{
+				"name": "폭스바게헨나 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+1] Movement <for [전차] units>",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+5]% Strength <when defending><for [전차] units>"
+                ],
+                "requires": ["폭스바게헨나"],
+				"row": 2,
+				"column": 5
+			},
+{
+				"name": "폭스바게헨나 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+1] Movement <for [전차] units>",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+5]% Strength <when defending><for [전차] units>"
+                ],
+                "requires": ["폭스바게헨나 I"],
+				"row": 3,
+				"column": 5
+			},
+            {
+				"name": "폭스바게헨나 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+1] Movement <for [전차] units>",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+5]% Strength <when defending><for [전차] units>"
+                ],
+                "requires": ["폭스바게헨나 II"],
+				"row": 4,
+				"column": 5
+			},
+            {
+				"name": "폭스바게헨나 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                "[+1] Movement <for [전차] units>",
+                "[+5]% Strength <when attacking><for [전차] units>",
+                "[+5]% Strength <when defending><for [전차] units>",
+                "[전차] units gain the [직사 장갑] promotion",
+                "All newly-trained [전차] units [in all cities] receive the [직사 장갑] promotion",
+                ],
+                "requires": ["폭스바게헨나 III"],
+				"row": 5,
+				"column": 5
+			},
+            {
+				"name": "포르쉐",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <before adopting [붉은군대 전차공장]>",
+                 "Only available <before adopting [폭스바게헨나]>",
+                 "Only available <before adopting [포르쉐]>",
+"Only available <when above [1] [주식]>",
+"Only available <for [판데모니움 소사이어티] Civilizations>",
+                            "[+10]% Strength <when attacking><for [전차] units>",
+                            "[+10]% Strength <when defending><for [전차] units>"],
+				"row": 1,
+				"column": 9
+			},
+            {
+				"name": "포르쉐 I",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                            "[+10]% Strength <when attacking><for [전차] units>",
+                            "[+10]% Strength <when defending><for [전차] units>"],
+                "requires": ["포르쉐"],
+				"row": 2,
+				"column": 9
+			},
+            {
+				"name": "포르쉐 II",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                            "[+10]% Strength <when attacking><for [전차] units>",
+                            "[+10]% Strength <when defending><for [전차] units>",
+                            "[전차] units gain the [돌진 I] promotion",
+                            "All newly-trained [전차] units [in all cities] receive the [돌진 I] promotion",
+                            "[-1] Movement <for [전차] units>",],
+                "requires": ["포르쉐 I"],
+				"row": 3,
+				"column": 9
+			},
+            {
+				"name": "포르쉐 III",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",                            "[+10]% Strength <when attacking><for [전차] units>",
+                            "[+10]% Strength <when defending><for [전차] units>"],
+                "requires": ["포르쉐 II"],
+				"row": 4,
+				"column": 9
+			},
+            {
+				"name": "포르쉐 IV",
+				"uniques": ["Provides [-1] [주식]",
+"Only available <when above [1] [주식]>",
+                            "[+10]% Strength <when attacking><for [전차] units>",
+                            "[+10]% Strength <when defending><for [전차] units>"
+                            "[전차] units gain the [돌진 II] promotion",
+                            "All newly-trained [전차] units [in all cities] receive the [돌진 II] promotion",],
+                "requires": ["포르쉐 III"],
+				"row": 5,
+				"column": 9
+			},
+			{
+				"name": "기갑 기업체 협력 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
+        }
+{
+		"name": "내정 기업체 협력",
+		"era": "숭고의 시대",
+		"priorities": {
+			"Neutral": 0,
+			//"Cultural": 0,
+			"Diplomatic": 20,
+			//"Domination": 0,
+			//"Scientific": 0
+		},
+		"policies": [
+			{
+				"name": "붉은겨울 철도회사",
+				"uniques": [
+                "Only available <for [붉은겨울 사무국] Civilizations>"
+                "Only available <before adopting [선도부 학립산업업체]>",
+                 "Only available <before adopting [밀레니엄 연구회사]>",
+                 "Only available <before adopting [붉은겨울 철도회사]>",
+                "Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[-25]% maintenance on road & railroads", 
+                "Improves movement speed on roads",
+                "[+2 Production] from each Trade Route"],
+				"row": 1,
+				"column": 1
+			},
+            {
+				"name": "붉은겨울 철도회사 I",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[-25]% maintenance on road & railroads", 
+                "[+2 Gold] from each Trade Route"],
+                "requires": ["붉은겨울 철도회사"],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "붉은겨울 철도회사 II",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[-25]% maintenance on road & railroads", 
+                "[+2 Science] from each Trade Route"],
+                "requires": ["붉은겨울 철도회사 I"],
+				"row": 3,
+				"column": 1
+			},
+            {
+				"name": "붉은겨울 철도회사 III",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[-25]% maintenance on road & railroads", 
+                "[+2 Gold] from each Trade Route"],
+                "requires": ["붉은겨울 철도회사 II"],
+				"row": 4,
+				"column": 1
+			},
+            {
+				"name": "붉은겨울 철도회사 IV",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[-25]% maintenance on road & railroads", 
+                "[+2 Production] from each Trade Route"],
+                "requires": ["붉은겨울 철도회사 III"],
+				"row": 5,
+				"column": 1
+			},
+            {
+				"name": "밀레니엄 연구회사",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <for [세미나] Civilizations>"
+                "Only available <when above [1] [주식]>",
+                "[+2 Gold] from every [Library]",
+                    "[+2 Gold] from every [밀레니엄 싱크탱크]",
+                    "[+2 Gold] from every [전자제품 연구소]",
+                    "[+2 Gold] from every [Observatory]",
+                    "[+2 Gold] from every [연구소]",
+                    "Only available <before adopting [선도부 학립산업업체]>",
+                 "Only available <before adopting [밀레니엄 연구회사]>",
+                 "Only available <before adopting [붉은겨울 철도회사]>"
+            ],
+				"row": 1,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 연구회사 I",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                    "[+4 Science] from every [Trading post]",
+                    "[+4 Science] from every [Customs house]",
+                    "[+4 Science] from every [Academy]"
+            ],
+            "requires": ["밀레니엄 연구회사"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 연구회사 II",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+3 Science] [in all cities]"
+            ],
+            "requires": ["밀레니엄 연구회사 I"],
+				"row": 3,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 연구회사 III",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+2 Production] from every [밀레니엄 싱크탱크]",
+                "[+2 Production] from every [전자제품 연구소]",
+                "[+2 Production] from every [Observatory]",
+                "[+2 Production] from every [연구소]",
+            ],
+            "requires": ["밀레니엄 연구회사 II"],
+				"row": 4,
+				"column": 5
+			},
+            {
+				"name": "밀레니엄 연구회사 IV",
+				"uniques": ["Provides [-1] [주식]",
+                "Only available <when above [1] [주식]>",
+                "[+2 Gold] from every [Library]",
+                    "[+2 Gold] from every [밀레니엄 싱크탱크]",
+                    "[+2 Gold] from every [전자제품 연구소]",
+                    "[+2 Gold] from every [Observatory]",
+                    "[+2 Gold] from every [연구소]",
+                    "[+25]% [Science] <in cities with a [밀레니엄 싱크탱크]>",
+            ],
+            "requires": ["밀레니엄 연구회사 III"],
+				"row": 5,
+				"column": 5
+			},
+{
+				"name": "선도부 학립산업업체",
+				"uniques": [
+                "Only available <for [선도부] Civilizations>"
+                "Only available <before adopting [선도부 학립산업업체]>",
+                 "Only available <before adopting [밀레니엄 연구회사]>",
+                 "Only available <before adopting [붉은겨울 철도회사]>",
+                "[+3 Gold] from every [치안수호대]",
+                "[+1 Production] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 9
+			},
+            {
+				"name": "선도부 학립산업업체 I",
+				"uniques": ["[+1 Production] per [5] population [in all cities]"
+                ],
+				"requires": ["선도부 학립산업업체"],
+                "row": 2,
+				"column": 9
+			},
+            {
+				"name": "선도부 학립산업업체 II",
+				"uniques": ["[+1 Production] per [5] population [in all cities]"
+                ],
+				"requires": ["선도부 학립산업업체 I"],
+                "row": 3,
+				"column": 9
+			},
+            {
+				"name": "선도부 학립산업업체 III",
+				"uniques": ["[+1 Production] per [5] population [in all cities]"
+                ],
+				"requires": ["선도부 학립산업업체 II"],
+                "row": 4,
+				"column": 9
+			},
+            {
+				"name": "선도부 학립산업업체 IV",
+				"uniques": ["[+1 Production] per [5] population [in all cities]"
+                ],
+				"requires": ["선도부 학립산업업체 III"],
+                "row": 5,
+				"column": 9
+			},
+			{
+				"name": "내정 기업체 협력 Complete",
+				"uniques": ["[+15]% growth [in all cities]"]
+			}
+		]
 	}
-]    
+]
+//"Provides [-1] [주식]",
+//"Only available <when above [1] [주식]>",

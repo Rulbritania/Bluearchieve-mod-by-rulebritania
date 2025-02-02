@@ -503,6 +503,23 @@
         ]
     },
     {
+        "name": "주식 투자",
+        "maintenance": 5,
+        "requiredTech": "주식 시장",
+        "uniques": [
+            "Provides [2] [주식]",
+               ]
+    },
+    {
+        "name": "뇌제 유산 발굴",
+        "maintenance": 5,
+        "uniques": [
+            "Provides [1] [뇌제의 유산]"
+            "Limited to [2] per Civilization"
+            ],
+        "requiredTech": "뇌제의 유산"
+    },
+    {
         "name": "Nuclear Plant",
         "production": 5,
         "percentStatBonus": {"production": 15},

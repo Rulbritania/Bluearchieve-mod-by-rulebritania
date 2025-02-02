@@ -25,31 +25,14 @@
         "majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
         "minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
     },
-{
-        "name": "뇌제의 유산",
+    {
+        "name": "뇌제의 유산", 
         "resourceType": "Strategic",
-        "revealedBy": "뇌제의 유산",
-        "terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-        "production": 1,
-        "improvement": "Mine",
-        "uniques": [
-            "Guaranteed with Strategic Balance resource option",
-            "Generated with weight [55] <in [{Featureless} {Tundra}] tiles>",
-            "Generated with weight [50] <in [{Featureless} {Snow}] tiles>",
-            "Generated with weight [50] <in [{Featureless} {Desert}] tiles>",
-            "Generated with weight [56] <in [Hill] tiles>",
-            "Minor deposits generated with weight [100] <in [{non-[Hill]} {Marsh}] tiles>",
-            "Minor deposits generated with weight [100] <in [{Jungle} {Hill}] tiles>",
-            "Minor deposits generated with weight [200] <in [Forest] tiles>",
-            "Minor deposits generated with weight [200] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-            "Minor deposits generated with weight [300] <in [{non-[Fresh Water]} {Featureless} {Grassland}] tiles>",
-            "Minor deposits generated with weight [200] <in [{Featureless} {Plains}] tiles>",
-            "Minor deposits generated with weight [100] <in [{Featureless} {Desert}] tiles>",
-            "Minor deposits generated with weight [100] <in [{Featureless} {Tundra}] tiles>",
-            "Minor deposits generated with weight [100] <in [{Featureless} {Snow}] tiles>"
-        ],
-        "majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
-        "minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+        "uniques": ["Cannot be traded"]
+    },
+    {
+        "name": "주식", 
+        "resourceType": "Strategic"
     },
     {
         "name": "Iron",

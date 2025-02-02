@@ -159,6 +159,119 @@
         "[+1] Range",
         "[+10]% Strength <when attacking>"],
 	},
+    {
+		"name": "집중 포화",
+		"uniques": [
+        "[+1] Range",
+        "[+10]% Strength <when attacking>",
+        "[+10]% Strength bonus for [트리니티 포병] units within [1] tiles"],
+	},
+    {
+		"name": "의장 I",
+		"uniques": [
+        "[+10]% Strength bonus for [포병] units within [2] tiles"
+        "[+10]% Strength bonus for [트리니티 포병] units within [2] tiles"],
+         "unitTypes": ["나기사"]
+	},
+    {
+		"name": "의장 II",
+        "prerequisites": ["의장 I"],
+		"uniques": [
+        "[+10]% Strength bonus for [포병] units within [2] tiles"
+        "[+10]% Strength bonus for [트리니티 포병] units within [2] tiles"],
+         "unitTypes": ["나기사"]
+	},
+    {
+		"name": "의장 III",
+        "prerequisites": ["의장 II"],
+		"uniques": [
+        "[+10]% Strength bonus for [포병] units within [2] tiles"
+        "[+10]% Strength bonus for [트리니티 포병] units within [2] tiles"],
+         "unitTypes": ["나기사"]
+	},
+    {
+		"name": "의장 IV",
+        "prerequisites": ["의장 III"],
+		"uniques": [
+        "[+10]% Strength bonus for [포병] units within [2] tiles"
+        "[+10]% Strength bonus for [트리니티 포병] units within [2] tiles"],
+         "unitTypes": ["나기사"]
+	},
+    {
+		"name": "회장 I",
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [이로하] units within [2] tiles"],
+         "unitTypes": ["마코토"]
+	},
+    {
+		"name": "회장 II",
+        "prerequisites": ["회장 I"],
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [이로하] units within [2] tiles"],
+         "unitTypes": ["마코토"]
+	},
+    {
+		"name": "회장 III",
+        "prerequisites": ["회장 II"],
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [이로하] units within [2] tiles"],
+         "unitTypes": ["마코토"]
+	},
+    {
+		"name": "회장 IV",
+        "prerequisites": ["회장 III"],
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [이로하] units within [2] tiles"],
+         "unitTypes": ["마코토"]
+	},
+    {
+		"name": "서기장 I",
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [붉은겨울 모브] units within [2] tiles"],
+         "unitTypes": ["체리노"]
+	},
+    {
+		"name": "서기장 II",
+        "prerequisites": ["서기장 I"],
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [붉은겨울 모브] units within [2] tiles"],
+         "unitTypes": ["체리노"]
+	},
+    {
+		"name": "서기장 III",
+        "prerequisites": ["서기장 II"],
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [붉은겨울 모브] units within [2] tiles"],
+         "unitTypes": ["체리노"]
+	},
+    {
+		"name": "서기장 IV",
+        "prerequisites": ["서기장 III"],
+		"uniques": [
+        "[+10]% Strength bonus for [전차] units within [2] tiles"
+        "[+10]% Strength bonus for [붉은겨울 모브] units within [2] tiles"],
+         "unitTypes": ["체리노"]
+	},
+    {
+		"name": "로열 아스날",
+		"uniques": [
+        "[+1] Range",
+        "[+10]% Strength <when attacking>",
+        "[+10]% Strength bonus for [포병] units within [1] tiles"],
+	},
+    {
+		"name": "선도부",
+		"uniques": [
+        "[+20]% Strength <when attacking>",
+        "Heals [15] damage if it kills a unit"],
+	},
 {
 		"name": "지상 지원",
 		"uniques": [

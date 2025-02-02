@@ -230,8 +230,8 @@
         "outerColor": [171,131,137],
 		"innerColor": [255,255,255],
 		"uniqueName": "삼두정치",
-		"uniques": ["[+10 Gold, +5 Faith] from every [Luxury resource]",
-        "[+10 Faith] [in all cities]","[+25]% [Faith] [in all cities]",
+		"uniques": ["[+5 Gold, +3 Faith] from every [Luxury resource]",
+        "[+5 Faith] [in all cities]","[+25]% [Faith] [in all cities]",
         "May buy [{Military} {non-air}] units with [Faith] for [1] times their normal Production cost",
         //"Free [Great Prophet] appears <for [Trinity General School]>"
         "Starts with [트리니티] adopted",

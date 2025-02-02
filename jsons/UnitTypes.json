@@ -385,4 +385,19 @@
         "movementType": "Land",
         "uniques": ["[-100]% maintenance costs"]
     },
+{
+        "name": "마코토",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "체리노",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
+{
+        "name": "나기사",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
 ]
