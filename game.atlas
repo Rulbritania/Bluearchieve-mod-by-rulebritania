@@ -1073,6 +1073,34 @@ TileSets/FantasyHex/Units/육상전함
   orig: 200, 200
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/하누마 마코토
+  rotate: false
+  xy: 256, 0
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/리쿠하치마 아루
+  rotate: false
+  xy: 512, 0
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/아스마 토키
+  rotate: false
+  xy: 0, 256
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/아스마 토키 타입 아비에슈흐
+  rotate: false
+  xy: 256, 256
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
   
 타일유닛.png
 size: 2683, 204
