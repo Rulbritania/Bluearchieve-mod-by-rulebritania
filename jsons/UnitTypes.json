@@ -400,4 +400,9 @@
         "movementType": "Land",
         "uniques": ["[-100]% maintenance costs"]
     },
+{
+        "name": "테러",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs"]
+    },
 ]

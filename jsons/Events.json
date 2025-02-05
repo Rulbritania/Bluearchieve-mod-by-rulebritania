@@ -1,0 +1,25 @@
+[
+{
+        "name":"색채",
+        "uniques": [
+           //"Only available <when number of [turns] is greater than [5]>",
+        ],
+		"civilopediaText":[
+			{"text":"누군가가 색채 강림을 시도했습니다.,", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+            {"extraImage":"색채", "imageSize":410},
+			{"text":}
+           // {"text":"Ability Cards are used for giving your nation beneficial effects, each nation can only have one. This can be traded with other civlizations, but by itself doesn't provide happiness despite being a Luxury resource.", "header":6},
+			{"text":}
+			{"text":"학생들이 두려움에 떨고 있습니다.","color": "#F9FF8D"}
+		],
+        "choices": [
+			{
+				"text": "당신이 심연을 오랫동안 들여다본다면...심연 또한 당신을 들여다볼 것이다..",
+				"uniques": [
+                 //"Comment [그러나 우린 이길것이다.]",
+				],
+			},
+        ]
+    },
+ ]

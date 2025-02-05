@@ -16,7 +16,22 @@
             "Unbuildable", "Unsellable"
         ]
     },
-
+{
+        "name": "색채의 눈",
+        "isNationalWonder": true,
+        "production": -5,
+        "gold": -5,
+        "culture": -3,
+        "cityStrength": -10,
+        "cost": 0,
+        "uniques": [
+            "Never destroyed when the city is captured",
+            "Will not be displayed in Civilopedia",
+            "Unbuildable", "Unsellable",         
+            "Triggers a [색채] event <for [All] Civilizations>",
+        ]
+    },
+    
 //기본
 {
         "name": "Palace",
@@ -25,7 +40,7 @@
         "science": 3,
         "gold": 3,
         "culture": 1,
-        "cityStrength": 2,
+        "cityStrength": 20,
         "cost": 0,
         "uniques": [
             "Indicates the capital city",
@@ -35,6 +50,8 @@
         "name": "Monument",
         "culture": 2,
         "cost": 40,
+        "cityHealth": 200,
+        "cityStrength": 20,
         "hurryCostModifier": 40,
         "maintenance": 1,
         "uniques": ["Destroyed when the city is captured"]
@@ -295,7 +312,7 @@
     {
         "name": "Arsenal",
         "cost": 300,
-        "cityStrength": 9,
+        "cityStrength": 20,
         "cityHealth": 25,
         "hurryCostModifier": 25,
         "requiredTech": "도시 보호",
@@ -602,6 +619,24 @@
             "Cannot be hurried"
         ],
         "requiredTech": "핵 폭탄"
+    },
+    {
+        "name": "색채 관측",
+        "greatPersonPoints": {"Great Scientist": 3},
+        "cost": 15,
+        "isWonder": true,
+        "uniques": [
+        "Reveals the entire map", 
+            "Triggers a global alert upon completion",
+            "Cannot be hurried"
+            "Triggers the following global alert: [색채 관측이 시작되었습니다.]",
+            //"Gain a free [색채의 눈] [in non-enemy foreign cities] <for [All] Civilizations>",
+           // "Gain a free [색채의 눈] [in enemy cities] <for [All] Civilizations>",
+            //"Gain a free [색채의 눈] [in foreign cities] <for [All] Civilizations>",
+            "Free [시로코 테러] appears"
+        ],
+        "requiredTech": "색채 강림"
+        "quote": "'해석되지 않고, 이해되지 않으며, 소통되지 않은 채 그저 도래하기만 한 불길한 빛. 목적도, 소통도 되지 않는 불가해한 관념...우리는 그것을 <색채>라고 부르고 있습니다'"
     },
     {
         "name": "프로젝트 콜로서스",
