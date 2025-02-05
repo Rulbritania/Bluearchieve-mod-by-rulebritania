@@ -10,6 +10,7 @@
         "[-1] Sight <for [Embarked] units>",
         "Enables Open Borders agreements",
         "Enables Defensive Pacts",
+        "Enables Research agreements",
         
         "[-90]% Strength <for [이로하] units> <during the [이름없는 신들의 시대]>",	 			// 35,
 		"[-70]% Strength <for [이로하] units> <during the [잊혀진 신들의 시대]>", 			// 45,
@@ -606,7 +607,7 @@
 		"[+40]% Strength <for [체리노] units> <during the [색채의 시대]>", 	// 55,
 		"[+60]% Strength <for [체리노] units> <during the [새천년의 시대]>",
         
-                "[-60]% Strength <for [마코토] units> <during the [이름없는 신들의 시대]>",	 			// 35,
+        "[-60]% Strength <for [마코토] units> <during the [이름없는 신들의 시대]>",	 			// 35,
 		"[-60]% Strength <for [마코토] units> <during the [잊혀진 신들의 시대]>", 			// 45,
 		"[-40]% Strength <for [마코토] units> <during the [숭고의 시대]>", 	// 55,
 		"[-20]% Strength <for [마코토] units> <during the [공포의 시대]>",		 	// 75,
@@ -615,13 +616,22 @@
 		"[+40]% Strength <for [마코토] units> <during the [색채의 시대]>", 	// 55,
 		"[+60]% Strength <for [마코토] units> <during the [새천년의 시대]>",
         
-                "[-60]% Strength <for [나기사] units> <during the [이름없는 신들의 시대]>",	 			// 35,
+        "[-60]% Strength <for [나기사] units> <during the [이름없는 신들의 시대]>",	 			// 35,
 		"[-60]% Strength <for [나기사] units> <during the [잊혀진 신들의 시대]>", 			// 45,
 		"[-40]% Strength <for [나기사] units> <during the [숭고의 시대]>", 	// 55,
 		"[-20]% Strength <for [나기사] units> <during the [공포의 시대]>",		 	// 75,
 		"[0]% Strength <for [나기사] units> <during the [키보토스의 시대]>",	 
         "[+20]% Strength <for [나기사] units> <during the [혼돈의 시대]>", 			// 45,
 		"[+40]% Strength <for [나기사] units> <during the [색채의 시대]>", 	// 55,
-		"[+60]% Strength <for [나기사] units> <during the [새천년의 시대]>",
+		"[+60]% Strength <for [나기사] units> <during the [새천년의 시대]>"
+        
+        "[-60]% Strength <for [테러] units> <during the [이름없는 신들의 시대]>",	 			// 35,
+		"[-60]% Strength <for [테러] units> <during the [잊혀진 신들의 시대]>", 			// 45,
+		"[-40]% Strength <for [테러] units> <during the [숭고의 시대]>", 	// 55,
+		"[-20]% Strength <for [테러] units> <during the [공포의 시대]>",		 	// 75,
+		"[0]% Strength <for [테러] units> <during the [키보토스의 시대]>",	 
+        "[+20]% Strength <for [테러] units> <during the [혼돈의 시대]>", 			// 45,
+		"[+40]% Strength <for [테러] units> <during the [색채의 시대]>", 	// 55,
+		"[+60]% Strength <for [테러] units> <during the [새천년의 시대]>"
         ]
     }
