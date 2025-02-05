@@ -26,6 +26,33 @@
 		"attackSound": "shot"
 	},
     {
+		"name": "골리앗",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 105,
+		"cost": 720,
+        "requiredTech": "보행병기",
+		"attackSound": "shot"
+	},
+    {
+		"name": "파워로더",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 95,
+		"cost": 510,
+        "requiredTech": "보행병기",
+		"attackSound": "shot"
+	},
+{
+		"name": "오토마타 보병",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 35,
+		"cost": 110,
+        "requiredTech": "오토마타 보병",
+		"attackSound": "shot"
+	},
+    {
         "name": "Infantry",
         "unitType": "Infantry",
         "movement": 2,
@@ -742,6 +769,24 @@
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [비행] units>",
+            "[+4] Sight",
+            "Can see over obstacles"
+        ],
+        "attackSound": "jetgun"
+    },
+    {
+        "name": "뇌제대항병기",
+        "unitType": "비행",
+        "movement": 1,
+        "strength": 100,
+        "rangedStrength": 70,
+        "range": 10,
+        "interceptRange": 10,
+        "cost": 540,
+        "requiredTech": "뇌제 대항 병기",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+600]% Strength <vs [열차포] units>",
             "[+4] Sight",
             "Can see over obstacles"
         ],
@@ -2715,6 +2760,25 @@
             "Uncapturable",
             "[2] additional attacks per turn",
             "Only available <after adopting [하카리 아츠코.]>",
+        ],
+        "attackSound": "phasers"
+        "civilopediaText": [
+			{"text":"긴급메시지 차단 헤제 바랍니다."}
+		]
+	},
+{
+		"name": "시로코 테러",
+        "unitType": "테러",
+		"movement": 3,
+		"strength": 300,
+		"cost": 130,
+		"requiredResource": "청휘석",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Never appears as a Barbarian unit",
+            "Uncapturable",
+            "[2] additional attacks per turn",
+            "Only available <if [색채 관측] is constructed>",
         ],
         "attackSound": "phasers"
         "civilopediaText": [
