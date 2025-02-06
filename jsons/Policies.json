@@ -2013,8 +2013,8 @@
                 "[+1] Movement <for [전차] units>",
                 "[+5]% Strength <when attacking><for [전차] units>",
                 "[+5]% Strength <when defending><for [전차] units>",
-                "[전차] units gain the [직사장갑] promotion",
-                "All newly-trained [전차] units [in all cities] receive the [직사장갑] promotion",
+                "[전차] units gain the [직사 장갑] promotion",
+                "All newly-trained [전차] units [in all cities] receive the [직사 장갑] promotion",
                 ],
                 "requires": ["폭스바게헨나 III"],
 				"row": 5,
@@ -2260,6 +2260,65 @@
 				"requires": ["선도부 학립산업업체 III"],
                 "row": 5,
 				"column": 9
+			},
+            {
+				"name": "판데모니엄 분데스방크",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "Only available <before adopting [선도부 학립산업업체]>",
+                 "Only available <before adopting [밀레니엄 연구회사]>",
+                 "Only available <before adopting [붉은겨울 철도회사]>",
+                "[+2 Gold] from every [서기]",
+                "[+2 Production] from every [서기]",
+                "[+1 Science] per [7] population [in all cities]",
+                "Only available <for [판데모니움 소사이어티] Civilizations>"],
+                
+				"row": 1,
+				"column": 13
+			},
+            {
+				"name": "판데모니엄 분데스방크 I",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "[+2 Production] from every [은행]",
+                "[+2 Gold] from every [발전소]",
+                ],
+				"requires": ["판데모니엄 분데스방크"],
+                "row": 2,
+				"column": 13
+			},
+            {
+				"name": "판데모니엄 분데스방크 II",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "[+1 Food, +1 Production] from every [Trading post]",
+                "[+1 Gold] from every [액화 석탄]",
+                "Provides [1] [Oil]",
+                ],
+				"requires": ["판데모니엄 분데스방크 I"],
+                "row": 3,
+				"column": 13
+			},
+            {
+				"name": "판데모니엄 분데스방크 III",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "[+2 Gold] from every [민수 공장]",
+                "[+10]% [Gold] <in cities with a [발전소]>",
+                ],
+				"requires": ["판데모니엄 분데스방크 II"],
+                "row": 4,
+				"column": 13
+			},
+            {
+				"name": "판데모니엄 분데스방크 IV",
+				"uniques": [
+                "Provides [-1] [주식]",
+                "[+10]% [Science] <in cities with a [Bank]>",
+                ],
+				"requires": ["판데모니엄 분데스방크 III"],
+                "row": 5,
+				"column": 13
 			},
 			{
 				"name": "내정 기업체 협력 Complete",
