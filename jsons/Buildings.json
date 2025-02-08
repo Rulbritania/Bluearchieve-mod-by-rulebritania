@@ -549,6 +549,26 @@
         ]
     },
     {
+        "name": "석유 정제 II",
+        "requiredBuilding": "석유 정제",
+        "maintenance": 5,
+        "requiredTech": "연료 정제",
+        "uniques": [
+            "Provides [2] [Oil]",
+            "Limited to [5] per Civilization"
+        ]
+    },
+    {
+        "name": "메포 어음",
+        "maintenance": 10,
+        "cost": 80,
+        "requiredTech": "기업",
+        "isNationalWonder": true,
+        "uniques": [
+        "Gain [1000] [Gold]",
+        ]
+    },
+    {
         "name": "주식 투자",
         "maintenance": 5,
         "requiredTech": "주식 시장",
@@ -623,7 +643,7 @@
     {
         "name": "색채 관측",
         "greatPersonPoints": {"Great Scientist": 3},
-        "cost": 15,
+        "cost": 1150,
         "isWonder": true,
         "uniques": [
         "Reveals the entire map", 
