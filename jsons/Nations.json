@@ -154,7 +154,7 @@
 		"outerColor": [45,137,229],
 		"innerColor": [255,255,255],
 		"uniqueName": "합리와 기술의 가치",
-		"uniques": ["Starts with [밀레니엄] adopted","[+5 Science] [in all cities]","[+25]% [Science] [in all cities]", "[+2 Science, +3 Production] from all [Science] buildings", 
+		"uniques": ["Starts with [밀레니엄] adopted","[+5 Science] [in all cities]","[+25]% [Science] [in all cities]", "[+2 Science, +3 Production, +2 Gold] from all [Science] buildings", 
         "[Great Scientist] is earned [50]% faster"
         ],
 		"cities": ["세미나","모노레일 스테이션","밀레니엄 학습관","에슈눈나","메투란","옐키","투투브","델나카르","시파르-암나눔",
@@ -356,6 +356,45 @@
 "outerColor": [38,38,38],
 		"innerColor": [0,0,0],
 		"uniqueName": "신비, 공포, 숭고",
+		"uniques": [	
+        "[Gold] cost of purchasing [Science] buildings [-50]%",
+        "Receive a tech boost when scientific buildings/wonders are built in capital"
+        ],
+		"cities": ["붉은겨울 사무국","체리노그라드","상트토모에부르그","마리나야르스크","렌카와그라드","사시로스크","세계수도 체리노쿠츠크","제 1교사","중앙교정",
+			"대인민광장","제 2교사","체리노치칼라","볼쇼그라드","트람바니그라드","나로드니그라드","렌스크","치리노로보","마리나슬라블","이케쿠라젭스크",
+			"토멘","붉은겨울 혁명광장","휜돌고래 시장","제1 공용 기숙사","제3 공용 급식소","로디나르쳅스크","체리카르올라","구교사","렌카와시스크","크라스나지마보츠크",
+			"세크릿타리아고르드","프라비틸리오스크","프라비틸바스토카","블레시엣세베레츠크","프라비엣자파도치","마더로츠카고르드"]
+	},
+    {
+		"name": "데카그라마톤",
+		"leaderName": "말쿠트",
+		"adjective": ["데카그라마톤의 예언자들"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        
+		"startIntroPart1": "가장 높은 권위와 마주할 수 있는 영광을!",
+		"startIntroPart2": "붉은겨울 학원 서기장의 행차다! 영광으로 알도록, 콤라드!",
+		
+		"declaringWar": "모두들, 의무를 다할 때가 왔다.",
+		"attacked": "이것이 붉든겨울의 힘이다!",
+		"defeated": "과연, 지도자의 극치에 이른 나에게도, 아직 성장의 여지가 있었다니. 키시싯!",
+		"introduction": "왔는가! 콤라드! 그대와 함께 해결해야 할 임무가 잔뜩 있으니 각오해 두게!",
+		"neutralHello": "늦었지 않나. 콤라드",
+		"neutralLetsHearIt": ["응? 내 도움이 필요한가, 콤라드?","늦었지 않나.","나를 불렀나, 콤라드?"],
+		"neutralNo": ["필요 없다.","그렇게 아쉬운 표정 짓지 말도록.","거절하도록 하지."],
+		"neutralYes": ["앞으로도 잘 부탁하마. 콤라드.","음, 좋아좋아. 서기장은 만족했다!","나쁘지 않은 지원이구나, 콤라드."],
+
+		"hateHello": "숙청해주마!",
+		"hateLetsHearIt": ["계속해 보도록.","뭐라고?","다시 말해보도록"],
+		"hateNo": ["필요 없다.","동의할수 없군.","안된다."],
+		"hateYes": ["좋아.","충분하군.","그럼 사양하지 않겠다."],
+		
+		"afterPeace": "제법이로군, 콤라드!",
+		"tradeRequest": "오늘도 이 몸과 함께! 열심히 혁명에 동참하는 거다!",
+
+"outerColor": [51,38,38],
+		"innerColor": [255,255,255],
+		"uniqueName": "데카그라마톤의 예언자들",
 		"uniques": [	
         "[Gold] cost of purchasing [Science] buildings [-50]%",
         "Receive a tech boost when scientific buildings/wonders are built in capital"

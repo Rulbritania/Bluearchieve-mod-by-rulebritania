@@ -633,7 +633,7 @@
             //"Gain a free [색채의 눈] [in non-enemy foreign cities] <for [All] Civilizations>",
            // "Gain a free [색채의 눈] [in enemy cities] <for [All] Civilizations>",
             //"Gain a free [색채의 눈] [in foreign cities] <for [All] Civilizations>",
-            //"Free [시로코 테러] appears"
+            "Free [시로코 테러] appears"
         ],
         "requiredTech": "색채 강림"
         "quote": "'해석되지 않고, 이해되지 않으며, 소통되지 않은 채 그저 도래하기만 한 불길한 빛. 목적도, 소통도 되지 않는 불가해한 관념...우리는 그것을 <색채>라고 부르고 있습니다'"
@@ -842,6 +842,19 @@
 		"uniques": ["20% of food is carried over after a new citizen is born"],
 		"requiredTech": "문화 발전",
 	},
+    {
+		"name": "데카그라마톤 설계실",
+		//"replaces": "Aqueduct",
+		"uniqueTo": "데카그라마톤",
+		"cost": 80,
+		"hurryCostModifier": 160,
+		"happiness": 2,
+        "percentStatBonus": {"science": 20},
+        "science": 5,
+        "maintenance": 3,
+		"uniques": ["20% of food is carried over after a new citizen is born"],
+		"requiredTech": "문화 발전",
+	},
 	{
 		"name": "학생회 청사",
 		"uniqueTo": "붉은겨울 사무국",
@@ -910,7 +923,7 @@
         "cost": 80,
         "science": 5,
         "culture": 3,
-        "maintenance": 3,
+        "gold":3,
         "percentStatBonus": {"science": 40},
         "greatPersonPoints": {"Great Scientist": 1},
         "uniques": [

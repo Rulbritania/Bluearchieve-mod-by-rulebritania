@@ -169,6 +169,27 @@
         ],
         "attackSound": "shipguns"
     },
+    {
+        "name": "절멸자",
+        "unitType": "비행",
+        "uniqueTo":"판데모니움 소사이어티",
+        "movement": 1,
+        "strength": 170,
+        "rangedStrength": 205,
+        "range": 12,
+        "interceptRange": 14,
+        "cost": 2200,
+        "requiredTech": "뇌제의 무기",
+        "requiredResource": "뇌제의 유산",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+6] Sight",
+            "Can see over obstacles",
+            "[+20]% Strength <vs [전차] units>",	
+            "[+50]% Strength <vs cities> <when attacking>"
+        ],
+        "attackSound": "machinegun"
+    },
 {
         "name": "모니터함",
         "unitType": "구축함",
