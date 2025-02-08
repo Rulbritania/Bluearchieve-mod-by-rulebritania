@@ -1095,6 +1095,13 @@ PolicyIcons/판데모니엄 분데스방크 IV
   orig: 300, 300
   offset: 0, 0
   index: -1
+BuildingIcons/메포 어음
+  rotate: false
+  xy: 0, 4500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
 
 타일유닛2.png
 size: 256, 256
@@ -2198,6 +2205,27 @@ BuildingIcons/밀레니엄 기계공장
 BuildingIcons/블랙마켓 은행
   rotate: false
   xy: 1000, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/정어리 기름
+  rotate: false
+  xy: 750, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/석유 정제
+  rotate: false
+  xy: 1030, 1400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/석유 정제 II
+  rotate: false
+  xy: 1255, 1400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
