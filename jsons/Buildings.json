@@ -147,6 +147,48 @@
         ],
         "requiredTech": "문화 발전"
     },
+    {
+        "name": "가혹한 착취",
+        "hurryCostModifier": 1,
+        "cost":1,
+        "gold":30,
+        "percentStatBonus": {"production": -30,"science": -20,"culture": -10},
+        "happiness": -8,
+        "uniques": [
+            "Can only be built <in [Annexed] cities>",
+            "Only available <in cities without a [계엄령]>",
+            "Only available <in cities without a [민간 감독]>",
+        ],
+        "requiredTech": "문화 발전"
+    },
+    {
+        "name": "계엄령",
+        "maintenance": 2,
+        "cost":1,
+        "production": 4,
+        "percentStatBonus": {"production": 10},
+        "happiness": -5,
+        "hurryCostModifier": 1,
+        "uniques": [
+            "Can only be built <in [Annexed] cities>",
+            "Only available <in cities without a [가혹한 착취]>",
+            "Only available <in cities without a [민간 감독]>",
+        ],
+        "requiredTech": "문화 발전"
+    },
+    {
+        "name": "민간 감독",
+        "cost":1,
+        "maintenance": 6,
+        "hurryCostModifier": 1,
+        "percentStatBonus": {"science": 10,"culture": 10},
+        "uniques": [
+            "Can only be built <in [Annexed] cities>",
+            "Only available <in cities without a [가혹한 착취]>",
+            "Only available <in cities without a [계엄령]>",
+        ],
+        "requiredTech": "문화 발전"
+    },
 {
         "name": "종합연구소",
         "cost": 125,
