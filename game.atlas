@@ -1102,6 +1102,27 @@ BuildingIcons/메포 어음
   orig: 300, 300
   offset: 0, 0
   index: -1
+BuildingIcons/가혹한 착취 
+  rotate: false
+  xy: 600, 4800
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+BuildingIcons/민간 감독 
+  rotate: false
+  xy: 300, 4800
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+BuildingIcons/계엄령 
+  rotate: false
+  xy: 900, 4800
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
 
 타일유닛2.png
 size: 256, 256
